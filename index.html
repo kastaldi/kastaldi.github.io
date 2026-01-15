@@ -5,234 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valutazione rischio biologico</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: lightgrey;
-        }
-
-        .container {
-            display: flex;
-            min-height: 100vh;
-        }
-
-        .sidebar {
-            position: fixed;
-            left: 0;
-            top: 0.5em;
-            /* transform: translateY(-50%); */
-            display: flex;
-            flex-direction: column;
-            gap: 0.5em;
-            z-index: 1000;
-        }
-
-        .tab {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 16px 12px 8px;
-            cursor: pointer;
-            border-radius: 8px 0 0 8px;
-
-            writing-mode: vertical-rl;
-            transform: rotate(180deg) translateX(10px);
-
-            font-size: 14px;
-            letter-spacing: 1px;
-            text-align: center;
-
-            transition: transform 0.25s ease, background-color 0.25s ease;
-        }
-
-        .tab:hover {
-            background-color: #3e8e41;
-            transform: rotate(180deg) translateX(0px);
-        }
-
-        .tab.active {
-            background-color: #2e7031;
-            /* font-weight: bold; */
-        }
-
-        /* CONTENUTO */
-        .content {
-            flex: 1;
-            padding: 30px;
-            background-color: #ffffff;
-        }
-
-        .section {
-            display: none;
-        }
-
-        .section.active {
-            display: block;
-        }
-
-        h1,
-        h2 {
-            color: #005a9c;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-
-        table th,
-        table td {
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-
-        table th {
-            background-color: #e6eef5;
-        }
-
-        .download a {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #005a9c;
-            color: white;
-            padding: 12px 18px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            /* .container {
-                flex-direction: column;
-            }
-
-            .sidebar {
-                width: 100%;
-                display: flex;
-                overflow-x: auto;
-            }
-
-            .tab {
-                flex: 1;
-                text-align: center;
-                border-left: none;
-                border-bottom: 4px solid transparent;
-            }
-
-            .tab.active {
-                border-bottom: 4px solid #ffd700;
-            } */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <div class="container">
-        <!-- <header>
-            <div>VALUTAZIONE DEL RISCHIO</div>
-        </header> -->
-        <!-- MENU -->
-        <nav class="sidebar">
-            <div id=1 class="tab active" onclick="showSection('intro')">INTRODUZIONE</div>
-            <div id=2 class="tab" onclick="showSection('normativa')">NORMATIVA</div>
-            <div id=3 class="tab" onclick="showSection('classificazione')">CLASSIFICAZIONE</div>
-            <div id=4 class="tab" onclick="showSection('matrice')">MATRICE DEL RISCHIO</div>
-            <div id=5 class="tab" onclick="showSection('pdf')">PDF</div>
-        </nav>
+        <header class="intestazione">
+            <span>VALUTAZIONE DEL RISCHIO</span>
+            <span><button id="tema">TEMA</button></span>
+        </header>
 
-        <!-- CONTENUTO -->
-        <main class="content">
+    <!-- MENU -->
+    <nav class="sidebar">
+        <div id=s1 class="tab active">INTRODUZIONE</div>
+        <div id=s2 class="tab">NORMATIVA</div>
+        <div id=s3 class="tab">CLASSIFICAZIONE</div>
+        <div id=s4 class="tab">MATRICE DEL RISCHIO</div>
+        <div id=s5 class="tab">PDF</div>
+    </nav>
 
-            <section id="intro" class="section active">
-                <h1>Valutazione del rischio da agenti biologici</h1>
-                <p>
-                    Il rischio biologico è legato all’esposizione a microrganismi
-                    potenzialmente dannosi per la salute dei lavoratori.
-                </p>
-            </section>
+    <!-- CONTENUTO -->
+    <main class="content">
 
-            <section id="normativa" class="section">
-                <h2>Normativa di riferimento</h2>
-                <p>
-                    Il D.Lgs. 81/08 disciplina la protezione dei lavoratori contro
-                    i rischi derivanti da agenti biologici nel <b>Titolo X</b>.
-                </p>
-                <ul>
-                    <li>Art. 267 – Definizione di agente biologico</li>
-                    <li>Art. 268 – Classificazione</li>
-                    <li>Art. 271 – Valutazione del rischio</li>
-                </ul>
-            </section>
+        <section id="intro" class="section active">
+            <h1>Valutazione del rischio da agenti biologici</h1>
+            <p>
+                Il rischio biologico è legato all’esposizione a microrganismi
+                potenzialmente dannosi per la salute dei lavoratori.
+            </p>
+        </section>
 
-            <section id="classificazione" class="section">
-                <h2>Classificazione degli agenti biologici</h2>
-                <table>
-                    <tr>
-                        <th>Gruppo</th>
-                        <th>Descrizione</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Poco probabili di causare malattie</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Possibile rischio con limitata diffusione</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Malattie gravi, rischio elevato</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Altissimo rischio, nessuna terapia efficace</td>
-                    </tr>
-                </table>
-            </section>
+        <section id="normativa" class="section">
+            <h2>Normativa di riferimento</h2>
+            <p>
+                Il D.Lgs. 81/08 disciplina la protezione dei lavoratori contro
+                i rischi derivanti da agenti biologici nel <b>Titolo X</b>.
+            </p>
+            <ul>
+                <li>Art. 267 – Definizione di agente biologico</li>
+                <li>Art. 268 – Classificazione</li>
+                <li>Art. 271 – Valutazione del rischio</li>
+            </ul>
+        </section>
 
-            <section id="matrice" class="section">
-                <h2>Matrice del rischio biologico</h2>
-                <p>
-                    Il rischio viene valutato combinando:
-                </p>
-                <ul>
-                    <li><b>Probabilità di esposizione</b></li>
-                    <li><b>Gravità del danno</b></li>
-                </ul>
-                <p>
-                    Formula semplificata:
-                </p>
-                <p><b>R = P × D</b></p>
-            </section>
+        <section id="classificazione" class="section">
+            <h2>Classificazione degli agenti biologici</h2>
+            <table>
+                <tr>
+                    <th>Gruppo</th>
+                    <th>Descrizione</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Poco probabili di causare malattie</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Possibile rischio con limitata diffusione</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Malattie gravi, rischio elevato</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Altissimo rischio, nessuna terapia efficace</td>
+                </tr>
+            </table>
+        </section>
 
-            <section id="pdf" class="section">
-                <h2>Documento PDF</h2>
-                <div class="download">
-                    <a href="Valutazione_rischio_agenti_biologici.pdf" download>
-                        📄 Scarica il PDF
-                    </a>
-                </div>
-            </section>
+        <section id="matrice" class="section">
+            <h2>Matrice del rischio biologico</h2>
+            <p>
+                Il rischio viene valutato combinando:
+            </p>
+            <ul>
+                <li><b>Probabilità di esposizione</b></li>
+                <li><b>Gravità del danno</b></li>
+            </ul>
+            <p>
+                Formula semplificata:
+            </p>
+            <p><b>R = P × D</b></p>
+        </section>
 
-        </main>
+        <section id="pdf" class="section">
+            <h2>Documento PDF</h2>
+            <div class="download">
+                <a href="Valutazione_rischio_agenti_biologici.pdf" download>
+                    📄 Scarica il PDF
+                </a>
+            </div>
+        </section>
+
+    </main>
     </div>
-
-    <script>
-        function showSection(id) {
-            const sections = document.querySelectorAll('.section');
-            const tabs = document.querySelectorAll('.tab');
-
-            sections.forEach(s => s.classList.remove('active'));
-            tabs.forEach(t => t.classList.remove('active'));
-
-            document.getElementById(id).classList.add('active');
-            event.target.classList.add('active');
-        }
-    </script>
-
 </body>
 
 </html>
