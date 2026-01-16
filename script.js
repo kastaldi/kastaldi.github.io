@@ -31,8 +31,37 @@ $(document).ready(function () {
         mostraSezione("pdf");
     });
 
-    $("#tema").on("click", function () {
-        $("body").toggleClass("dark-mode");
+    const html = document.querySelector('html');
+    const tema = localStorage.getItem("tema");
+
+    if (tema === "chiaro") temaChiaro();
+    if (tema === "scuro") temaScuro();
+
+    $("#light").on("click", function () {
+        temaChiaro();
     });
+
+    $("#dark").on("click", function () {
+        temaScuro();
+    });
+
+    $("#auto").on("click", function () {
+        temaAuto();
+    });
+
+    function temaAuto() {
+        html.style.setProperty("color-scheme", "light dark");
+        localStorage.removeItem("tema");
+    }
+
+    function temaChiaro() {
+        html.style.setProperty("color-scheme", "light");
+        localStorage.setItem("tema", "chiaro");
+    }
+
+    function temaScuro() {
+        html.style.setProperty("color-scheme", "dark");
+        localStorage.setItem("tema", "scuro");
+    }
 
 });
