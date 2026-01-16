@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valutazione rischio biologico</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d3cf2cda5.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
 </head>
@@ -16,96 +17,96 @@
         <header class="intestazione">
             <span>VALUTAZIONE DEL RISCHIO</span>
             <span>
-                <button id="light">Light</button>
-                <button id="dark">Dark</button>
-                <button id="auto">Auto</button>
+                <button id="light"><i class="fa-regular fa-lightbulb"></i></button>
+                <button id="dark"><i class="fa-solid fa-lightbulb"></i></button>
+                <!-- <button id="auto">Auto</button> -->
             </span>
         </header>
 
-    <!-- MENU -->
-    <nav class="sidebar">
-        <div id=s1 class="tab active">INTRODUZIONE</div>
-        <div id=s2 class="tab">NORMATIVA</div>
-        <div id=s3 class="tab">CLASSIFICAZIONE</div>
-        <div id=s4 class="tab">MATRICE DEL RISCHIO</div>
-        <div id=s5 class="tab">PDF</div>
-    </nav>
+        <!-- MENU -->
+        <nav class="sidebar">
+            <div id=s1 class="tab active">INTRODUZIONE</div>
+            <div id=s2 class="tab">NORMATIVA</div>
+            <div id=s3 class="tab">CLASSIFICAZIONE</div>
+            <div id=s4 class="tab">MATRICE DEL RISCHIO</div>
+            <div id=s5 class="tab">PDF</div>
+        </nav>
 
-    <!-- CONTENUTO -->
-    <main class="content">
+        <!-- CONTENUTO -->
+        <main class="content">
 
-        <section id="intro" class="section active">
-            <h1>Valutazione del rischio da agenti biologici</h1>
-            <p>
-                Il rischio biologico è legato all’esposizione a microrganismi
-                potenzialmente dannosi per la salute dei lavoratori.
-            </p>
-        </section>
+            <section id="intro" class="section active">
+                <h1>Valutazione del rischio da agenti biologici</h1>
+                <p>
+                    Il rischio biologico è legato all’esposizione a microrganismi
+                    potenzialmente dannosi per la salute dei lavoratori.
+                </p>
+            </section>
 
-        <section id="normativa" class="section">
-            <h2>Normativa di riferimento</h2>
-            <p>
-                Il D.Lgs. 81/08 disciplina la protezione dei lavoratori contro
-                i rischi derivanti da agenti biologici nel <b>Titolo X</b>.
-            </p>
-            <ul>
-                <li>Art. 267 – Definizione di agente biologico</li>
-                <li>Art. 268 – Classificazione</li>
-                <li>Art. 271 – Valutazione del rischio</li>
-            </ul>
-        </section>
+            <section id="normativa" class="section">
+                <h2>Normativa di riferimento</h2>
+                <p>
+                    Il D.Lgs. 81/08 disciplina la protezione dei lavoratori contro
+                    i rischi derivanti da agenti biologici nel <b>Titolo X</b>.
+                </p>
+                <ul>
+                    <li>Art. 267 – Definizione di agente biologico</li>
+                    <li>Art. 268 – Classificazione</li>
+                    <li>Art. 271 – Valutazione del rischio</li>
+                </ul>
+            </section>
 
-        <section id="classificazione" class="section">
-            <h2>Classificazione degli agenti biologici</h2>
-            <table>
-                <tr>
-                    <th>Gruppo</th>
-                    <th>Descrizione</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Poco probabili di causare malattie</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Possibile rischio con limitata diffusione</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Malattie gravi, rischio elevato</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Altissimo rischio, nessuna terapia efficace</td>
-                </tr>
-            </table>
-        </section>
+            <section id="classificazione" class="section">
+                <h2>Classificazione degli agenti biologici</h2>
+                <table>
+                    <tr>
+                        <th>Gruppo</th>
+                        <th>Descrizione</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Poco probabili di causare malattie</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Possibile rischio con limitata diffusione</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Malattie gravi, rischio elevato</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Altissimo rischio, nessuna terapia efficace</td>
+                    </tr>
+                </table>
+            </section>
 
-        <section id="matrice" class="section">
-            <h2>Matrice del rischio biologico</h2>
-            <p>
-                Il rischio viene valutato combinando:
-            </p>
-            <ul>
-                <li><b>Probabilità di esposizione</b></li>
-                <li><b>Gravità del danno</b></li>
-            </ul>
-            <p>
-                Formula semplificata:
-            </p>
-            <p><b>R = P × D</b></p>
-        </section>
+            <section id="matrice" class="section">
+                <h2>Matrice del rischio biologico</h2>
+                <p>
+                    Il rischio viene valutato combinando:
+                </p>
+                <ul>
+                    <li><b>Probabilità di esposizione</b></li>
+                    <li><b>Gravità del danno</b></li>
+                </ul>
+                <p>
+                    Formula semplificata:
+                </p>
+                <p><b>R = P × D</b></p>
+            </section>
 
-        <section id="pdf" class="section">
-            <h2>Documento PDF</h2>
-            <div class="download">
-                <a href="Valutazione_rischio_agenti_biologici.pdf" download>
-                    📄 Scarica il PDF
-                </a>
-            </div>
-        </section>
+            <section id="pdf" class="section">
+                <h2>Documento PDF</h2>
+                <div class="download">
+                    <a href="Valutazione_rischio_agenti_biologici.pdf" download>
+                        📄 Scarica il PDF
+                    </a>
+                </div>
+            </section>
 
-    </main>
+        </main>
     </div>
 </body>
 
