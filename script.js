@@ -1,67 +1,73 @@
-function mostraSezione(id) {
-    const sections = document.querySelectorAll('.section');
-    const tabs = document.querySelectorAll('.tab');
+// Modello di progettazione: Module Pattern
 
-    sections.forEach(s => s.classList.remove('active'));
-    tabs.forEach(t => t.classList.remove('active'));
-
-    document.getElementById(id).classList.add('active');
-    event.target.classList.add('active');
-}
-
-$(document).ready(function () {
-
-    $("#s1").on("click", function () {
-        mostraSezione("intro");
-    });
-
-    $("#s2").on("click", function () {
-        mostraSezione("normativa");
-    });
-
-    $("#s3").on("click", function () {
-        mostraSezione("classificazione");
-    });
-
-    $("#s4").on("click", function () {
-        mostraSezione("matrice");
-    });
-
-    $("#s5").on("click", function () {
-        mostraSezione("pdf");
-    });
-
+const App = (function () {
+    // Variabili private
     const html = document.querySelector('html');
-    const tema = localStorage.getItem("tema");
+    const tabMapping = {
+        s1: 'introduzione',
+        s2: 'normativa',
+        s3: 'classificazione',
+        s4: 'matrice',
+        s5: 'pdf'
+    };
 
-    if (tema === "chiaro") temaChiaro();
-    if (tema === "scuro") temaScuro();
+    // Funzione privata per mostrare la Sezione
+    function mostraSezione(event) {
+        const targetId = event.target.id;
+        const idSezione = tabMapping[targetId];
+        if (!idSezione) return;
 
-    $("#light").on("click", function () {
-        temaChiaro();
-    });
+        const sezioni = document.querySelectorAll('.sezione');
+        const tabs = document.querySelectorAll('.tab');
 
-    $("#dark").on("click", function () {
-        temaScuro();
-    });
+        sezioni.forEach(s => s.classList.remove('attivo'));
+        tabs.forEach(t => t.classList.remove('attivo'));
 
-    $("#auto").on("click", function () {
-        temaAuto();
-    });
-
-    function temaAuto() {
-        html.style.setProperty("color-scheme", "light dark");
-        localStorage.removeItem("tema");
+        const sezione = document.getElementById(idSezione);
+        if (sezione) sezione.classList.add('attivo');
+        event.target.classList.add('attivo');
     }
 
+    // Funzioni private per tema
     function temaChiaro() {
         html.style.setProperty("color-scheme", "light");
         localStorage.setItem("tema", "chiaro");
+        $("#chiaro").hide();
+        $("#scuro").show();
     }
 
     function temaScuro() {
         html.style.setProperty("color-scheme", "dark");
         localStorage.setItem("tema", "scuro");
+        $("#scuro").hide();
+        $("#chiaro").show();
     }
 
+    // Funzione privata per inizializzare
+    function init() {
+        // Inizializza tema memorizzato in localStorage
+        const tema = localStorage.getItem("tema");
+        if (tema === "scuro") temaScuro();
+        else temaChiaro();
+
+        // Assegna event listener ai tab
+        Object.keys(tabMapping).forEach(tabId => {
+            const tab = document.getElementById(tabId);
+            if (tab) tab.addEventListener('click', mostraSezione);
+        });
+
+        // Assegna event listener ai pulsanti tema
+        $("#chiaro").on("click", temaChiaro);
+        $("#scuro").on("click", temaScuro);
+    }
+
+    // Interfaccia pubblica
+    return {
+        init: init
+    };
+})();
+
+// Inizializza l'app solo quando il DOM è pronto
+$(document).ready(function () {
+    App.init();
 });
