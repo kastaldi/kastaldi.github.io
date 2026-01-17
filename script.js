@@ -1,8 +1,7 @@
-// Modello di progettazione: Module Pattern
+// Modello archietturale: Module Pattern
 
 const App = (function () {
     // Variabili private
-    const html = document.querySelector('html');
     const tabMapping = {
         s1: 'introduzione',
         s2: 'normativa',
@@ -13,31 +12,21 @@ const App = (function () {
 
     // Funzione privata per mostrare la Sezione
     function mostraSezione(event) {
-        const targetId = event.target.id;
-        const idSezione = tabMapping[targetId];
-        if (!idSezione) return;
-
-        const sezioni = document.querySelectorAll('.sezione');
-        const tabs = document.querySelectorAll('.tab');
-
-        sezioni.forEach(s => s.classList.remove('attivo'));
-        tabs.forEach(t => t.classList.remove('attivo'));
-
-        const sezione = document.getElementById(idSezione);
-        if (sezione) sezione.classList.add('attivo');
-        event.target.classList.add('attivo');
+        $('.sezione').removeClass('attivo');
+        $('.tab').removeClass('attivo');
+        $(event.target).addClass('attivo');
     }
 
     // Funzioni private per tema
     function temaChiaro() {
-        html.style.setProperty("color-scheme", "light");
+        $("html").css("color-scheme", "light");
         localStorage.setItem("tema", "chiaro");
         $("#chiaro").hide();
         $("#scuro").show();
     }
 
     function temaScuro() {
-        html.style.setProperty("color-scheme", "dark");
+        $("html").css("color-scheme", "dark");
         localStorage.setItem("tema", "scuro");
         $("#scuro").hide();
         $("#chiaro").show();
@@ -50,11 +39,7 @@ const App = (function () {
         if (tema === "scuro") temaScuro();
         else temaChiaro();
 
-        // Assegna event listener ai tab
-        Object.keys(tabMapping).forEach(tabId => {
-            const tab = document.getElementById(tabId);
-            if (tab) tab.addEventListener('click', mostraSezione);
-        });
+        $(".tab").on("click", mostraSezione);
 
         // Assegna event listener ai pulsanti tema
         $("#chiaro").on("click", temaChiaro);
