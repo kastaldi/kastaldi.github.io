@@ -12,8 +12,12 @@ const App = (function () {
 
     // Funzione privata per mostrare la Sezione
     function mostraSezione(event) {
+        const idSezione = tabMapping[event.target.id];
+
         $('.sezione').removeClass('attivo');
         $('.tab').removeClass('attivo');
+
+        $('#'+idSezione).addClass('attivo');
         $(event.target).addClass('attivo');
     }
 
@@ -39,7 +43,7 @@ const App = (function () {
         if (tema === "scuro") temaScuro();
         else temaChiaro();
 
-        $(".tab").on("click", mostraSezione);
+        $(".tab").on("click" , mostraSezione);
 
         // Assegna event listener ai pulsanti tema
         $("#chiaro").on("click", temaChiaro);
