@@ -48,6 +48,9 @@ const App = (function () {
         // Assegna event listener ai pulsanti tema
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
+
+        $('#qrcode').qrcode("https://kastaldi.github.io/il_rischio_biologico.pdf");
+
     }
 
     // Interfaccia pubblica
