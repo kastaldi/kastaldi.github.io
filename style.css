@@ -130,6 +130,15 @@ table th {
     border-radius: 5px;
 }
 
+#pdf {
+    justify-items: center;
+}
+
+
+#qrcode {
+    padding: 20px 0px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     /* .container {
