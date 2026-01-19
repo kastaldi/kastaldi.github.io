@@ -36,7 +36,7 @@ const App = (function () {
         $("#chiaro").show();
     }
 
-    // Funzione privata per inizializzare
+    // Funzione privata per l'inizializzazione
     function init() {
         // Inizializza tema memorizzato in localStorage
         const tema = localStorage.getItem("tema");
@@ -49,6 +49,7 @@ const App = (function () {
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
+        //Crea il qrcode
         $('#qrcode').qrcode("https://kastaldi.github.io/il_rischio_biologico.pdf");
 
     }
