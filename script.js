@@ -59,7 +59,7 @@ const App = (function () {
     };
 })();
 
-// Inizializza l'app solo quando il DOM è pronto
+// Inizializza l'app solo quando il DOM è renderizzato
 $(document).ready(function () {
     App.init();
 });
