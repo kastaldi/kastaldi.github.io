@@ -17,7 +17,7 @@ const App = (function () {
         $('.sezione').removeClass('attivo');
         $('.tab').removeClass('attivo');
 
-        $('#'+idSezione).addClass('attivo');
+        $('#' + idSezione).addClass('attivo');
         $(event.target).addClass('attivo');
     }
 
@@ -43,7 +43,8 @@ const App = (function () {
         if (tema === "scuro") temaScuro();
         else temaChiaro();
 
-        $(".tab").on("click" , mostraSezione);
+        // Assegna event listener ai pulsanti della sidebar
+        $(".tab").on("click", mostraSezione);
 
         // Assegna event listener ai pulsanti tema
         $("#chiaro").on("click", temaChiaro);

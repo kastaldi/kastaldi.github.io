@@ -119,15 +119,49 @@ h2 {
 
 table {
     width: 100%;
-    max-width: calc(1920px/4);
     border-collapse: collapse;
     margin-top: 15px;
 }
 
 table th,
 table td {
-    border: 1px solid light-dark(grey, lightgrey);
+    border: 2px solid light-dark(grey, lightgrey);
     padding: 10px;
+}
+
+.matrice {
+    max-width: calc(1920px/3);
+    text-align: center;
+}
+
+.matrice td {
+    color: black;
+    font-weight: bold;
+}
+
+.matrice td:first-of-type {
+    text-align: left;
+}
+
+.matrice .r0 {
+    background-color: green;
+}
+
+.matrice .r1 {
+    background-color: yellow;
+}
+
+.matrice .r2 {
+    background-color: red;
+}
+
+.matrice .r3 {
+    background-color: black;
+    color: white;
+}
+
+.gruppi {
+    max-width: calc(1920px/4);
 }
 
 .gruppi td:first-of-type {
@@ -137,8 +171,6 @@ table td {
 .gruppi th {
     background-color: light-dark(lightgrey, grey);
 }
-
-
 
 .download a {
     display: inline-block;
@@ -160,7 +192,7 @@ table td {
     padding: 20px;
 }
 
-/* RESPONSIVE */
+/* TODO: RESPONSIVE */
 @media (max-width: 768px) {
     /* .container {
                 flex-direction: column;

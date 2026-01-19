@@ -22,7 +22,7 @@
         <!-- </span>
         </header> -->
 
-        <tema> 
+        <tema>
             <button id="chiaro"><i id="chiaro" class="fa-regular fa-lightbulb fa-xl"></i></button>
             <button id="scuro"><i id="chiaro" class="fa-solid fa-lightbulb fa-xl"></i></button>
         </tema>
@@ -97,6 +97,44 @@
                     Formula semplificata:
                 </p>
                 <p><b>R = P × D</b></p>
+
+                <table class="matrice">
+                    <tr>
+                        <th></th>
+                        <th>1 - Lieve</th>
+                        <th>2 - Media</th>
+                        <th>3 - Grave</th>
+                        <th>4 - Critica</th>
+                    </tr>
+                    <tr>
+                        <td>1 - Improbabile</td>
+                        <td class="r0">1</td>
+                        <td class="r0">2</td>
+                        <td class="r0">3</td>
+                        <td class="r0">4</td>
+                    </tr>
+                    <tr>
+                        <td>2 - Poco probabile</td>
+                        <td class="r0">2</td>
+                        <td class="r0">4</td>
+                        <td class="r1">6</td>
+                        <td class="r1">8</td>
+                    </tr>
+                    <tr>
+                        <td>3 - Probabile</td>
+                        <td class="r0">3</td>
+                        <td class="r1">6</td>
+                        <td class="r2">9</td>
+                        <td class="r2">12</td>
+                    </tr>
+                    <tr>
+                        <td>4 - Altamente probabile</td>
+                        <td class="r0">4</td>
+                        <td class="r1">8</td>
+                        <td class="r2">12</td>
+                        <td class="r3">16</td>
+                    </tr>
+                </table>
             </section>
 
             <section id="pdf" class="sezione">
