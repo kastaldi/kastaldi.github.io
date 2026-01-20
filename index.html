@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7d3cf2cda5.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="jquery.qrcode.min.js"></script>
+    <script src="jquery.qrcode.min.js"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
 
-    <container>
+    <main>
         <!-- <header class="intestazione">
             <span>VALUTAZIONE DEL RISCHIO</span>
             <span> -->
@@ -22,20 +22,20 @@
         <!-- </span>
         </header> -->
 
-        <tema>
-            <button id="chiaro"><i id="chiaro" class="fa-regular fa-lightbulb fa-xl"></i></button>
-            <button id="scuro"><i id="chiaro" class="fa-solid fa-lightbulb fa-xl"></i></button>
-        </tema>
+        <header>
+            <button id="chiaro"><i class="fa-regular fa-lightbulb fa-xl"></i></button>
+            <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
+        </header>
 
-        <sidebar>
+        <nav>
             <div id=s1 class="tab attivo">INTRODUZIONE</div>
             <div id=s2 class="tab">NORMATIVA</div>
             <div id=s3 class="tab">CLASSIFICAZIONE</div>
             <div id=s4 class="tab">MATRICE DEL RISCHIO</div>
             <div id=s5 class="tab">PDF</div>
-        </sidebar>
+        </nav>
 
-        <sections>
+        <aside>
             <section id="introduzione" class="sezione attivo">
                 <h2>Valutazione del rischio da agenti biologici</h2>
                 <p>
@@ -99,35 +99,48 @@
 
                 <table class="matrice">
                     <tr>
-                        <th></th>
-                        <th>1 - Lieve</th>
-                        <th>2 - Media</th>
-                        <th>3 - Grave</th>
-                        <th>4 - Critica</th>
+                        <td class="vuoto"></td>
+                        <td class="vuoto"></td>
+                        <td class="grav">Lieve</td>
+                        <td class="grav">Media</td>
+                        <td class="grav">Grave</td>
+                        <td class="grav">Critica</td>
                     </tr>
                     <tr>
-                        <td>1 - Improbabile</td>
+                        <td class="vuoto"></td>
+                        <td class="vuoto"></td>
+                        <td class="grav">1</td>
+                        <td class="grav">2</td>
+                        <td class="grav">3</td>
+                        <td class="grav">4</td>
+                    </tr>
+                    <tr>
+                        <td class="prob">Improbabile</td>
+                        <td class="prob">1</td>
                         <td class="r0">1</td>
                         <td class="r0">2</td>
                         <td class="r0">3</td>
                         <td class="r0">4</td>
                     </tr>
                     <tr>
-                        <td>2 - Poco probabile</td>
+                        <td class="prob">Poco probabile</td>
+                        <td class="prob">2</td>
                         <td class="r0">2</td>
                         <td class="r0">4</td>
                         <td class="r1">6</td>
                         <td class="r1">8</td>
                     </tr>
                     <tr>
-                        <td>3 - Probabile</td>
+                        <td class="prob">Probabile</td>
+                        <td class="prob">3</td>
                         <td class="r0">3</td>
                         <td class="r1">6</td>
                         <td class="r2">9</td>
                         <td class="r2">12</td>
                     </tr>
                     <tr>
-                        <td>4 - Altamente probabile</td>
+                        <td class="prob">Altamente probabile</td>
+                        <td class="prob">4</td>
                         <td class="r0">4</td>
                         <td class="r1">8</td>
                         <td class="r2">12</td>
@@ -145,8 +158,8 @@
                     </a>
                 </div>
             </section>
-        </sections>
-    </container>
+        </aside>
+    </main>
 </body>
 
 </html>
