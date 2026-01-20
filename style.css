@@ -1,3 +1,5 @@
+/* stile degli elementi globali */
+
 :root {
     color-scheme: light dark;
 }
@@ -11,21 +13,34 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.contenitore {
+h1,
+h2 {
+    color: light-dark(blue, deepskyblue);
+}
+
+/* stile degli elementi semantici */
+
+container {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
-.intestazione {
+sections {
+    flex: 1;
+    padding: 30px 40px 40px 60px;
+    background-color: light-dark(white, black);
+}
+
+/* .intestazione {
     font-size: 1em;
     text-align: center;
     padding: 0.5em;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
 
-.sidebar {
+sidebar {
     position: fixed;
     left: 0;
     top: 1em;
@@ -46,6 +61,8 @@ button {
     cursor: pointer;
     padding: 10px;
 }
+
+/* stile del contenuto della sidebar */
 
 .tab {
     /* width: 1em; */
@@ -98,11 +115,6 @@ button {
     transform: rotate(180deg) translateX(0px);
 }
 
-.contenuto {
-    flex: 1;
-    padding: 30px 40px 40px 60px;
-    background-color: light-dark(white, black);
-}
 
 .sezione {
     display: none;
@@ -112,10 +124,8 @@ button {
     display: block;
 }
 
-h1,
-h2 {
-    color: light-dark(blue, deepskyblue);
-}
+
+/* stile generico delle tabelle */
 
 table {
     width: 100%;
@@ -128,6 +138,8 @@ table td {
     border: 2px solid light-dark(grey, lightgrey);
     padding: 10px;
 }
+
+/* stile specifico della tabella matrice */
 
 .matrice {
     max-width: calc(1920px/3);
@@ -160,6 +172,8 @@ table td {
     color: white;
 }
 
+/* stile specifico della tabella gruppi */
+
 .gruppi {
     max-width: calc(1920px/4);
 }
@@ -171,6 +185,8 @@ table td {
 .gruppi th {
     background-color: light-dark(lightgrey, grey);
 }
+
+/* stile della sezione PDF e del QR code */
 
 .download a {
     display: inline-block;
