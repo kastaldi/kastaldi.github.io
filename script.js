@@ -61,16 +61,16 @@ const App = (function () {
 
         //Assegna event listener alle celle della matrice
         $("#matrice .grav").on("click", function () {
-            // alert($(this).attr("data"));
-            gravita = ($(this).attr("data"));
+            // alert($(this).attr("data-rischio"));
+            gravita = ($(this).attr("data-rischio"));
             calcolaRischio(gravita, probabilita);
             $("#matrice .grav").removeClass("selezionato");
             $(this).addClass("selezionato");
         });
 
         $("#matrice .prob").on("click", function () {
-            // alert($(this).attr("data"));
-            probabilita = ($(this).attr("data"));
+            // alert($(this).attr("data-rischio"));
+            probabilita = ($(this).attr("data-rischio"));
             $("#matrice .prob").removeClass("selezionato");
             $(this).addClass("selezionato");
             calcolaRischio(gravita, probabilita);
