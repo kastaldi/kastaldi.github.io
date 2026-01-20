@@ -5,7 +5,7 @@ const App = (function () {
     const tabMapping = {
         s1: 'introduzione',
         s2: 'normativa',
-        s3: 'classificazione',
+        s3: 'agenti',
         s4: 'matrice',
         s5: 'pdf'
     };
@@ -36,8 +36,17 @@ const App = (function () {
         $("#chiaro").show();
     }
 
+    function calcolaRischio(gravita, probabilita) {
+        if (gravita && probabilita) {
+            const rischio = gravita * probabilita;
+            alert("Il rischio calcolato è: " + rischio);
+        }
+    }
     // Funzione privata per l'inizializzazione
     function init() {
+        let gravita;
+        let probabilita;
+
         // Inizializza tema memorizzato in localStorage
         const tema = localStorage.getItem("tema");
         if (tema === "scuro") temaScuro();
@@ -46,13 +55,29 @@ const App = (function () {
         // Assegna event listener ai pulsanti della sidebar
         $(".tab").on("click", mostraSezione);
 
-        // Assegna event listener ai pulsanti tema
+        // Assegna event listener ai pulsanti header
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
+        //Assegna event listener alle celle della matrice
+        $("#matrice .grav").on("click", function () {
+            // alert($(this).attr("data"));
+            gravita = ($(this).attr("data"));
+            calcolaRischio(gravita, probabilita);
+            $("#matrice .grav").removeClass("selezionato");
+            $(this).addClass("selezionato");
+        });
+
+        $("#matrice .prob").on("click", function () {
+            // alert($(this).attr("data"));
+            probabilita = ($(this).attr("data"));
+            $("#matrice .prob").removeClass("selezionato");
+            $(this).addClass("selezionato");
+            calcolaRischio(gravita, probabilita);
+        });
+
         //Crea il qrcode
         $('#qrcode').qrcode("https://kastaldi.github.io/il_rischio_biologico.pdf");
-
     }
 
     // Interfaccia pubblica

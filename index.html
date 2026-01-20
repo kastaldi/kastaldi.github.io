@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <main>
         <!-- <header class="intestazione">
             <span>VALUTAZIONE DEL RISCHIO</span>
@@ -30,7 +29,7 @@
         <nav>
             <div id=s1 class="tab attivo">INTRODUZIONE</div>
             <div id=s2 class="tab">NORMATIVA</div>
-            <div id=s3 class="tab">CLASSIFICAZIONE</div>
+            <div id=s3 class="tab">AGENTI BIOLOGICI</div>
             <div id=s4 class="tab">MATRICE DEL RISCHIO</div>
             <div id=s5 class="tab">PDF</div>
         </nav>
@@ -57,7 +56,7 @@
                 </ul>
             </section>
 
-            <section id="classificazione" class="sezione">
+            <section id="agenti" class="sezione">
                 <h2>Classificazione degli agenti biologici</h2>
                 <table class="gruppi">
                     <tr>
@@ -100,47 +99,34 @@
                 <table class="matrice">
                     <tr>
                         <td class="vuoto"></td>
-                        <td class="vuoto"></td>
-                        <td class="grav">Lieve</td>
-                        <td class="grav">Media</td>
-                        <td class="grav">Grave</td>
-                        <td class="grav">Critica</td>
+                        <td class="grav" data="1">Lieve</td>
+                        <td class="grav" data="2">Media</td>
+                        <td class="grav" data="3">Grave</td>
+                        <td class="grav" data="4">Critica</td>
                     </tr>
                     <tr>
-                        <td class="vuoto"></td>
-                        <td class="vuoto"></td>
-                        <td class="grav">1</td>
-                        <td class="grav">2</td>
-                        <td class="grav">3</td>
-                        <td class="grav">4</td>
-                    </tr>
-                    <tr>
-                        <td class="prob">Improbabile</td>
-                        <td class="prob">1</td>
+                        <td class="prob" data="1">Improbabile</td>
                         <td class="r0">1</td>
                         <td class="r0">2</td>
                         <td class="r0">3</td>
                         <td class="r0">4</td>
                     </tr>
                     <tr>
-                        <td class="prob">Poco probabile</td>
-                        <td class="prob">2</td>
+                        <td class="prob" data="2">Poco probabile</td>
                         <td class="r0">2</td>
                         <td class="r0">4</td>
                         <td class="r1">6</td>
                         <td class="r1">8</td>
                     </tr>
                     <tr>
-                        <td class="prob">Probabile</td>
-                        <td class="prob">3</td>
+                        <td class="prob" data="3">Probabile</td>
                         <td class="r0">3</td>
                         <td class="r1">6</td>
                         <td class="r2">9</td>
                         <td class="r2">12</td>
                     </tr>
                     <tr>
-                        <td class="prob">Altamente probabile</td>
-                        <td class="prob">4</td>
+                        <td class="prob" data="4">Altamente probabile</td>
                         <td class="r0">4</td>
                         <td class="r1">8</td>
                         <td class="r2">12</td>
