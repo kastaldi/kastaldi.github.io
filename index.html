@@ -92,9 +92,10 @@
                     <li><b>Gravità del danno</b></li>
                 </ul>
                 <p>
-                    Formula semplificata:
+                    Formula:
                 </p>
                 <p><b>R = P × D</b></p>
+                <p>Per calcolare il rischio, seleziona la probabilità e la gravità:</p>
 
                 <table class="matrice">
                     <tr>
@@ -106,33 +107,34 @@
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="1">Improbabile</td>
-                        <td class="r0">1</td>
-                        <td class="r0">2</td>
-                        <td class="r0">3</td>
-                        <td class="r0">4</td>
+                        <td id="m11" class="r0">1</td>
+                        <td id="m12" class="r0">2</td>
+                        <td id="m13" class="r0">3</td>
+                        <td id="m14" class="r0">4</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="2">Poco probabile</td>
-                        <td class="r0">2</td>
-                        <td class="r0">4</td>
-                        <td class="r1">6</td>
-                        <td class="r1">8</td>
+                        <td id="m21" class="r0">2</td>
+                        <td id="m22" class="r0">4</td>
+                        <td id="m23" class="r1">6</td>
+                        <td id="m24" class="r1">8</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="3">Probabile</td>
-                        <td class="r0">3</td>
-                        <td class="r1">6</td>
-                        <td class="r2">9</td>
-                        <td class="r2">12</td>
+                        <td id="m31" class="r0">3</td>
+                        <td id="m32" class="r1">6</td>
+                        <td id="m33" class="r2">9</td>
+                        <td id="m34" class="r2">12</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="4">Altamente probabile</td>
-                        <td class="r0">4</td>
-                        <td class="r1">8</td>
-                        <td class="r2">12</td>
-                        <td class="r3">16</td>
+                        <td id="m41" class="r0">4</td>
+                        <td id="m42" class="r1">8</td>
+                        <td id="m43" class="r2">12</td>
+                        <td id="m44" class="r3">16</td>
                     </tr>
                 </table>
+                <p>Rischio calcolato: <span id="rischio-calcolato">N/A</span></p>
             </section>
 
             <section id="pdf" class="sezione">

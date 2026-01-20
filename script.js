@@ -36,12 +36,16 @@ const App = (function () {
         $("#chiaro").show();
     }
 
+    //Funzione privata per il calcolo del rischio
     function calcolaRischio(gravita, probabilita) {
         if (gravita && probabilita) {
             const rischio = gravita * probabilita;
-            alert("Il rischio calcolato è: " + rischio);
+            $(".r0, .r1, .r2, .r3").removeClass("selezionato");
+            $("#m" + probabilita + gravita).addClass("selezionato");
+            $("#rischio-calcolato").text(rischio);
         }
     }
+
     // Funzione privata per l'inizializzazione
     function init() {
         let gravita;
@@ -59,17 +63,15 @@ const App = (function () {
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
-        //Assegna event listener alle celle della matrice
+        //Assegna event listener alle celle gravita e probabilita della matrice
         $("#matrice .grav").on("click", function () {
-            // alert($(this).attr("data-rischio"));
             gravita = ($(this).attr("data-rischio"));
-            calcolaRischio(gravita, probabilita);
             $("#matrice .grav").removeClass("selezionato");
             $(this).addClass("selezionato");
+            calcolaRischio(gravita, probabilita);
         });
 
         $("#matrice .prob").on("click", function () {
-            // alert($(this).attr("data-rischio"));
             probabilita = ($(this).attr("data-rischio"));
             $("#matrice .prob").removeClass("selezionato");
             $(this).addClass("selezionato");
