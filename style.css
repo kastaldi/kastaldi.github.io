@@ -52,6 +52,10 @@ nav {
     flex-direction: column;
     gap: 1em;
     /* z-index: 1000; */
+
+    height: 100vh;
+    min-height: 100%;
+    overflow: auto;
 }
 
 aside {
@@ -150,11 +154,23 @@ table td {
 .matrice {
     max-width: calc(1920px/4);
     text-align: center;
+    /* table-layout: fixed; */
 }
 
-.matrice td {
+.matrice td,
+.matrice th {
     color: light-dark(black, white);
     font-weight: bold;
+    height: 20%;
+    /* altezza delle celle 1/5 della tabella */
+    min-height: 20%;
+    /* altezza delle celle 1/5 della tabella */
+    max-height: 20%;
+    /* altezza delle celle 1/5 della tabella */
+    width: 20%;
+    /* larghezza delle celle 1/5 della tabella */
+    /* aspect-ratio: 1 / 1 ; */
+    /* background: gold; */
 }
 
 .matrice td:first-of-type {
