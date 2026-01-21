@@ -15,11 +15,18 @@ body {
 
 h1,
 h2 {
+    padding-left: 16px;
+    padding-right: 16px;
     color: light-dark(blue, deepskyblue);
 }
 
 li {
     text-align: left;
+}
+
+p {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* stile degli elementi semantici */
@@ -66,7 +73,7 @@ nav {
 
 aside {
     flex: 1;
-    padding: 40px 30px 0px 30px;
+    padding: 40px 20px 0px 20px;
     background-color: light-dark(white, black);
     width: 100%;
 }
