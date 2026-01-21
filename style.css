@@ -26,10 +26,10 @@ main {
     flex-direction: column;
 }
 
-aside {
-    flex: 1;
-    padding: 30px 40px 40px 60px;
-    background-color: light-dark(white, black);
+header {
+    position: fixed;
+    right: 5px;
+    top: 5px;
 }
 
 /* .intestazione {
@@ -51,10 +51,11 @@ nav {
     z-index: 1000;
 }
 
-header {
-    position: fixed;
-    right: 5px;
-    top: 5px;
+aside {
+    flex: 1;
+    padding: 30px 40px 40px 60px;
+    background-color: light-dark(white, black);
+    align-items: center;
 }
 
 button {
@@ -135,7 +136,7 @@ table {
 
 table th,
 table td {
-    border: 2px solid light-dark(grey, lightgrey);
+    border: 2px solid light-dark(white, black);
     padding: 10px;
 }
 
@@ -163,7 +164,8 @@ table td {
     border: 0px;
 }
 
-.matrice .prob, .matrice .grav {
+.matrice .prob,
+.matrice .grav {
     cursor: pointer;
 }
 
