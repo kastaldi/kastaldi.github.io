@@ -1,7 +1,7 @@
 // Modello archietturale: Module Pattern
 
 const App = (function () {
-    // Variabili private
+    // Variabile privata per il mapping tra tab e sezioni
     const tabMapping = {
         s1: 'introduzione',
         s2: 'normativa',
