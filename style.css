@@ -1,6 +1,7 @@
 /* stile degli elementi globali */
 
 :root {
+    font-family: ui-sans-serif, system-ui, sans-serif;
     color-scheme: light dark;
 }
 
@@ -10,7 +11,6 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
 h1,
