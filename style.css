@@ -27,6 +27,7 @@ li {
 p {
     padding-left: 16px;
     padding-right: 16px;
+    max-width: 50%;
 }
 
 /* stile degli elementi semantici */
@@ -125,9 +126,10 @@ button {
     margin-right: 10px;
     transition: margin-right 0.25s ease, padding-right 0.25s ease;
     /* transition: margin-right 0.25s ease; */
-} 
+}
 
-.tab:hover, .tab.attivo {
+.tab:hover,
+.tab.attivo {
     filter: brightness(85%);
     padding-right: 20px;
     /* transform: rotate(180deg) translateX(0px); */
@@ -174,8 +176,8 @@ table td {
 
 .matrice td:first-of-type {
     text-align: right;
-    padding:  0 20px 0 0;
-        /* border: 10px; */
+    padding: 0 20px 0 0;
+    /* border: 10px; */
     /* margin-right: 5px; */
 }
 
@@ -246,7 +248,6 @@ table td {
 #pdf {
     justify-items: center;
 }
-
 
 #qrcode {
     padding: 20px;

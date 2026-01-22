@@ -1,6 +1,9 @@
 // Modello archietturale: Module Pattern
 
 const App = (function () {
+    // Link al file PDF
+    const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
+
     // Variabile privata per il mapping tra tab e sezioni
     const tabMapping = {
         s1: 'introduzione',
@@ -79,7 +82,7 @@ const App = (function () {
         });
 
         //Crea il qrcode
-        $('#qrcode').qrcode("https://kastaldi.github.io/il_rischio_biologico.pdf");
+        $('#qrcode').qrcode({width: 96,height: 96,text:linkPDF});
     }
 
     // Interfaccia pubblica
