@@ -119,9 +119,6 @@ aside {
     text-align: center;
 }
 
-
-
-
 #normativa p.testo {
     display: none;
     text-align: justify;
@@ -305,7 +302,7 @@ table td {
         width: 100%;
         border-collapse: collapse;
         /* font-size: 12px; */
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
 
     p {
