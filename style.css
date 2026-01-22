@@ -35,6 +35,11 @@ p {
     font-weight: bold;
 }
 
+/* .articolo {
+    display: flex;
+    align-items: center;
+} */
+
 .paragrafo {
     text-align: justify;
 }
@@ -97,6 +102,19 @@ aside {
     display: none;
 }
 
+#normativa p.testo {
+    display: none;
+    text-align: justify;
+}
+
+#normativa p.articolo {
+    font-weight: bold;
+}
+
+#normativa > p.articolo:hover{
+    cursor: pointer;
+}
+
 .sezione.attivo {
     padding: 20px 20px 20px 20px;
     display: flex;
@@ -104,7 +122,6 @@ aside {
     align-items: center;
     text-align: center;
 }
-
 
 button {
     cursor: pointer;

@@ -62,9 +62,14 @@ const App = (function () {
         // Assegna event listener ai pulsanti della sidebar
         $(".tab").on("click", mostraSezione);
 
-        // Assegna event listener ai pulsanti header
+        // Assegna event listener ai pulsanti del tema
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
+
+        // Assegna event listener per mostrare gli articoli della normativa
+        $("#normativa .articolo").on("click", function() {
+            $("#" + $(this).attr("id")+"testo").toggle();
+        });
 
         //Assegna event listener alle celle gravita e probabilita della matrice
         $("#matrice .grav").on("click", function () {
