@@ -17,10 +17,17 @@ const App = (function () {
     function mostraSezione(event) {
         const idSezione = tabMapping[event.target.id];
 
-        $('.sezione').removeClass('attivo');
+        // $('.sezione').removeClass('attivo');
+        //$('.tab').removeClass('attivo');
+
+        // $('#' + idSezione).addClass('attivo');
+        // $(event.target).addClass('attivo');
+
+        $('.sezione').hide("slow");
         $('.tab').removeClass('attivo');
 
-        $('#' + idSezione).addClass('attivo');
+        $('#' + idSezione).show("slow");
+        $('#' + idSezione).css('display','flex');
         $(event.target).addClass('attivo');
     }
 
@@ -66,7 +73,7 @@ const App = (function () {
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
-        // Assegna event listener per mostrare gli articoli della normativa
+        // Assegna event listener per mostrare gli articoli della normativa con animazione
         $("#normativa .articolo").on("click", function () {
             $("#" + $(this).attr("id") + "testo").toggle("slow");
         });
