@@ -31,7 +31,7 @@ p {
 }
 
 .titolo {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -109,11 +109,16 @@ aside {
 
 #normativa p.articolo {
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-#normativa > p.articolo:hover{
+#normativa>p.articolo:hover {
     cursor: pointer;
 }
+
+
 
 .sezione.attivo {
     padding: 20px 20px 20px 20px;
@@ -291,7 +296,9 @@ table td {
         font-size: 12px;
     }
 
-    p {
+    p,
+    #normativa p.testo,
+    #normativa p.articolo {
         max-width: 75%;
     }
 

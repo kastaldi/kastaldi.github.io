@@ -67,8 +67,8 @@ const App = (function () {
         $("#scuro").on("click", temaScuro);
 
         // Assegna event listener per mostrare gli articoli della normativa
-        $("#normativa .articolo").on("click", function() {
-            $("#" + $(this).attr("id")+"testo").toggle();
+        $("#normativa .articolo").on("click", function () {
+            $("#" + $(this).attr("id") + "testo").toggle("slow");
         });
 
         //Assegna event listener alle celle gravita e probabilita della matrice
@@ -87,7 +87,7 @@ const App = (function () {
         });
 
         //Crea il qrcode
-        $('#qrcode').qrcode({width: 96,height: 96,text:linkPDF});
+        $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
     }
 
     // Interfaccia pubblica
