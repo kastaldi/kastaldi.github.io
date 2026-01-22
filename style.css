@@ -90,7 +90,7 @@ aside {
     min-height: 100%;
     overflow: auto;
     max-width: 1080px;
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 
 .sezione {
