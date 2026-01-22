@@ -30,6 +30,15 @@ p {
     max-width: 50%;
 }
 
+.titolo {
+    text-align: left;
+    font-weight: bold;
+}
+
+.paragrafo {
+    text-align: justify;
+}
+
 /* stile degli elementi semantici */
 
 main {
@@ -80,6 +89,8 @@ aside {
     height: 100vh;
     min-height: 100%;
     overflow: auto;
+    max-width: 1080px;
+    min-width: 400px;
 }
 
 .sezione {
@@ -255,11 +266,16 @@ table td {
 
 /* TODO: RESPONSIVE */
 /* @media (max-width: 768px) { */
+
 @media (orientation: portrait) {
     table {
         width: 100%;
         border-collapse: collapse;
         font-size: 12px;
+    }
+
+    p {
+        max-width: 75%;
     }
 
     /* .container {
