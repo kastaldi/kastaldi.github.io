@@ -191,26 +191,6 @@ table td {
     padding: 10px;
 }
 
-table .r0, table .g1 {
-    background-color: green;
-    color: black;
-}
-
-table .r1, table .g2 {
-    background-color: yellow;
-    color: black;
-}
-
-table .r2, table .g3 {
-    background-color: red;
-    color: black;
-}
-
-table .r3, table .g4 {
-    background-color: black;
-    color: white;
-}
-
 /* stile specifico della tabella matrice */
 
 .matrice {
@@ -291,6 +271,27 @@ table .r3, table .g4 {
     background-color: light-dark(lightgrey, grey);
 }
 
+
+table .r0, table .g1 {
+    background-color: green;
+    /* color: black; */
+}
+
+table .r1, table .g2 {
+    background-color: yellow;
+    color: black;
+}
+
+table .r2, table .g3 {
+    background-color: red;
+    /* color: black; */
+}
+
+table .r3, table .g4 {
+    background-color: black;
+    color: white;
+}
+
 /* stile della sezione PDF e del QR code */
 
 .download a {
@@ -348,3 +349,4 @@ table .r3, table .g4 {
                 border-bottom: 4px solid #ffd700;
             } */
 }
+
