@@ -191,6 +191,26 @@ table td {
     padding: 10px;
 }
 
+table .r0, table .g1 {
+    background-color: green;
+    color: black;
+}
+
+table .r1, table .g2 {
+    background-color: yellow;
+    color: black;
+}
+
+table .r2, table .g3 {
+    background-color: red;
+    color: black;
+}
+
+table .r3, table .g4 {
+    background-color: black;
+    color: white;
+}
+
 /* stile specifico della tabella matrice */
 
 .matrice {
@@ -211,8 +231,6 @@ table td {
     /* altezza delle celle 1/5 della tabella */
     width: 20%;
     /* larghezza delle celle 1/5 della tabella */
-    /* aspect-ratio: 1 / 1 ; */
-    /* background: gold; */
 }
 
 .matrice td:first-of-type {
@@ -235,25 +253,25 @@ table td {
     cursor: pointer;
 }
 
-.matrice .r0 {
+/* .matrice .r0, .gruppi .g1 {
     background-color: green;
     color: black;
-}
+} */
 
-.matrice .r1 {
+/* .matrice .r1, .gruppi .g2 {
     background-color: yellow;
     color: black;
-}
+} */
 
-.matrice .r2 {
+/* .matrice .r2, .gruppi .g3 {
     background-color: red;
     color: black;
-}
+} */
 
-.matrice .r3 {
+/* .matrice .r3, .gruppi .g4 {
     background-color: black;
     color: white;
-}
+} */
 
 .matrice .selezionato {
     outline: 4px solid orange;

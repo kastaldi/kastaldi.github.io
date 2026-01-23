@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rischio biologico</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/7d3cf2cda5.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="jquery.qrcode.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/jquery.qrcode.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -135,21 +135,33 @@
                         <th>Descrizione</th>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td class="g1">1</td>
                         <td>Poco probabili di causare malattie</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td class="g2">2</td>
                         <td>Possibile rischio con limitata diffusione</td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td class="g3">3</td>
                         <td>Malattie gravi, rischio elevato</td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td class="g4">4</td>
                         <td>Altissimo rischio, nessuna terapia efficace</td>
                     </tr>
+                </table>
+
+                <table class="agenti">
+                    <thead>
+                        <tr>
+                            <th>Tipologia</th>
+                            <th>Agente</th>
+                            <th>Classe</th>
+                            <th>Vaccino</th>
+                        </tr>
+                    </thead>
+                    <tbody id="json_agenti"></tbody>
                 </table>
             </section>
 

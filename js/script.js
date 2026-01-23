@@ -14,8 +14,8 @@ const App = (function () {
     };
 
     // Funzione privata per mostrare la Sezione
-    function mostraSezione(event) {
-        const idSezione = tabMapping[event.target.id];
+    function mostraSezione(res) {
+        const idSezione = tabMapping[res.target.id];
 
         // $('.sezione').removeClass('attivo');
         //$('.tab').removeClass('attivo');
@@ -27,8 +27,8 @@ const App = (function () {
         $('.tab').removeClass('attivo');
 
         $('#' + idSezione).show("slow");
-        $('#' + idSezione).css('display','flex');
-        $(event.target).addClass('attivo');
+        $('#' + idSezione).css('display', 'flex');
+        $(res.target).addClass('attivo');
     }
 
     // Funzioni private per tema
@@ -46,7 +46,7 @@ const App = (function () {
         $("#chiaro").show();
     }
 
-    //Funzione privata per il calcolo del rischio
+    // Funzione privata per il calcolo del rischio
     function calcolaRischio(gravita, probabilita) {
         if (gravita && probabilita) {
             const rischio = gravita * probabilita;
@@ -55,6 +55,9 @@ const App = (function () {
             $("#rischio-calcolato").text(rischio);
         }
     }
+
+    // Funzione privata per il caricamento del JSON degli agenti biologici
+    // e la visualizzazione nella tabella
 
     // Funzione privata per l'inizializzazione
     function init() {
@@ -76,6 +79,23 @@ const App = (function () {
         // Assegna event listener per mostrare gli articoli della normativa con animazione
         $("#normativa .articolo").on("click", function () {
             $("#" + $(this).attr("id") + "testo").toggle("slow");
+        });
+
+        // Carica gli agenti biologici nella tabella
+        $.getJSON('data/agenti_biologici.json', function (res) {
+            let html;
+            dati = res;
+            const $tbody = $('#json_agenti');
+            $tbody.empty();
+
+            dati.forEach(riga => {
+                html+=("<tr><td>"+riga.Tipologia +
+                       "</td><td>" + riga.Agente + 
+                       "</td><td class='g" + riga.Classificazione + "'>"+riga.Classificazione+
+                       "</td><td>"+riga.Vaccino+"</td></tr>");
+            });
+
+            $tbody.html(html);
         });
 
         //Assegna event listener alle celle gravita e probabilita della matrice
