@@ -151,18 +151,19 @@
                         <td>Altissimo rischio, nessuna terapia efficace</td>
                     </tr>
                 </table>
-
-                <table class="agenti">
-                    <thead>
-                        <tr>
-                            <th>Tipologia</th>
-                            <th>Agente</th>
-                            <th>Classe</th>
-                            <th>Vaccino</th>
-                        </tr>
-                    </thead>
-                    <tbody id="json_agenti"></tbody>
-                </table>
+                <div>
+                    <table id="elenco_agenti" class="agenti">
+                        <thead>
+                            <tr>
+                                <th>Tipologia</th>
+                                <th>Agente</th>
+                                <th>Classe</th>
+                                <th>Vaccino</th>
+                            </tr>
+                        </thead>
+                        <tbody id="json_agenti"></tbody>
+                    </table>
+                </div>
             </section>
 
             <section id="matrice" class="sezione">
@@ -190,31 +191,31 @@
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="1">Improbabile</td>
-                        <td id="m11" class="r0">1</td>
-                        <td id="m12" class="r0">2</td>
-                        <td id="m13" class="r0">3</td>
-                        <td id="m14" class="r0">4</td>
+                        <td id="m11" class="rischio1">1</td>
+                        <td id="m12" class="rischio1">2</td>
+                        <td id="m13" class="rischio1">3</td>
+                        <td id="m14" class="rischio1">4</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="2">Poco probabile</td>
-                        <td id="m21" class="r0">2</td>
-                        <td id="m22" class="r0">4</td>
-                        <td id="m23" class="r1">6</td>
-                        <td id="m24" class="r1">8</td>
+                        <td id="m21" class="rischio1">2</td>
+                        <td id="m22" class="rischio1">4</td>
+                        <td id="m23" class="rischio2">6</td>
+                        <td id="m24" class="rischio2">8</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="3">Probabile</td>
-                        <td id="m31" class="r0">3</td>
-                        <td id="m32" class="r1">6</td>
-                        <td id="m33" class="r2">9</td>
-                        <td id="m34" class="r2">12</td>
+                        <td id="m31" class="rischio1">3</td>
+                        <td id="m32" class="rischio2">6</td>
+                        <td id="m33" class="rischio3">9</td>
+                        <td id="m34" class="rischio3">12</td>
                     </tr>
                     <tr>
                         <td class="prob" data-rischio="4">Altamente probabile</td>
-                        <td id="m41" class="r0">4</td>
-                        <td id="m42" class="r1">8</td>
-                        <td id="m43" class="r2">12</td>
-                        <td id="m44" class="r3">16</td>
+                        <td id="m41" class="rischio1">4</td>
+                        <td id="m42" class="rischio2">8</td>
+                        <td id="m43" class="rischio3">12</td>
+                        <td id="m44" class="rischio4">16</td>
                     </tr>
                 </table>
                 <p>Rischio calcolato: <span id="rischio-calcolato">N/A</span></p>

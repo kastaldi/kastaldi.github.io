@@ -263,31 +263,43 @@ table td {
     max-width: calc(1920px/4);
 }
 
-.gruppi td:first-of-type {
+/* .gruppi td:first-of-type {
     text-align: center;
-}
+} */
 
 .gruppi th {
     background-color: light-dark(lightgrey, grey);
 }
 
+#elenco_agenti tr:nth-of-type(even){
+    background-color: grey;
+}
 
-table .r0, table .g1 {
+/* TODO: partenza nascosta e poi filtro */
+/* #json_agenti {
+    display: none;
+} */
+
+table .rischio1,
+table .gruppo1 {
     background-color: green;
     /* color: black; */
 }
 
-table .r1, table .g2 {
+table .rischio2,
+table .gruppo2 {
     background-color: yellow;
     color: black;
 }
 
-table .r2, table .g3 {
+table .rischio3,
+table .gruppo3 {
     background-color: red;
     /* color: black; */
 }
 
-table .r3, table .g4 {
+table .rischio4,
+table .gruppo4 {
     background-color: black;
     color: white;
 }
@@ -349,4 +361,3 @@ table .r3, table .g4 {
                 border-bottom: 4px solid #ffd700;
             } */
 }
-

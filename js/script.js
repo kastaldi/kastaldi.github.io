@@ -3,6 +3,9 @@
 const App = (function () {
     // Link al file PDF
     const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
+    
+    // Percorso del file JSON contenente gli agenti biologici
+    const fileJSON = "data/agenti_biologici.json";
 
     // Variabile privata per il mapping tra tab e sezioni
     const tabMapping = {
@@ -50,7 +53,7 @@ const App = (function () {
     function calcolaRischio(gravita, probabilita) {
         if (gravita && probabilita) {
             const rischio = gravita * probabilita;
-            $(".r0, .r1, .r2, .r3").removeClass("selezionato");
+            $(".rischio1, .rischio2, .rischio3, rischio4").removeClass("selezionato");
             $("#m" + probabilita + gravita).addClass("selezionato");
             $("#rischio-calcolato").text(rischio);
         }
@@ -82,17 +85,19 @@ const App = (function () {
         });
 
         // Carica gli agenti biologici nella tabella
-        $.getJSON('data/agenti_biologici.json', function (res) {
+        $.getJSON(fileJSON, function (datiJSON) {
             let html;
-            dati = res;
             const $tbody = $('#json_agenti');
             $tbody.empty();
 
-            dati.forEach(riga => {
-                html+=("<tr><td>"+riga.Tipologia +
-                       "</td><td>" + riga.Agente + 
-                       "</td><td class='g" + riga.Classificazione + "'>"+riga.Classificazione+
-                       "</td><td>"+riga.Vaccino+"</td></tr>");
+            datiJSON.forEach(riga => {
+                html += `<tr>
+                         <td>${riga.Tipologia}</td>
+                         <td>${riga.Agente}</td>
+                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
+                         <td>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
+                         </td>
+                         </tr>`;
             });
 
             $tbody.html(html);
