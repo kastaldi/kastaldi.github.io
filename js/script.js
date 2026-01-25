@@ -112,8 +112,10 @@ const App = (function () {
             mostraAgenti(datiJSON);
         });
 
-        //Assegna event listener alla casella per filtrare gli agenti
-        //chiama la stessa funzione
+        // let table = new DataTable('#elencoAgenti');
+
+        // Assegna event listener alla casella per filtrare gli agenti
+        // e chiama la stessa funzione di manipolazione DOM
         $('#filtroAgente').on('input', function () {
             const stringa = $(this).val().toLowerCase();
 

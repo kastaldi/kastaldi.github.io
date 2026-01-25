@@ -1,3 +1,5 @@
+/* TODO: mettere le variabili per colori chiaro/scuro */
+
 /* stile degli elementi globali */
 
 :root {
@@ -272,13 +274,17 @@ table td {
 }
 
 /* stile specifico della tabella agenti */
+/* TODO: verificare il colore delle righe alternate darkgrey / lightgrey
+/* scrollare solo la tabella degli agenti e non tutta la schemata */
+
+
 
 #elencoAgenti {
     table-layout: auto;
 }
 
 
-/* TODO: cambiare la grandezza fissa */
+/* TODO: cambiare la grandezza fissa da px ad altro*/
 #elencoAgenti th:nth-child(2) {
     width: 300px; 
 }
@@ -333,6 +339,8 @@ table .gruppo4 {
 }
 
 /* TODO: RESPONSIVE */
+/* TODO: rimpicciolire caratteri in normativa ed introduzione */
+/* TODO: ingrandire il check verde per il vaccino e cambiare colore con il tema
 /* @media (max-width: 768px) { */
 
 @media (orientation: portrait) {
