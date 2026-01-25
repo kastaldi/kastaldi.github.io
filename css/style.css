@@ -70,10 +70,6 @@ header {
 } */
 
 
-/* todo: verificare perchè il tab in overflow non funziona */
-/* probabilmente c'è un problema con l'altezza fissa della nav */
-/* verificare grandezza sezioni matrice e PDF */
-
 nav {
     /* position: fixed; */
     /* left: 0; */
@@ -95,7 +91,7 @@ aside {
     width: 100%;
     align-items: center;
     height: 100vh;
-    min-height: 100%;
+    /* min-height: 100%; */
     overflow: auto;
     max-width: 1080px;
     /* min-width: 400px; */
@@ -144,22 +140,6 @@ button {
     padding: 10px;
 }
 
-.gruppoFiltro {
-    display: flex;
-    align-items: stretch;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    justify-content: center;
-}
-
-.gruppoFiltro button {
-    margin-left: 1rem;
-    padding: 0;
-    width: 2rem;
-    height: 2rem;
-}
-
-
 /* stile del contenuto della sidebar */
 
 .tab {
@@ -183,7 +163,7 @@ button {
     transition: transform 0.25s ease, background-color 0.25s ease; */
 
     transform: rotate(180deg);
-    margin-right: 10px;
+    margin-right: 12px;
     transition: margin-right 0.25s ease, padding-right 0.25s ease;
     /* transition: margin-right 0.25s ease; */
 }
@@ -204,10 +184,14 @@ table {
     border-collapse: collapse;
 }
 
-table th,
-table td {
+table td,
+table th {
     border: 4px solid light-dark(white, black);
     padding: 10px;
+}
+
+table th {
+    background-color: light-dark(lightgrey, #222222);
 }
 
 /* stile specifico della tabella matrice */
@@ -252,26 +236,6 @@ table td {
     cursor: pointer;
 }
 
-/* .matrice .r0, .gruppi .g1 {
-    background-color: green;
-    color: black;
-} */
-
-/* .matrice .r1, .gruppi .g2 {
-    background-color: yellow;
-    color: black;
-} */
-
-/* .matrice .r2, .gruppi .g3 {
-    background-color: red;
-    color: black;
-} */
-
-/* .matrice .r3, .gruppi .g4 {
-    background-color: black;
-    color: white;
-} */
-
 .matrice .selezionato {
     outline: 4px solid orange;
 }
@@ -286,34 +250,45 @@ table td {
     text-align: center;
 } */
 
-.gruppi th {
-    background-color: light-dark(lightgrey, grey);
-}
+/* .gruppi th {
+    background-color: light-dark(lightgrey, #222222);
+} */
 
 /* stile specifico della tabella agenti */
 /* TODO: verificare il colore delle righe alternate darkgrey / lightgrey
 /* scrollare solo la tabella degli agenti e non tutta la schemata */
 
+.gruppoFiltro {
+    display: flex;
+    align-items: stretch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
 
+.gruppoFiltro button {
+    margin-left: 1rem;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+}
 
 #elencoAgenti {
     table-layout: auto;
 }
 
-
 /* TODO: cambiare la grandezza fissa da px ad altro*/
 #elencoAgenti th:nth-child(2) {
-    width: 300px; 
+    width: 300px;
 }
 
-#elencoAgenti tr:nth-of-type(even){
-    background-color: grey;
+#elencoAgenti tr:nth-of-type(even) {
+    background-color: light-dark(lightgrey,#111111);
 }
 
 table .rischio1,
 table .gruppo1 {
     background-color: green;
-    /* color: black; */
 }
 
 table .rischio2,
@@ -325,7 +300,6 @@ table .gruppo2 {
 table .rischio3,
 table .gruppo3 {
     background-color: red;
-    /* color: black; */
 }
 
 table .rischio4,
@@ -363,7 +337,7 @@ table .gruppo4 {
 @media (orientation: portrait) {
 
     :root {
-        font-size: 12px;        
+        font-size: 12px;
     }
 
     table {
@@ -373,7 +347,8 @@ table .gruppo4 {
         font-size: 1rem;
     }
 
-    table th, table td {
+    table th,
+    table td {
         padding: 5px;
     }
 
