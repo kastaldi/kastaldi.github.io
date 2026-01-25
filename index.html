@@ -86,8 +86,9 @@
                 <p class="articolo" id="art267">Art. 267 - Definizioni</p>
                 <p id="art267testo" class="testo">
                     1. Ai sensi del presente titolo s'intende per:<br>
-                    a) agente biologico: qualsiasi microrganismo anche se geneticamente modificato, coltura <br>
-                    cellulare ed endoparassita umano che potrebbe provocare infezioni, allergie o intossicazioni;<br>
+                    a) agente biologico: qualsiasi microrganismo anche se geneticamente modificato,
+                    coltura cellulare ed endoparassita umano che potrebbe provocare infezioni, allergie o
+                    intossicazioni;<br>
                     b) microrganismo: qualsiasi entità microbiologica, cellulare o meno, in grado di riprodursi o
                     trasferire materiale genetico;<br>
                     c) coltura cellulare: il risultato della crescita in vitro di cellule derivate da organismi
@@ -150,7 +151,7 @@
                     che modifica la
                     <a href="http://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:31990L0219">direttiva
                         90/219/CE</a>,
-                    concernente l'impiego confinato dimicrorganismi geneticamente modificati), è pubblicato nella 
+                    concernente l'impiego confinato dimicrorganismi geneticamente modificati), è pubblicato nella
                     Gazzetta Ufficiale 1° giugno 2001, n.126, supplemento ordinario.
                 </p>
             </section>
@@ -163,24 +164,28 @@
                         <th>Descrizione</th>
                     </tr>
                     <tr>
-                        <td class="g1">1</td>
+                        <td class="gruppo1">1</td>
                         <td>Poco probabili di causare malattie</td>
                     </tr>
                     <tr>
-                        <td class="g2">2</td>
+                        <td class="gruppo2">2</td>
                         <td>Possibile rischio con limitata diffusione</td>
                     </tr>
                     <tr>
-                        <td class="g3">3</td>
+                        <td class="gruppo3">3</td>
                         <td>Malattie gravi, rischio elevato</td>
                     </tr>
                     <tr>
-                        <td class="g4">4</td>
+                        <td class="gruppo4">4</td>
                         <td>Altissimo rischio, nessuna terapia efficace</td>
                     </tr>
                 </table>
                 <div>
-                    <input type="text" id="filtroAgente" placeholder="Filtra per agente o tipologia...">
+                    <div class="gruppoFiltro">
+                        <input type="text" id="stringaFiltro" placeholder="Filtra per agente...">
+                        <button id="filtroAgente"><i class="fa-solid fa-filter"></i></button>
+                        <button id="cancFiltroAgente"><i class="fa-solid fa-filter-circle-xmark"></i></button>
+                    </div>
                     <table id="elencoAgenti" class="agenti">
                         <thead>
                             <tr>

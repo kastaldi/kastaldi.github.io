@@ -65,7 +65,7 @@ const App = (function () {
                          <td>${riga.Tipologia}</td>
                          <td>${riga.Agente}</td>
                          <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
-                         <td>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
+                         <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
                          </td>
                          </tr>`;
         });
@@ -116,8 +116,8 @@ const App = (function () {
 
         // Assegna event listener alla casella per filtrare gli agenti
         // e chiama la stessa funzione di manipolazione DOM
-        $('#filtroAgente').on('input', function () {
-            const stringa = $(this).val().toLowerCase();
+        $('#filtroAgente').on('click', function () {
+            const stringa = $('#stringaFiltro').val().toLowerCase();
 
             const filtrati = datiJSON.filter(r =>
                 // r.Tipologia.toLowerCase().includes(val) ||
@@ -125,6 +125,11 @@ const App = (function () {
             );
 
             mostraAgenti(filtrati);
+        });
+
+        $('#cancFiltroAgente').on('click', function () {
+            $('#stringaFiltro').val('');
+            mostraAgenti(datiJSON);
         });
 
         // Assegna event listener alle celle della gravita 

@@ -137,11 +137,28 @@ aside {
     cursor: pointer;
 }
 
+/* TODO: da rivedere per il px */
 
 button {
     cursor: pointer;
     padding: 10px;
 }
+
+.gruppoFiltro {
+    display: flex;
+    align-items: stretch;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.gruppoFiltro button {
+    margin-left: 1rem;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+}
+
 
 /* stile del contenuto della sidebar */
 
@@ -344,14 +361,29 @@ table .gruppo4 {
 /* @media (max-width: 768px) { */
 
 @media (orientation: portrait) {
+
+    :root {
+        font-size: 12px;        
+    }
+
     table {
         width: 100%;
         border-collapse: collapse;
         /* font-size: 12px; */
-        font-size: 0.65rem;
+        font-size: 1rem;
+    }
+
+    table th, table td {
+        padding: 5px;
+    }
+
+
+    .vaccino {
+        font-size: 1.3rem;
     }
 
     p {
+        font-size: 1rem;
         max-width: 85%;
     }
 
