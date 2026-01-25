@@ -2,7 +2,8 @@
 
 const App = (function () {
     // Link al file PDF
-    const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
+    // const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
+    const linkPDF = "https://drive.google.com/file/d/1oLhzSX3zh7SjplPVdW9LI7hraIkqNtdR/view?usp=sharing";
 
     // Percorso del file JSON contenente gli agenti biologici
     const fileJSON = "data/agenti_biologici.json";
