@@ -271,14 +271,21 @@ table td {
     background-color: light-dark(lightgrey, grey);
 }
 
-#elenco_agenti tr:nth-of-type(even){
-    background-color: grey;
+/* stile specifico della tabella agenti */
+
+#elencoAgenti {
+    table-layout: auto;
 }
 
-/* TODO: partenza nascosta e poi filtro */
-/* #json_agenti {
-    display: none;
-} */
+
+/* TODO: cambiare la grandezza fissa */
+#elencoAgenti th:nth-child(2) {
+    width: 300px; 
+}
+
+#elencoAgenti tr:nth-of-type(even){
+    background-color: grey;
+}
 
 table .rischio1,
 table .gruppo1 {

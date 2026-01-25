@@ -3,7 +3,7 @@
 const App = (function () {
     // Link al file PDF
     const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
-    
+
     // Percorso del file JSON contenente gli agenti biologici
     const fileJSON = "data/agenti_biologici.json";
 
@@ -17,21 +17,15 @@ const App = (function () {
     };
 
     // Funzione privata per mostrare la Sezione
-    function mostraSezione(res) {
-        const idSezione = tabMapping[res.target.id];
-
-        // $('.sezione').removeClass('attivo');
-        //$('.tab').removeClass('attivo');
-
-        // $('#' + idSezione).addClass('attivo');
-        // $(event.target).addClass('attivo');
+    function mostraSezione(pulsante) {
+        const idSezione = tabMapping[pulsante.target.id];
 
         $('.sezione').hide("slow");
         $('.tab').removeClass('attivo');
 
         $('#' + idSezione).show("slow");
         $('#' + idSezione).css('display', 'flex');
-        $(res.target).addClass('attivo');
+        $(pulsante.target).addClass('attivo');
     }
 
     // Funzioni private per tema
@@ -59,13 +53,34 @@ const App = (function () {
         }
     }
 
-    // Funzione privata per il caricamento del JSON degli agenti biologici
-    // e la visualizzazione nella tabella
+    // Funzione privata per la visualizzazione nella tabella degli agenti biologici
+
+    function mostraAgenti(righe) {
+        let html;
+        const $tbody = $('#jsonAgenti');
+        $tbody.empty();
+
+        righe.forEach(riga => {
+            html += `<tr>
+                         <td>${riga.Tipologia}</td>
+                         <td>${riga.Agente}</td>
+                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
+                         <td>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
+                         </td>
+                         </tr>`;
+        });
+
+        $tbody.html(html);
+    }
 
     // Funzione privata per l'inizializzazione
     function init() {
+        // Variabili per memorizzare la gravita e la robabilta nella matrice del rischio
         let gravita;
         let probabilita;
+
+        // Variabile per memorizzare gli agenti caricati dal file JSON
+        let datiJSON = [];
 
         // Inizializza tema memorizzato in localStorage
         const tema = localStorage.getItem("tema");
@@ -73,37 +88,45 @@ const App = (function () {
         else temaChiaro();
 
         // Assegna event listener ai pulsanti della sidebar
+        // che chiama la funzione mostraSezione per mostrare la sezione
+        // corrispondente al pulsante premuto
         $(".tab").on("click", mostraSezione);
 
         // Assegna event listener ai pulsanti del tema
+        // che chiama la funziona temaChiaro o temaScuro
+        // per cammbiare il set di colori della pagina web
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
-        // Assegna event listener per mostrare gli articoli della normativa con animazione
+        // Assegna event listener per mostrare il testo degli articoli 
+        // della normativa con animazione quando l'utente fa click 
+        // sul titolo dell'articolo
         $("#normativa .articolo").on("click", function () {
             $("#" + $(this).attr("id") + "testo").toggle("slow");
         });
 
-        // Carica gli agenti biologici nella tabella
-        $.getJSON(fileJSON, function (datiJSON) {
-            let html;
-            const $tbody = $('#json_agenti');
-            $tbody.empty();
-
-            datiJSON.forEach(riga => {
-                html += `<tr>
-                         <td>${riga.Tipologia}</td>
-                         <td>${riga.Agente}</td>
-                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
-                         <td>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
-                         </td>
-                         </tr>`;
-            });
-
-            $tbody.html(html);
+        // Carica gli agenti biologici nella variabile datiJSON
+        // e li visualizza nella tabella
+        $.getJSON(fileJSON, function (dati) {
+            datiJSON = dati;
+            mostraAgenti(datiJSON);
         });
 
-        //Assegna event listener alle celle gravita e probabilita della matrice
+        //Assegna event listener alla casella per filtrare gli agenti
+        //chiama la stessa funzione
+        $('#filtroAgente').on('input', function () {
+            const stringa = $(this).val().toLowerCase();
+
+            const filtrati = datiJSON.filter(r =>
+                // r.Tipologia.toLowerCase().includes(val) ||
+                r.Agente.toLowerCase().includes(stringa)
+            );
+
+            mostraAgenti(filtrati);
+        });
+
+        // Assegna event listener alle celle della gravita 
+        // e della probabilita della matrice
         $("#matrice .grav").on("click", function () {
             gravita = ($(this).attr("data-rischio"));
             $("#matrice .grav").removeClass("selezionato");
@@ -118,7 +141,7 @@ const App = (function () {
             calcolaRischio(gravita, probabilita);
         });
 
-        //Crea il qrcode
+        // Crea il qrcode in maniera dinamica
         $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
     }
 
