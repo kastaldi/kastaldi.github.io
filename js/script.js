@@ -151,6 +151,9 @@ const App = (function () {
 
         // Crea il qrcode in maniera dinamica
         $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
+
+        //Aggancia il link al file PDF
+        $('.download a').attr('href', linkPDF);
     }
 
     // Interfaccia pubblica
@@ -159,7 +162,8 @@ const App = (function () {
     };
 })();
 
-// Inizializza l'app solo quando il DOM è completamente renderizzato
+// Inizializza l'app web (assegnazione listener, etc. solo quando 
+// il DOM è completamente renderizzato
 $(document).ready(function () {
     App.init();
 });
