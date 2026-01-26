@@ -124,6 +124,18 @@ aside {
     text-align: center;
 }
 
+div.scheda {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: light-dark(var(--th-light),var(--th-dark));
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1rem;
+    width: 85%;
+}
+
 #normativa p.testo {
     display: none;
     text-align: justify;
@@ -136,7 +148,7 @@ aside {
     align-items: center;
 }
 
-#normativa>p.articolo:hover {
+#normativa p.articolo:hover {
     cursor: pointer;
 }
 
@@ -206,21 +218,15 @@ table th {
 .matrice {
     max-width: calc(1920px/4);
     text-align: center;
-    /* table-layout: fixed; */
+    table-layout: fixed;
 }
 
 .matrice td,
 .matrice th {
     color: light-dark(var(--testo-light), var(--testo-dark));
     font-weight: bold;
-    height: 20%;
-    /* altezza delle celle 1/5 della tabella */
-    min-height: 20%;
-    /* altezza delle celle 1/5 della tabella */
-    max-height: 20%;
-    /* altezza delle celle 1/5 della tabella */
-    width: 20%;
-    /* larghezza delle celle 1/5 della tabella */
+    height:2rem;
+    width: 2rem;
 }
 
 .matrice td:first-of-type {
@@ -250,7 +256,9 @@ table th {
 /* stile specifico della tabella gruppi */
 
 .gruppi {
-    max-width: calc(1920px/4);
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* .gruppi td:first-of-type {
@@ -262,8 +270,7 @@ table th {
 } */
 
 /* stile specifico della tabella agenti */
-/* TODO: verificare il colore delle righe alternate darkgrey / lightgrey
-/* scrollare solo la tabella degli agenti e non tutta la schemata */
+/* TODO: scrollare solo la tabella degli agenti e non tutta la schemata */
 
 .gruppoFiltro {
     display: flex;
@@ -281,7 +288,8 @@ table th {
 }
 
 #elencoAgenti {
-    table-layout: auto;
+    /* table-layout: auto; */
+    width: 100%;
 }
 
 /* TODO: cambiare la grandezza fissa da px ad altro*/
@@ -311,7 +319,7 @@ table .gruppo3 {
 
 table .rischio4,
 table .gruppo4 {
-    background-color: black;
+    background-color: #222222;
     color: white;
 }
 
