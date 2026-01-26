@@ -1,0 +1,377 @@
+Tipologia, Agente, Classificazione, Vaccino
+Batterio,Actinobacillus actinomycetemcomitans ,2
+Batterio,Actinomadura madurae ,2
+Batterio,Actinomadura pelletieri ,2
+Batterio,Actinomyces gereneseriae ,2
+Batterio,Actinomyces israelli ,2
+Batterio,Actinomyces pyogenes ,2
+Batterio,Actinomyces spp ,2
+Batterio,Arcanobacterium haemolyticum (Corynebacterium haemolyticum) ,2
+Batterio,Bacillus anthracis ,3
+Batterio,Bacteroides fragilis ,2
+Batterio,Bartonella bacilliformis ,2
+Batterio,Bartonella (Rochalimea) spp ,2
+Batterio,Bartonella quintana (Rochalimea quintana) ,2
+Batterio,Bordetella bronchiseptica ,2
+Batterio,Bordetella parapertussis ,2
+Batterio,Bordetella pertussis ,2 ,V
+Batterio,Borrelia burgdorferi ,2
+Batterio,Borrelia duttonii ,2
+Batterio,Borrelia recurrentis ,2
+Batterio,Borrelia spp ,2
+Batterio,Brucella abortus ,3
+Batterio,Brucella canis ,3
+Batterio,Brucella melitensis ,3
+Batterio,Brucella suis ,3
+Batterio,Burkholderia mallei (pseudomonas mallei) ,3
+Batterio,Burkholderia pseudomallei (pseudomonas pseudomallei) ,3
+Batterio,Campylobacter fetus ,2
+Batterio,Campylobacter jejuni ,2
+Batterio,Campylobacter spp ,2
+Batterio,Cardiobacterium hominis ,2
+Batterio,Chlamydia pneumoniae ,2
+Batterio,Chlamydia trachomatis ,2
+Batterio,Chlamydia psittaci (ceppi aviari) ,3
+Batterio,Chlamydia psittaci (ceppi non aviari) ,2
+Batterio,Clostridium botulinum 2 ,T
+Batterio,Clostridium perfringens ,2
+Batterio,Clostridium tetani 2 T,,V
+Batterio,Clostridium spp. ,2
+Batterio,Corynebacterium diphtheriae 2 T,,V
+Batterio,Corynebacterium minutissimum ,2
+Batterio,Corynebacterium pseudotuberculosis ,2
+Batterio,Corynebacterium spp ,2
+Batterio,Coxiella burnetii ,3
+Batterio,Edwardsiella tarda ,2
+Batterio,Ehrlichia sennetsu (Rickettsia sennetsu) ,2
+Batterio,Ehrlichia spp ,2
+Batterio,Eikenella corrodens ,2
+Batterio,Enterobacter aerogenes/cloacae ,2
+Batterio,Enterobacter spp ,2
+Batterio,Enterococcus spp ,2
+Batterio,Erysipelothrix rhusiopathiae ,2
+Batterio,Escherichia coli (ad eccezione dei ceppi non patogeni) ,2
+Batterio,Escherichia coli ceppi verocitotossigenici (es. O157:H7 oppure O103) 3(**) ,T
+Batterio,Flavobacterium meningosepticum ,2
+Batterio,Fluoribacter bozemanii (Legionella) ,2
+Batterio,Francisella tularensia (Tipo A) ,3
+Batterio,Francisella tularensis (Tipo B) ,2
+Batterio,Fusobacterium necrophorum ,2
+Batterio,Gardnerella vaginalis ,2
+Batterio,Haemophilus ducreyi ,2
+Batterio,Haemophilus influenzae 2 ,V
+Batterio,Haemophilus spp ,2
+Batterio,Helicobacter pylori ,2
+Batterio,Klebsiella oxytoca ,2
+Batterio,Klebsiella pneumoniae ,2
+Batterio,Klebsiella spp ,2
+Batterio,Legionella pneumophila ,2
+Batterio,Legionella spp ,2
+Batterio,Leptospira interrogans (tutti i sierotipi) ,2
+Batterio,Listeria monocytogenes ,2
+Batterio,Listeria ivanovii ,2
+Batterio,Morganella morganii ,2
+Batterio,Mycobacterium africanum 3 ,V
+Batterio,Mycobacterium avium/intracellulare ,2
+Batterio,Mycobacterium bovis (ad eccezione del ceppo BCG) 3 ,V
+Batterio,Mycobacterium chelonae ,2
+Batterio,Mycobacterium fortuitum ,2
+Batterio,Mycobacterium kansasii ,2
+Batterio,Mycobacterium leprae ,3
+Batterio,Mycobacterium malmoense ,2
+Batterio,Mycobacterium marinum ,2
+Batterio,Mycobacterium microti 3 ,(**)
+Batterio,Mycobacterium paratuberculosis ,2
+Batterio,Mycobacterium scrofulaceum ,2
+Batterio,Mycobacterium simiae ,2
+Batterio,Mycobacterium szulgai ,2
+Batterio,Mycobacterium tuberculosis 3 ,V
+Batterio,Mycobacterium ulcerans 3 ,(**)
+Batterio,Mycobacterium xenopi ,2
+Batterio,Mycoplasma caviae ,2
+Batterio,Mycoplasma hominis ,2
+Batterio,Mycoplasma pneumoniae ,2
+Batterio,Neisseria gonorrhoeae ,2
+Batterio,Neisseria meningitidis 2 ,V
+Batterio,Nocardia asteroides ,2
+Batterio,Nocardia brasiliensis ,2
+Batterio,Nocardia farcinica ,2
+Batterio,Nocardia nova ,2
+Batterio,Nocardia otitidiscaviarum ,2
+Batterio,Pasteurella multocida ,2
+Batterio,Pasteurella spp ,2
+Batterio,Peptostreptococcus anaerobius ,2
+Batterio,Plesiomonas shigelloides ,2
+Batterio,Porphyromonas spp ,2
+Batterio,Prevotella spp ,2
+Batterio,Proteus mirabilis ,2
+Batterio,Proteus penneri ,2
+Batterio,Proteus vulgaris ,2
+Batterio,Providencia alcalifaciens ,2
+Batterio,Providencia rettgeri ,2
+Batterio,Providencia spp ,2
+Batterio,Pseudomonas aeruginosa ,2
+Batterio,Rhodococcus equi ,2
+Batterio,Rickettsia akari 3,(**)
+Batterio,Rickettsia canada 3,(**)
+Batterio,Rickettsia conorii ,3
+Batterio,Rickettsia montana 3,(**)
+Batterio,Rickettsia typhi (Rickettsia mooseri) ,3
+Batterio,Rickettsia prowazekii ,3
+Batterio,Rickettsia rickettsii ,3
+Batterio,Rickettsia tsutsugamushi ,3
+Batterio,Rickettsia spp ,2
+Batterio,Salmonella arizonae ,2
+Batterio,Salmonella enteritidis ,2
+Batterio,Salmonella typhimurium ,2
+Batterio,Salmonella paratyphi A, B, C 2 ,V
+Batterio,Salmonella typhi 3(**) ,V
+Batterio,Salmonella (altre varietà sierologiche) ,2
+Batterio,Serpulina spp ,2
+Batterio,Shigella boydii ,2
+Batterio,Shigella dysenteriae (Tipo 1) 3(**) ,T
+Batterio,Shigella dysenteriae diverso dal Tipo 1 ,2
+Batterio,Shigella flexneri ,2
+Batterio,Shigella sonnei ,2
+Batterio,Staphylococcus aureus ,2
+Batterio,Streptobacillus moniliformis ,2
+Batterio,Streptococcus pneumoniae ,2
+Batterio,Streptocoocus pyogenes ,2
+Batterio,Streptococcus spp ,2
+Batterio,Streptococcus suis ,2
+Batterio,Treponema carateum ,2
+Batterio,Treponema pallidum ,2
+Batterio,Treponema pertenue ,2
+Batterio,Treponema spp ,2
+Batterio,Vibrio cholerae (incluso El Tor) ,2
+Batterio,Vibrio parahaemolyticus ,2
+Batterio,Vibrio spp ,2
+Batterio,Yersinia enterocolitica ,2
+Batterio,Yersinia pestis 3 ,V
+Batterio,Yersinia pseudotuberculosis ,2
+Batterio,Yersinia spp ,2
+Virus,Adenoviridae ,2
+Virus,Virus Lassa ,4
+Virus,Virus della coriomeningite linfocitaria (ceppi neurotropi) ,3
+Virus,Virus della coriomeningite linfocitaria (altri ceppi) ,2
+Virus,Virus Mopeia ,2
+Virus,Altri LCM-Lassa Virus complex ,2
+Virus,Virus Guanarito ,4
+Virus,Virus Junin ,4
+Virus,Virus Sabia ,4
+Virus,Virus Machupo ,4
+Virus,Virus Flexal ,3
+Virus,Altri Virus del Complesso Tacaribe ,2
+Virus,Astroviridae ,2
+Virus,Bhanja ,2
+Virus,Virus Bunyamwera ,2
+Virus,Germiston ,2
+Virus,Virus Oropouche ,3
+Virus,Virus dell'encefalite Californiana ,2
+Virus,Hantaan (febbre emorragica coreana) ,3
+Virus,Belgrado (noto anche come Dobrava) ,3
+Virus,Seoul-Virus ,3
+Virus,Sin Nombre (ex Muerto Canyon) ,3
+Virus,Puumala-Virus ,2
+Virus,Prospect Hill-Virus ,2
+Virus,Altri Hantavirus ,2
+Virus,Virus della febbre emorragica di Crimea/Congo ,4
+Virus,Virus Hazara ,2
+Virus,Febbre della Valle del Rift 3 ,V
+Virus,Febbre da Flebotomi ,2
+Virus,Virus Toscana ,2
+Virus,Altri bunyavirus noti come patogeni ,2
+Virus,Virus dell'epatite E 3,(**)
+Virus,Norwalk-Virus ,2
+Virus,Altri Caliciviridae ,2
+Virus,Coronaviridae ,2
+Virus,Virus Ebola ,4
+Virus,Virus di Marburg ,4
+Virus,Encefalite d'Australia (Encefalite della Valle Murray) ,3
+Virus,Virus dell'encefalite da zecca dell'Europa Centrale 3(**) ,V
+Virus,Absettarov ,3
+Virus,Hanzalova ,3
+Virus,Hypr ,3
+Virus,Kumlinge ,3
+Virus,Virus della dengue tipi 1-4 ,3
+Virus,Virus dell'epatite C 3(**) ,D
+Virus,Virus dell'epatite G 3(**) ,D
+Virus,Encefalite B giapponese 3 ,V
+Virus,Foresta di Kyasanur 3 ,V
+Virus,Louping ill 3,(**)
+Virus,Omsk (a) 3 ,V
+Virus,Powassan ,3
+Virus,Rocio ,3
+Virus,Encefalite verno-estiva russa (a) 3 ,V
+Virus,Encefalite di St. Louis ,3
+Virus,Virus Wesselsbron 3,(**)
+Virus,Virus della Valle del Nilo ,3
+Virus,Febbre gialla 3 ,V
+Virus,Altri flavivirus noti per essere patogeni ,2
+Virus,Virus dell'epatite B 3(**) V,,D
+Virus,Virus dell'epatite D (Delta) (b) 3(**) V,,D
+Virus,Cytomegalovirus ,2
+Virus,Virus d'Epstein-Barr ,2
+Virus,Herpesvirus simiae (B virus) ,3
+Virus,Herpes simplex virus tipi 1 e 2 ,2
+Virus,Herpesvirus varicella-zoster ,2
+Virus,Virus Herpes dell'uomo tipo 7 ,2
+Virus,Virus Herpes dell'uomo tipo 8 2 ,D
+Virus,Virus linfotropo B dell'uomo (HBLV-HHV6) ,2
+Virus,Virus Influenzale tipi A, B e C 2 V(c,)
+Virus,Orthomyxoviridae trasmesse delle zecche: Virus ,2
+Virus,Dhori e Thogoto, 2
+Virus,Virus BK e JC 2 D(d,)
+Virus,Papillomavirus dell'uomo 2 D(d,)
+Virus,Virus del morbillo 2 ,V
+Virus,Virus della parotite 2 ,V
+Virus,Virus della malattia di Newcastle ,2
+Virus,Virus parainfluenzali tipi 1-4 ,2
+Virus,Virus respiratorio sinciziale ,2
+Virus,Parvovirus dell'uomo (B 19) ,2
+Virus,Virus della congiuntivite emorragica (AHC) ,2
+Virus,Virus Coxackie ,2
+Virus,Virus Echo ,2
+Virus,Virus dell'epatite A (enterovirus dell'uomo 72) 2 ,V
+Virus,Virus della poliomelite 2 ,V
+Virus,Rhinovirus ,2
+Virus,Buffalopox virus (e) ,2
+Virus,Cowpox virus ,2
+Virus,Elephantpox virus (f) ,2
+Virus,Virus del nodulo dei mungitori ,2
+Virus,Molluscum contagiosum virus ,2
+Virus,Monkeypox virus ,3 ,V
+Virus,Orf virus ,2
+Virus,Rabbitpox virus (g) ,2
+Virus,Vaccinia virus ,2
+Virus,Variola (mayor & minor) virus ,4 ,V
+Virus,Whitepox virus (variola virus) ,4 ,V
+Virus,Yatapox virus (Tana & Yaba) ,2
+Virus,Coltivirus ,2
+Virus,Rotavirus umano ,2
+Virus,Orbivirus ,2
+Virus,Reovirus ,2
+Virus,Virus della sindrome di immunodeficienza umana 3(**) ,D
+Virus,(AIDS,)
+Virus,Virus di leucemie umane a cellule T (HTLV) tipi 1 e 2 ,3,(**) ,D
+Virus,SIV (h) 3,(**)
+Virus,Virus della rabbia ,3,V,(**) ,V
+Virus,Virus della stomatite vescicolosa ,2
+Virus,Encefalomielite equina dell'America dell'est 3 ,V
+Virus,Virus Bebaru ,2
+Virus,Virus Chikungunya ,3,(**)
+Virus,Virus Everglades ,3,(**)
+Virus,Virus Mayaro ,3
+Virus,Virus Mucambo ,3,(**)
+Virus,Virus Ndumu ,3
+Virus,Virus O'nyong-nyong ,2
+Virus,Virus del fiume Ross ,2
+Virus,Virus della foresta di Semliki ,2
+Virus,Virus Sindbis ,2
+Virus,Virus Tonate ,3,(**)
+Virus,Encefalomielite equina del Venezuela ,3 ,V
+Virus,Encefalomielite equina dell'America dell'Ovest ,3 ,V
+Virus,Altri alfavirus noti ,2
+Virus,Rubivirus (rubella) ,2 ,V
+Virus,Virus dell'epatite non ancora identificati 3(**) ,D
+Virus,Morbillivirus equino ,4
+Virus,Morbo di Creutzfeldt-Jakob ,3,,(**) D(d,)
+Virus,Variante del morbo di Creutzfeldt-Jacob ,3,,(**) D(d,)
+Virus,Encefalite spongiforme bovina (BSE) ed altre TSE degli animali a queste associato 3(**) D(d,)
+Virus,Sindrome di Gerstmann-Stráussler-Scheinker 3,,(**) D(d,)
+Virus,Kuru 3,,(**) D(d,)
+Parassita,Acanthamoeba castellanii ,2
+Parassita,Ancylostoma duodenale ,2
+Parassita,Angiostrongylus cantonensis ,2
+Parassita,Angiostrongylus costaricensis ,2
+Parassita,Ascaris lumbricoides ,2, ,A
+Parassita,Ascaris suum ,2, ,A
+Parassita,Babesia divergens ,2
+Parassita,Babesia microti ,2
+Parassita,Balantidium coli ,2
+Parassita,Brugia malayi ,2
+Parassita,Brugia pahangi ,2
+Parassita,Capillaria philippinensis ,2
+Parassita,Capillaria spp ,2
+Parassita,Clonorchis sinensis ,2
+Parassita,Clonorchis viverrini ,2
+Parassita,Cryptosporidium parvum ,2
+Parassita,Cryptosporidium spp ,2
+Parassita,Cyclospora cayetanensis ,2
+Parassita,Dipetalonema streptocerca ,2
+Parassita,Diphyllobothrium latum ,2
+Parassita,Dracunculus medinensis ,2
+Parassita,Echinococcus granulosus ,3,,,(**)
+Parassita,Echinococcus multilocularis ,3,,,(**)
+Parassita,Echinococcus vogeli ,3,,,(**)
+Parassita,Entamoeba histolytica ,2
+Parassita,Fasciola gigantica ,2
+Parassita,Fasciola hepatica ,2
+Parassita,Fasciolopsis buski ,2
+Parassita,Giardia lamblia (Giardia intestinalis) ,2
+Parassita,Hymenolepis diminuta ,2
+Parassita,Hymenolepis nana ,2
+Parassita,Leishmania brasiliensis ,3,,,(**)
+Parassita,Leishmania donovani ,3,,,(**)
+Parassita,Leishmania aethiopica ,2
+Parassita,Leishmania mexicana ,2
+Parassita,Leishmania peruviana ,2
+Parassita,Leishmania tropica ,2
+Parassita,Leishmania major ,2
+Parassita,Leishmania spp ,2
+Parassita,Loa Loa ,2
+Parassita,Mansonella ozzardi ,2
+Parassita,Mansonella perstans ,2
+Parassita,Naegleria fowleri ,3
+Parassita,Necator americanus ,2
+Parassita,Onchocerca volvulus ,2
+Parassita,Opisthorchis felineus ,2
+Parassita,Opisthorchis spp ,2
+Parassita,Paragonimus westermani ,2
+Parassita,Plasmodium falciparum ,3,,(**)
+Parassita,Plasmodium spp (uomo & scimmia) ,2
+Parassita,Sarcocystis suihominis ,2
+Parassita,Schistosoma haematobium ,2
+Parassita,Schistosoma intercalatum ,2
+Parassita,Schistosoma japonicum ,2
+Parassita,Schistosoma mansoni ,2
+Parassita,Shistosoma mekongi ,2
+Parassita,Strongyloides stercoralis ,2
+Parassita,Strongyloides spp ,2
+Parassita,Taenia saginata ,2
+Parassita,Taenia solium ,3,,(**)
+Parassita,Toxocara canis ,2
+Parassita,Toxoplasma gondii ,2
+Parassita,Trichinella spiralis ,2
+Parassita,Trichuris trichiura ,2
+Parassita,Trypanosoma brucei brucei ,2
+Parassita,Trypanosoma brucei gambiense ,2
+Parassita,Trypanosoma brucei rhodesiense ,3,,(**)
+Parassita,Trypanosoma cruzi ,3
+Parassita,Wuchereria bancrofti ,2 
+Fungo,Aspergillus fumigatus ,2, ,A
+Fungo,Blastomyces dermatitidis (Ajellomyces dermatitidis) ,3
+Fungo,Candida albicans ,2, ,A
+Fungo,Candida tropicalis ,2
+Fungo,Cladophialophora bantiana (es. Xylohypha bantiana Cladosporium bantianum o trichoides) ,3
+Fungo,Coccidioides immitis 3 ,A
+Fungo,Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans) 2 ,A
+Fungo,Cryptococcus neoformans var. gattii (Filobasidiella bacillispora) 2 ,A
+Fungo,Emmonsia parva var. parva ,2
+Fungo,Emmonsia parva var. crescens ,2
+Fungo,Epidermophyton floccosum 2 ,A
+Fungo,Fonsecaea compacta ,2
+Fungo,Fonsecaea pedrosoi ,2
+Fungo,Histoplasma capsulatum var. capsulatum (Ajellomyces capsulatum) ,3
+Fungo,Histoplasma capsulatum duboisii ,3
+Fungo,Madurella grisea ,2
+Fungo,Madurella mycetomatis ,2
+Fungo,Microsporum spp 2 ,A
+Fungo,Neotestudina rosatii ,2
+Fungo,Paracoccidioides brasiliensis ,3
+Fungo,Penicillium marneffei 2 ,A
+Fungo,Scedosporium apiospermum Pseudallescheria boydii ,2
+Fungo,Scedosporium prolificans (inflantum) ,2
+Fungo,Sporothrix schenckii ,2
+Fungo,Trichophyton rubrum ,2
+Fungo,Trichophyton spp ,2
