@@ -1,1210 +1,1892 @@
 [
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinobacillus actinomycetemcomitans ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinobacillus actinomycetemcomitans",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomadura madurae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinomadura madurae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomadura pelletieri ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinomadura pelletieri",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomyces gereneseriae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinomyces gereneseriae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomyces israelli ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinomyces israelli",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomyces pyogenes ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Actinomyces pyogenes",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Actinomyces spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Actinomyces spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Arcanobacterium haemolyticum (Corynebacterium haemolyticum) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Arcanobacterium haemolyticum (Corynebacterium haemolyticum)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bacillus anthracis ",
+    "Tipologia": "Batterio",
+    "Agente": "Bacillus anthracis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bacteroides fragilis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bartonella bacilliformis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bartonella (Rochalimea) spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bartonella quintana (Rochalimea quintana)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bordetella bronchiseptica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bordetella parapertussis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Bordetella pertussis",
+    "Classificazione": 2,
+    "Vaccino": "V"
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Borrelia burgdorferi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Borrelia duttonii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Borrelia recurrentis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Borrelia spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Brucella abortus",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Brucella canis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Brucella melitensis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Brucella suis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Burkholderia mallei (pseudomonas mallei)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Burkholderia pseudomallei (pseudomonas pseudomallei)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Campylobacter fetus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Campylobacter jejuni",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Campylobacter spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Cardiobacterium hominis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Chlamydia pneumoniae",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Chlamydia trachomatis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Chlamydia psittaci (ceppi aviari)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Chlamydia psittaci (ceppi non aviari)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Clostridium botulinum 2",
+    "Classificazione": "T"
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Clostridium perfringens",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Clostridium tetani 2 T",
+    "Classificazione": "",
+    "Vaccino": "V"
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Clostridium spp.",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Corynebacterium diphtheriae 2 T",
+    "Classificazione": "",
+    "Vaccino": "V"
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Corynebacterium minutissimum",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Corynebacterium pseudotuberculosis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Corynebacterium spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Coxiella burnetii",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Edwardsiella tarda",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Ehrlichia sennetsu (Rickettsia sennetsu)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Ehrlichia spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Eikenella corrodens",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Enterobacter aerogenes/cloacae",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Enterobacter spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Enterococcus spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Erysipelothrix rhusiopathiae",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Escherichia coli (ad eccezione dei ceppi non patogeni)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Batterio",
+    "Agente": "Escherichia coli ceppi verocitotossigenici (es. O157:H7 oppure O103)",
     "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Vaccino": "T"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bacteroides fragilis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Flavobacterium meningosepticum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bartonella bacilliformis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Fluoribacter bozemanii (Legionella)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bartonella (Rochalimea) spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Francisella tularensia (Tipo A)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bartonella quintana (Rochalimea quintana) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Francisella tularensis (Tipo B)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bordetella bronchiseptica ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Fusobacterium necrophorum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bordetella parapertussis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Gardnerella vaginalis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Bordetella pertussis  V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Haemophilus ducreyi",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Borrelia burgdorferi ",
+    "Tipologia": "Batterio",
+    "Agente": "Haemophilus influenzae",
     "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Vaccino": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Borrelia duttonii ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Haemophilus spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Borrelia recurrentis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Helicobacter pylori",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Borrelia spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Klebsiella oxytoca",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Brucella abortus ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Klebsiella pneumoniae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Brucella canis ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Klebsiella spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Brucella melitensis ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Legionella pneumophila",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Brucella suis ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Legionella spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Burkholderia mallei (pseudomonas mallei) ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Leptospira interrogans (tutti i sierotipi)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Burkholderia pseudomallei (pseudomonas pseudomallei) ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Listeria monocytogenes",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Campylobacter fetus ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Listeria ivanovii",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Campylobacter jejuni ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Morganella morganii",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Campylobacter spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium africanum 3",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Cardiobacterium hominis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium avium/intracellulare",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Chlamydia pneumoniae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium bovis (ad eccezione del ceppo BCG) 3",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Chlamydia trachomatis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium chelonae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Chlamydia psittaci (ceppi aviari) ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium fortuitum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Chlamydia psittaci (ceppi non aviari)  ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium kansasii",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Clostridium botulinum  T",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "S",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium leprae",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Clostridium perfringens ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium malmoense",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Clostridium tetani  T,V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "S",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium marinum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Clostridium spp. ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium microti 3",
+    "Classificazione": "(**)"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Corynebacterium diphtheriae  T,V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "S",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium paratuberculosis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Corynebacterium minutissimum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium scrofulaceum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Corynebacterium pseudotuberculosis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium simiae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Corynebacterium spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium szulgai",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Coxiella burnetii ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium tuberculosis 3",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Edwardsiella tarda ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium ulcerans 3",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Ehrlichia sennetsu (Rickettsia sennetsu) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycobacterium xenopi",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Ehrlichia spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Mycoplasma caviae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Eikenella corrodens ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycoplasma hominis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Enterobacter aerogenes/cloacae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Mycoplasma pneumoniae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Enterobacter spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Neisseria gonorrhoeae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Enterococcus spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Neisseria meningitidis 2",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Erysipelothrix rhusiopathiae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Nocardia asteroides",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Escherichia coli (ad eccezione dei ceppi non patogeni) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Nocardia brasiliensis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Escherichia coli, ceppi verocitotossigenici (es. O157:H7 oppure O103) (**) T",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "S",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Nocardia farcinica",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Flavobacterium meningosepticum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Nocardia nova",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Fluoribacter bozemanii (Legionella) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Nocardia otitidiscaviarum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Francisella tularensia (Tipo A) ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Pasteurella multocida",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Francisella tularensis (Tipo B) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Pasteurella spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Fusobacterium necrophorum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Peptostreptococcus anaerobius",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Gardnerella vaginalis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Plesiomonas shigelloides",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Haemophilus ducreyi ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Porphyromonas spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Haemophilus influenzae  V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Prevotella spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Haemophilus spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Proteus mirabilis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Helicobacter pylori ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Proteus penneri",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Klebsiella oxytoca ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Proteus vulgaris",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Klebsiella pneumoniae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Providencia alcalifaciens",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Klebsiella spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Providencia rettgeri",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Legionella pneumophila ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Providencia spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Legionella spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Pseudomonas aeruginosa",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Leptospira interrogans (tutti i sierotipi) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Rhodococcus equi",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Listeria monocytogenes ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia akari",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Listeria ivanovii ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia canada",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Morganella morganii ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia conorii",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium africanum  V",
-    "Classificazione": 3,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia montana",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium avium/intracellulare ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia typhi (Rickettsia mooseri)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium bovis (ad eccezione del ceppo BCG)  V",
-    "Classificazione": 3,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia prowazekii",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium chelonae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia rickettsii",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium fortuitum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia tsutsugamushi",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium kansasii ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Rickettsia spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium leprae ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella arizonae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium malmoense ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella enteritidis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium marinum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella typhimurium",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium microti  (**)",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella paratyphi A",
+    "Classificazione": "B",
+    "Vaccino": "C 2"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium paratuberculosis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella typhi 3(**)",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium scrofulaceum  ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Salmonella (altre varietà sierologiche)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium simiae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Serpulina spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium szulgai ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Shigella boydii",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium tuberculosis  V",
-    "Classificazione": 3,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Shigella dysenteriae (Tipo 1) 3(**)",
+    "Classificazione": "T"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium ulcerans  (**)",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Shigella dysenteriae diverso dal Tipo 1",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycobacterium xenopi ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Shigella flexneri",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycoplasma caviae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Shigella sonnei",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycoplasma hominis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Staphylococcus aureus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Mycoplasma pneumoniae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Streptobacillus moniliformis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Neisseria gonorrhoeae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Streptococcus pneumoniae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Neisseria meningitidis  V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Streptocoocus pyogenes",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Nocardia asteroides ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Streptococcus spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Nocardia brasiliensis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Streptococcus suis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Nocardia farcinica ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Treponema carateum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Nocardia nova ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Treponema pallidum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Nocardia otitidiscaviarum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Treponema pertenue",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Pasteurella multocida ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Treponema spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Pasteurella spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Vibrio cholerae (incluso El Tor)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Peptostreptococcus anaerobius ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Vibrio parahaemolyticus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Plesiomonas shigelloides ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Vibrio spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Porphyromonas spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Yersinia enterocolitica",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Prevotella spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Batterio",
+    "Agente": "Yersinia pestis 3",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Proteus mirabilis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Yersinia pseudotuberculosis",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Proteus penneri ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Batterio",
+    "Agente": "Yersinia spp",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Proteus vulgaris ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Adenoviridae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Providencia alcalifaciens ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Lassa",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Providencia rettgeri ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus della coriomeningite linfocitaria (ceppi neurotropi)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Providencia spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Virus della coriomeningite linfocitaria (altri ceppi)",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Pseudomonas aeruginosa ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Mopeia",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rhodococcus equi ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Altri LCM-Lassa Virus complex",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia akari (**)",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Guanarito",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia canada (**)",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Junin",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia conorii ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Sabia",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia montana (**)",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Machupo",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia typhi (Rickettsia mooseri) ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Flexal",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia prowazekii ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Altri Virus del Complesso Tacaribe",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia rickettsii ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Astroviridae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia tsutsugamushi ",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Bhanja",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Rickettsia spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Virus Bunyamwera",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella arizonae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Germiston",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella enteritidis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Oropouche",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella typhimurium ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'encefalite Californiana",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella paratyphi A, B, C  V",
-    "Classificazione": 2,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Hantaan (febbre emorragica coreana)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella typhi (**) V",
-    "Classificazione": 3,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Belgrado (noto anche come Dobrava)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Salmonella (altre varietà sierologiche) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Seoul-Virus",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Serpulina spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Sin Nombre (ex Muerto Canyon)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Shigella boydii ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Puumala-Virus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Shigella dysenteriae (Tipo 1) (**) T",
-    "Classificazione": 3,
-    "Vaccino": "",
-    "Tossine": "S",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Prospect Hill-Virus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Shigella dysenteriae, diverso dal Tipo 1 ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Altri Hantavirus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Shigella flexneri ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus della febbre emorragica di Crimea/Congo",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Shigella sonnei ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Hazara",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Staphylococcus aureus  ",
-    "Classificazione": null,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Febbre della Valle del Rift 3",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Streptobacillus moniliformis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Febbre da Flebotomi",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Streptococcus pneumoniae ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Toscana",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Streptocoocus pyogenes ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Altri bunyavirus noti come patogeni",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Streptococcus spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite E 3",
+    "Classificazione": "(**)"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Streptococcus suis ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Norwalk-Virus",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Treponema carateum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Altri Caliciviridae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Treponema pallidum ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Coronaviridae",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Treponema pertenue ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus Ebola",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Treponema spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Virus di Marburg",
+    "Classificazione": 4
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Vibrio cholerae (incluso El Tor) ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Encefalite d'Australia (Encefalite della Valle Murray)",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Vibrio parahaemolyticus ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'encefalite da zecca dell'Europa Centrale 3(**)",
+    "Classificazione": "V"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Vibrio spp ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Tipologia": "Virus",
+    "Agente": "Absettarov",
+    "Classificazione": 3
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Yersinia enterocolitica ",
-    "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Hanzalova",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Hypr",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Kumlinge",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della dengue tipi 1-4",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite C 3(**)",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite G 3(**)",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalite B giapponese 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Foresta di Kyasanur 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Louping ill 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Omsk (a) 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Powassan",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Rocio",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalite verno-estiva russa (a) 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalite di St. Louis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Wesselsbron 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della Valle del Nilo",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Febbre gialla 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Altri flavivirus noti per essere patogeni",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite B 3(**) V",
+    "Classificazione": "",
+    "Vaccino": "D"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Yersinia pestis  V",
-    "Classificazione": 3,
-    "Vaccino": "S",
-    "Tossine": "",
-    "SPP": ""
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite D (Delta) (b) 3(**) V",
+    "Classificazione": "",
+    "Vaccino": "D"
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Yersinia pseudotuberculosis ",
+    "Tipologia": "Virus",
+    "Agente": "Cytomegalovirus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus d'Epstein-Barr",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Herpesvirus simiae (B virus)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Herpes simplex virus tipi 1 e 2",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Herpesvirus varicella-zoster",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Herpes dell'uomo tipo 7",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Herpes dell'uomo tipo 8 2",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus linfotropo B dell'uomo (HBLV-HHV6)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Influenzale tipi A B e C",
     "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": ""
+    "Vaccino": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Orthomyxoviridae trasmesse delle zecche: Virus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Dhori e Thogoto",
+    "Classificazione": ""
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus BK e JC 2 D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Papillomavirus dell'uomo 2 D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus del morbillo 2",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della parotite 2",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della malattia di Newcastle",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus parainfluenzali tipi 1-4",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus respiratorio sinciziale",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Parvovirus dell'uomo (B 19)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della congiuntivite emorragica (AHC)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Coxackie",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Echo",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite A (enterovirus dell'uomo 72) 2",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della poliomelite 2",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Rhinovirus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Buffalopox virus (e)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Cowpox virus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Elephantpox virus (f)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus del nodulo dei mungitori",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Molluscum contagiosum virus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Monkeypox virus 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Orf virus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Rabbitpox virus (g)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Vaccinia virus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Variola (mayor & minor) virus 4",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Whitepox virus (variola virus) 4",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Yatapox virus (Tana & Yaba)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Coltivirus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Rotavirus umano",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Orbivirus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Reovirus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della sindrome di immunodeficienza umana 3(**)",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "(AIDS",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus di leucemie umane a cellule T (HTLV) tipi 1 e 2 3(**)",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "SIV (h) 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della rabbia 3(**)",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della stomatite vescicolosa",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalomielite equina dell'America dell'est 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Bebaru",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Chikungunya 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Everglades 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Mayaro",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Mucambo 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Ndumu",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus O'nyong-nyong",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus del fiume Ross",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus della foresta di Semliki",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Sindbis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus Tonate 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalomielite equina del Venezuela 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalomielite equina dell'America dell'Ovest 3",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Altri alfavirus noti",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Rubivirus (rubella) 2",
+    "Classificazione": "V"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Virus dell'epatite non ancora identificati 3(**)",
+    "Classificazione": "D"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Morbillivirus equino",
+    "Classificazione": 4
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Morbo di Creutzfeldt-Jakob 3(**) D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Variante del morbo di Creutzfeldt-Jacob 3(**) D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Encefalite spongiforme bovina (BSE) ed altre TSE degli animali a queste associato 3(**) D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Sindrome di Gerstmann-Stráussler-Scheinker 3(**) D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Virus",
+    "Agente": "Kuru 3(**) D(d",
+    "Classificazione": ")"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Acanthamoeba castellanii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Ancylostoma duodenale",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Angiostrongylus cantonensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Angiostrongylus costaricensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Ascaris lumbricoides 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Ascaris suum 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Babesia divergens",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Babesia microti",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Balantidium coli",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Brugia malayi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Brugia pahangi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Capillaria philippinensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Capillaria spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Clonorchis sinensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Clonorchis viverrini",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Cryptosporidium parvum",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Cryptosporidium spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Cyclospora cayetanensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Dipetalonema streptocerca",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Diphyllobothrium latum",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Dracunculus medinensis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Echinococcus granulosus 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Echinococcus multilocularis 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Echinococcus vogeli 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Entamoeba histolytica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Fasciola gigantica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Fasciola hepatica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Fasciolopsis buski",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Giardia lamblia (Giardia intestinalis)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Hymenolepis diminuta",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Hymenolepis nana",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania brasiliensis 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania donovani 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania aethiopica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania mexicana",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania peruviana",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania tropica",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania major",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Leishmania spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Loa Loa",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Mansonella ozzardi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Mansonella perstans",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Naegleria fowleri",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Necator americanus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Onchocerca volvulus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Opisthorchis felineus",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Opisthorchis spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Paragonimus westermani",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Plasmodium falciparum 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Plasmodium spp (uomo & scimmia)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Sarcocystis suihominis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Schistosoma haematobium",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Schistosoma intercalatum",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Schistosoma japonicum",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Schistosoma mansoni",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Shistosoma mekongi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Strongyloides stercoralis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Strongyloides spp",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Taenia saginata",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Taenia solium 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Toxocara canis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Toxoplasma gondii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trichinella spiralis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trichuris trichiura",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trypanosoma brucei brucei",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trypanosoma brucei gambiense",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trypanosoma brucei rhodesiense 3",
+    "Classificazione": "(**)"
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Trypanosoma cruzi",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Parassita",
+    "Agente": "Wuchereria bancrofti",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Aspergillus fumigatus 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Blastomyces dermatitidis (Ajellomyces dermatitidis)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Candida albicans 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Candida tropicalis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Cladophialophora bantiana (es. Xylohypha bantiana Cladosporium bantianum o trichoides)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Coccidioides immitis 3",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans) 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Cryptococcus neoformans var. gattii (Filobasidiella bacillispora) 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Emmonsia parva var. parva",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Emmonsia parva var. crescens",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Epidermophyton floccosum 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Fonsecaea compacta",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Fonsecaea pedrosoi",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Histoplasma capsulatum var. capsulatum (Ajellomyces capsulatum)",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Histoplasma capsulatum duboisii",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Madurella grisea",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Madurella mycetomatis",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Microsporum spp 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Neotestudina rosatii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Paracoccidioides brasiliensis",
+    "Classificazione": 3
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Penicillium marneffei 2",
+    "Classificazione": "A"
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Scedosporium apiospermum Pseudallescheria boydii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Scedosporium prolificans (inflantum)",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Sporothrix schenckii",
+    "Classificazione": 2
+  },
+  {
+    "Tipologia": "Fungo",
+    "Agente": "Trichophyton rubrum",
+    "Classificazione": 2
   },
   {
-    "Tipologia": "Batteri",
-    "Agente": "Yersinia spp  ",
+    "Tipologia": "Fungo",
+    "Agente": "Trichophyton spp",
     "Classificazione": 2,
-    "Vaccino": "",
-    "Tossine": "",
-    "SPP": "S"
+    "Vaccino": ""
   }
 ]

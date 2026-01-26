@@ -56,19 +56,39 @@ const App = (function () {
 
     // Funzione privata per la visualizzazione nella tabella degli agenti biologici
 
-    function mostraAgenti(righe) {
+    function mostraAgenti(righeJSON) {
         let html;
+        let icona;
         const $tbody = $('#jsonAgenti');
         $tbody.empty();
 
-        righe.forEach(riga => {
+        righeJSON.forEach(riga => {
+
+            switch (riga.Tipologia) {
+                case "Batterio":
+                    icona ='<i class="fa-solid fa-bacteria"></i>';
+                    break;
+                case "Parassita":
+                    icona ='<i class="fa-solid fa-bug"></i>';
+                    break;
+                case "Virus":
+                    icona = '<i class="fa-solid fa-viruses"></i>'
+                    break;
+                case "Fungo":
+                    icona ='<i class="fa-solid fa-atom"></i>'
+                    break;
+                default:
+                    icona ='<i class="fa-solid fa-question"></i>'
+                    break;
+            }
+
             html += `<tr>
-                         <td>${riga.Tipologia}</td>
-                         <td>${riga.Agente}</td>
-                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
-                         <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
-                         </td>
-                         </tr>`;
+                        <td>${riga.Tipologia}<br>${icona}</td>
+                        <td>${riga.Agente}</td>
+                        <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
+                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
+                        </td>
+                    </tr>`;
         });
 
         $tbody.html(html);
