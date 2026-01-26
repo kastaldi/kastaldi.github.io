@@ -16,11 +16,9 @@ body {
     margin: 0;
 }
 
-h1,
 h2 {
-    padding-left: 16px;
-    padding-right: 16px;
     color: light-dark(blue, deepskyblue);
+    width: 70%;
 }
 
 li {
