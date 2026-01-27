@@ -23,11 +23,6 @@
         <!-- </span>
         </header> -->
 
-        <header>
-            <button id="chiaro"><i class="fa-regular fa-lightbulb fa-xl"></i></button>
-            <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
-        </header>
-
         <nav>
             <div id="s1" class="tab">INTRODUZIONE</div>
             <div id="s2" class="tab">NORMATIVA</div>
@@ -37,6 +32,10 @@
         </nav>
 
         <aside>
+            <div class="tema">
+                <button id="chiaro"><i class="fa-regular fa-lightbulb fa-xl"></i></button>
+                <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
+            </div>
             <!-- SEZIONE INTRODUZIONE AL RISCHIO BIOLOGICO -->
             <section id="introduzione" class="sezione attivo">
                 <h2>Valutazione del rischio da agenti biologici</h2>
@@ -78,7 +77,7 @@
                         legislativo 81/08</a>
                     disciplina la protezione dei lavoratori contro i rischi
                     derivanti da agenti biologici nel <strong>Titolo X</strong>,
-                    articoli da 266 a 286. Cliccare sui titoli degli articoli per mostrare il testo.
+                    articoli da 266 a 286. Selezionare i titoli degli articoli per mostrare il testo.
                 </p>
                 <div class="scheda">
                     <p class="articolo" id="art266">Art. 266 - Campo di applicazione</p>
@@ -184,7 +183,6 @@
             <!-- SEZIONE AGENTI BIOLOGICI -->
             <section id="agenti" class="sezione">
                 <h2>Classificazione degli agenti biologici</h2>
-                <div class="scheda">
                 <table class="gruppi">
                     <tr>
                         <th>Gruppo</th>
@@ -207,7 +205,6 @@
                         <td>Altissimo rischio, nessuna terapia efficace</td>
                     </tr>
                 </table>
-                </div>
                 <div>
                     <div class="gruppoFiltro">
                         <input type="text" id="stringaFiltro" placeholder="Filtra per agente...">

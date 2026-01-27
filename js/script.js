@@ -48,7 +48,7 @@ const App = (function () {
     function calcolaRischio(gravita, probabilita) {
         if (gravita && probabilita) {
             const rischio = gravita * probabilita;
-            $(".rischio1, .rischio2, .rischio3, rischio4").removeClass("selezionato");
+            $(".rischio1, .rischio2, .rischio3, .rischio4").removeClass("selezionato");
             $("#m" + probabilita + gravita).addClass("selezionato");
             $("#rischio-calcolato").text(rischio);
         }

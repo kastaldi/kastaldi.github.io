@@ -62,12 +62,6 @@ main {
     flex-direction: row;
 }
 
-header {
-    position: fixed;
-    right: 5px;
-    top: 5px;
-}
-
 /* .intestazione {
     font-size: 1em;
     text-align: center;
@@ -75,7 +69,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
 } */
-
 
 nav {
     /* position: fixed; */
@@ -102,6 +95,13 @@ aside {
     overflow: auto;
     max-width: 1080px;
     /* min-width: 400px; */
+    position: relative;
+}
+
+.tema {
+    padding: 5px;
+    position: fixed;
+    top: 0;
 }
 
 /* .sezione {
@@ -125,15 +125,15 @@ aside {
 }
 
 div.scheda {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: light-dark(var(--th-light),var(--th-dark));
+    border-color: light-dark(var(--th-light), var(--th-dark));
     border-radius: 6px;
     border-style: solid;
     border-width: 1px;
     margin-bottom: 1rem;
-    width: 85%;
+    width: 70%;
 }
 
 #normativa p.testo {
@@ -225,8 +225,8 @@ table th {
 .matrice th {
     color: light-dark(var(--testo-light), var(--testo-dark));
     font-weight: bold;
-    height:2rem;
-    width: 2rem;
+    /* height:2rem; */
+    /* width: 2rem; */
 }
 
 .matrice td:first-of-type {
@@ -304,23 +304,32 @@ table th {
 table .rischio1,
 table .gruppo1 {
     background-color: green;
+    height: 2rem;
+    width: 2rem;
 }
 
 table .rischio2,
 table .gruppo2 {
     background-color: yellow;
     color: black;
+    height: 2rem;
+    width: 2rem;
+
 }
 
 table .rischio3,
 table .gruppo3 {
     background-color: red;
+    height: 2rem;
+    width: 2rem;
 }
 
 table .rischio4,
 table .gruppo4 {
     background-color: #222222;
     color: white;
+    height: 2rem;
+    width: 2rem;
 }
 
 /* stile della sezione PDF e del QR code */
@@ -362,11 +371,10 @@ table .gruppo4 {
         font-size: 1rem;
     }
 
-    table th,
+    /* table th,
     table td {
         padding: 5px;
-    }
-
+    } */
 
     .vaccino {
         font-size: 1.3rem;
@@ -375,6 +383,10 @@ table .gruppo4 {
     p {
         font-size: 1rem;
         max-width: 85%;
+    }
+
+    div.scheda {
+        width: 85%;
     }
 
     /* .container {
