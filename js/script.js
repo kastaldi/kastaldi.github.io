@@ -19,14 +19,16 @@ const App = (function () {
 
     // Funzione privata per mostrare la Sezione
     function mostraSezione(pulsante) {
-        const idSezione = tabMapping[pulsante.target.id];
+        // Usa currentTarget per prendere l'ID del pulsante .tab
+        const target = pulsante.currentTarget;
+        const idSezione = tabMapping[target.id];
 
         $('.sezione').hide("slow");
         $('.tab').removeClass('attivo');
 
         $('#' + idSezione).show("slow");
         $('#' + idSezione).css('display', 'flex');
-        $(pulsante.target).addClass('attivo');
+        $(target).addClass('attivo');
     }
 
     // Funzioni private per tema
@@ -55,7 +57,6 @@ const App = (function () {
     }
 
     // Funzione privata per la visualizzazione nella tabella degli agenti biologici
-
     function mostraAgenti(righeJSON) {
         let html = '';
         let icona;
@@ -63,22 +64,22 @@ const App = (function () {
         $tbody.empty();
 
         righeJSON.forEach(riga => {
-
+            // Aggiunge le icone degli agenti biologici
             switch (riga.Tipologia) {
                 case "Batterio":
-                    icona ='<i class="fa-solid fa-bacteria" aria-hidden="true"></i>';
+                    icona = '<i class="fa-solid fa-bacteria" aria-hidden="true"></i>';
                     break;
                 case "Parassita":
-                    icona ='<i class="fa-solid fa-bug" aria-hidden="true"></i>';
+                    icona = '<i class="fa-solid fa-bug" aria-hidden="true"></i>';
                     break;
                 case "Virus":
                     icona = '<i class="fa-solid fa-viruses" aria-hidden="true"></i>'
                     break;
                 case "Fungo":
-                    icona ='<i class="fa-solid fa-atom" aria-hidden="true"></i>'
+                    icona = '<i class="fa-solid fa-atom" aria-hidden="true"></i>'
                     break;
                 default:
-                    icona ='<i class="fa-solid fa-question" aria-hidden="true"></i>'
+                    icona = '<i class="fa-solid fa-question" aria-hidden="true"></i>'
                     break;
             }
 
@@ -131,22 +132,24 @@ const App = (function () {
         $.getJSON(fileJSON, function (dati) {
             datiJSON = dati;
             mostraAgenti(datiJSON);
+        }).fail(function () {
+            console.error("Errore nel caricamento del file JSON.");
+            $('#jsonAgenti').html("<tr><td colspan='4'>Impossibile caricare i dati degli agenti.</td></tr>");
         });
 
-        // let table = new DataTable('#elencoAgenti');
-
-        // Assegna event listener alla casella per filtrare gli agenti
-        // e chiama la stessa funzione di manipolazione DOM
-        $('#filtroAgente').on('click', function () {
+        // Funzione per applicare il filtro (definita qui per riutilizzo)
+        function applicaFiltro() {
             const stringa = $('#stringaFiltro').val().toLowerCase();
-
             const filtrati = datiJSON.filter(r =>
-                // r.Tipologia.toLowerCase().includes(val) ||
                 r.Agente.toLowerCase().includes(stringa)
             );
-
             mostraAgenti(filtrati);
-        });
+        }
+
+        // Assegna event listener sia al click del pulsante 
+        // che all'input nella digitazione
+        $('#filtroAgente').on('click', applicaFiltro);
+        $('#stringaFiltro').on('input', applicaFiltro);
 
         $('#cancFiltroAgente').on('click', function () {
             $('#stringaFiltro').val('');
@@ -172,7 +175,7 @@ const App = (function () {
         // Crea il qrcode in maniera dinamica
         $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
 
-        //Aggancia il link al file PDF
+        //Aggancia al pulsante download il link al file PDF
         $('.download a').attr('href', linkPDF);
     }
 
@@ -182,7 +185,7 @@ const App = (function () {
     };
 })();
 
-// Inizializza l'app web (assegnazione listener, etc. solo quando 
+// Inizializza l'app web (assegnazione listener, etc.) solo quando 
 // il DOM è completamente renderizzato
 $(document).ready(function () {
     App.init();
