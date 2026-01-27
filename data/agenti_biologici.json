@@ -366,8 +366,9 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Mycobacterium africanum 3",
-    "Classificazione": "V"
+    "Agente": "Mycobacterium africanum",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
@@ -376,8 +377,9 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Mycobacterium bovis (ad eccezione del ceppo BCG) 3",
-    "Classificazione": "V"
+    "Agente": "Mycobacterium bovis (ad eccezione del ceppo BCG)",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
@@ -997,18 +999,20 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalite B giapponese 3",
-    "Classificazione": "V"
+    "Agente": "Encefalite B giapponese",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Foresta di Kyasanur 3",
-    "Classificazione": "V"
+    "Agente": "Foresta di Kyasanur",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
     "Agente": "Louping ill",
-    "Classificazione": "3)"
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
