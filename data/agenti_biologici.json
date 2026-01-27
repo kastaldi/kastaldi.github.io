@@ -172,8 +172,8 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Clostridium botulinum 2",
-    "Classificazione": "T"
+    "Agente": "Clostridium botulinum",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Batterio",
@@ -182,8 +182,8 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Clostridium tetani 2 T",
-    "Classificazione": "",
+    "Agente": "Clostridium tetani",
+    "Classificazione": "2",
     "Vaccino": "V"
   },
   {
@@ -193,8 +193,8 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Corynebacterium diphtheriae 2 T",
-    "Classificazione": "",
+    "Agente": "Corynebacterium diphtheriae",
+    "Classificazione": "2",
     "Vaccino": "V"
   },
   {
@@ -244,12 +244,12 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Enterobacter spp",
+    "Agente": "Enterobacter",
     "Classificazione": 2
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Enterococcus spp",
+    "Agente": "Enterococcus",
     "Classificazione": 2
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Haemophilus spp",
+    "Agente": "Haemophilus",
     "Classificazione": 2
   },
   {
@@ -411,8 +411,8 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Mycobacterium microti 3",
-    "Classificazione": "(**)"
+    "Agente": "Mycobacterium microti",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Batterio",
@@ -436,12 +436,13 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Mycobacterium tuberculosis 3",
-    "Classificazione": "V"
+    "Agente": "Mycobacterium tuberculosis",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Mycobacterium ulcerans 3",
+    "Agente": "Mycobacterium ulcerans",
     "Classificazione": 3
   },
   {
@@ -471,8 +472,9 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Neisseria meningitidis 2",
-    "Classificazione": "V"
+    "Agente": "Neisseria meningitidis",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
@@ -631,14 +633,14 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Salmonella paratyphi A",
-    "Classificazione": "B",
-    "Vaccino": "C 2"
+    "Agente": "Salmonella paratyphi A B C",
+    "Classificazione": 2
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Salmonella typhi 3(**)",
-    "Classificazione": "V"
+    "Agente": "Salmonella typhi",
+    "Classificazione": 3,
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
@@ -657,8 +659,8 @@
   },
   {
     "Tipologia": "Batterio",
-    "Agente": "Shigella dysenteriae (Tipo 1) 3(**)",
-    "Classificazione": "T"
+    "Agente": "Shigella dysenteriae (Tipo 1)",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Batterio",
@@ -748,7 +750,8 @@
   {
     "Tipologia": "Batterio",
     "Agente": "Yersinia pestis 3",
-    "Classificazione": "V"
+    "Classificazione": 3,
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Batterio",
@@ -897,8 +900,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Febbre della Valle del Rift 3",
-    "Classificazione": "V"
+    "Agente": "Febbre della Valle del Rift",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -917,8 +921,8 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite E 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus dell'epatite E",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -952,8 +956,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'encefalite da zecca dell'Europa Centrale 3(**)",
-    "Classificazione": "V"
+    "Agente": "Virus dell'encefalite da zecca dell'Europa Centrale",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -982,13 +987,13 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite C 3(**)",
-    "Classificazione": "D"
+    "Agente": "Virus dell'epatite C",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite G 3(**)",
-    "Classificazione": "D"
+    "Agente": "Virus dell'epatite G",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -1002,13 +1007,14 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Louping ill 3",
-    "Classificazione": "(**)"
+    "Agente": "Louping ill",
+    "Classificazione": "3)"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Omsk (a) 3",
-    "Classificazione": "V"
+    "Agente": "Omsk (a)",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1022,8 +1028,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalite verno-estiva russa (a) 3",
-    "Classificazione": "V"
+    "Agente": "Encefalite verno-estiva russa",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1032,8 +1039,8 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Wesselsbron 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus Wesselsbron",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -1042,8 +1049,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Febbre gialla 3",
-    "Classificazione": "V"
+    "Agente": "Febbre gialla",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1052,15 +1060,15 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite B 3(**) V",
-    "Classificazione": "",
-    "Vaccino": "D"
+    "Agente": "Virus dell'epatite B",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite D (Delta) (b) 3(**) V",
-    "Classificazione": "",
-    "Vaccino": "D"
+    "Agente": "Virus dell'epatite D (Delta)",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1094,8 +1102,8 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Herpes dell'uomo tipo 8 2",
-    "Classificazione": "D"
+    "Agente": "Virus Herpes dell'uomo tipo 8",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Virus",
@@ -1110,33 +1118,30 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Orthomyxoviridae trasmesse delle zecche: Virus",
+    "Agente": "Orthomyxoviridae trasmesse delle zecche: Virus Dhori e Thogoto",
     "Classificazione": 2
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Dhori e Thogoto",
-    "Classificazione": ""
+    "Agente": "Virus BK e JC",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus BK e JC 2 D(d",
-    "Classificazione": ")"
+    "Agente": "Papillomavirus dell'uomo",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Papillomavirus dell'uomo 2 D(d",
-    "Classificazione": ")"
+    "Agente": "Virus del morbillo",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus del morbillo 2",
-    "Classificazione": "V"
-  },
-  {
-    "Tipologia": "Virus",
-    "Agente": "Virus della parotite 2",
-    "Classificazione": "V"
+    "Agente": "Virus della parotite",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1175,13 +1180,15 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite A (enterovirus dell'uomo 72) 2",
-    "Classificazione": "V"
+    "Agente": "Virus dell'epatite A (enterovirus dell'uomo 72)",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus della poliomelite 2",
-    "Classificazione": "V"
+    "Agente": "Virus della poliomelite",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1190,7 +1197,7 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Buffalopox virus (e)",
+    "Agente": "Buffalopox virus",
     "Classificazione": 2
   },
   {
@@ -1200,7 +1207,7 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Elephantpox virus (f)",
+    "Agente": "Elephantpox virus",
     "Classificazione": 2
   },
   {
@@ -1215,8 +1222,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Monkeypox virus 3",
-    "Classificazione": "V"
+    "Agente": "Monkeypox virus",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1225,7 +1233,7 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Rabbitpox virus (g)",
+    "Agente": "Rabbitpox virus",
     "Classificazione": 2
   },
   {
@@ -1235,13 +1243,15 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Variola (mayor & minor) virus 4",
-    "Classificazione": "V"
+    "Agente": "Variola (mayor & minor) virus",
+    "Classificazione": "4",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Whitepox virus (variola virus) 4",
-    "Classificazione": "V"
+    "Agente": "Whitepox virus (variola virus)",
+    "Classificazione": "4",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1270,28 +1280,24 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus della sindrome di immunodeficienza umana 3(**)",
-    "Classificazione": "D"
+    "Agente": "Virus della sindrome di immunodeficienza umana (AIDS)",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "(AIDS",
-    "Classificazione": ")"
+    "Agente": "Virus di leucemie umane a cellule T (HTLV) tipi 1 e 2",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus di leucemie umane a cellule T (HTLV) tipi 1 e 2 3(**)",
-    "Classificazione": "D"
+    "Agente": "SIV",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "SIV (h) 3",
-    "Classificazione": "(**)"
-  },
-  {
-    "Tipologia": "Virus",
-    "Agente": "Virus della rabbia 3(**)",
-    "Classificazione": "V"
+    "Agente": "Virus della rabbia",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1300,8 +1306,9 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalomielite equina dell'America dell'est 3",
-    "Classificazione": "V"
+    "Agente": "Encefalomielite equina dell'America dell'est",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1310,13 +1317,13 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Chikungunya 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus Chikungunya",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Everglades 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus Everglades",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -1325,8 +1332,8 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Mucambo 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus Mucambo",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -1355,18 +1362,20 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus Tonate 3",
-    "Classificazione": "(**)"
+    "Agente": "Virus Tonate",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalomielite equina del Venezuela 3",
-    "Classificazione": "V"
+    "Agente": "Encefalomielite equina del Venezuela",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalomielite equina dell'America dell'Ovest 3",
-    "Classificazione": "V"
+    "Agente": "Encefalomielite equina dell'America dell'Ovest",
+    "Classificazione": "3",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
@@ -1375,13 +1384,14 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Rubivirus (rubella) 2",
-    "Classificazione": "V"
+    "Agente": "Rubivirus (rubella)",
+    "Classificazione": "2",
+    "Vaccino": "V"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Virus dell'epatite non ancora identificati 3(**)",
-    "Classificazione": "D"
+    "Agente": "Virus dell'epatite non ancora identificati",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
@@ -1390,28 +1400,28 @@
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Morbo di Creutzfeldt-Jakob 3(**) D(d",
-    "Classificazione": ")"
+    "Agente": "Morbo di Creutzfeldt-Jakob",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Variante del morbo di Creutzfeldt-Jacob 3(**) D(d",
-    "Classificazione": ")"
+    "Agente": "Variante del morbo di Creutzfeldt-Jacob",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Encefalite spongiforme bovina (BSE) ed altre TSE degli animali a queste associato 3(**) D(d",
-    "Classificazione": ")"
+    "Agente": "Encefalite spongiforme bovina (BSE) ed altre TSE degli animali a queste associato",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Sindrome di Gerstmann-Stráussler-Scheinker 3(**) D(d",
-    "Classificazione": ")"
+    "Agente": "Sindrome di Gerstmann-Stráussler-Scheinker",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Virus",
-    "Agente": "Kuru 3(**) D(d",
-    "Classificazione": ")"
+    "Agente": "Kuru",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1435,13 +1445,13 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Ascaris lumbricoides 2",
-    "Classificazione": "A"
+    "Agente": "Ascaris lumbricoides",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Ascaris suum 2",
-    "Classificazione": "A"
+    "Agente": "Ascaris suum",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Parassita",
@@ -1520,18 +1530,18 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Echinococcus granulosus 3",
-    "Classificazione": "(**)"
+    "Agente": "Echinococcus granulosus",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Echinococcus multilocularis 3",
-    "Classificazione": "(**)"
+    "Agente": "Echinococcus multilocularis",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Echinococcus vogeli 3",
-    "Classificazione": "(**)"
+    "Agente": "Echinococcus vogeli",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1570,13 +1580,13 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Leishmania brasiliensis 3",
-    "Classificazione": "(**)"
+    "Agente": "Leishmania brasiliensis",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Leishmania donovani 3",
-    "Classificazione": "(**)"
+    "Agente": "Leishmania donovani",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1655,8 +1665,8 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Plasmodium falciparum 3",
-    "Classificazione": "(**)"
+    "Agente": "Plasmodium falciparum",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1710,8 +1720,8 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Taenia solium 3",
-    "Classificazione": "(**)"
+    "Agente": "Taenia solium",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1745,8 +1755,8 @@
   },
   {
     "Tipologia": "Parassita",
-    "Agente": "Trypanosoma brucei rhodesiense 3",
-    "Classificazione": "(**)"
+    "Agente": "Trypanosoma brucei rhodesiense",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Parassita",
@@ -1760,8 +1770,8 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Aspergillus fumigatus 2",
-    "Classificazione": "A"
+    "Agente": "Aspergillus fumigatus",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1770,8 +1780,8 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Candida albicans 2",
-    "Classificazione": "A"
+    "Agente": "Candida albicans",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1785,18 +1795,18 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Coccidioides immitis 3",
-    "Classificazione": "A"
+    "Agente": "Coccidioides immitis",
+    "Classificazione": "3"
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans) 2",
-    "Classificazione": "A"
+    "Agente": "Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans)",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Cryptococcus neoformans var. gattii (Filobasidiella bacillispora) 2",
-    "Classificazione": "A"
+    "Agente": "Cryptococcus neoformans var. gattii (Filobasidiella bacillispora)",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1810,8 +1820,8 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Epidermophyton floccosum 2",
-    "Classificazione": "A"
+    "Agente": "Epidermophyton floccosum",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1845,8 +1855,8 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Microsporum spp 2",
-    "Classificazione": "A"
+    "Agente": "Microsporum spp",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1860,8 +1870,8 @@
   },
   {
     "Tipologia": "Fungo",
-    "Agente": "Penicillium marneffei 2",
-    "Classificazione": "A"
+    "Agente": "Penicillium marneffei",
+    "Classificazione": "2"
   },
   {
     "Tipologia": "Fungo",
@@ -1886,7 +1896,6 @@
   {
     "Tipologia": "Fungo",
     "Agente": "Trichophyton spp",
-    "Classificazione": 2,
-    "Vaccino": ""
+    "Classificazione": 2
   }
 ]
