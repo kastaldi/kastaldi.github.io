@@ -306,6 +306,7 @@ table .gruppo1 {
     background-color: green;
     height: 2rem;
     width: 2rem;
+    font-size: 1.5rem;
 }
 
 table .rischio2,
@@ -314,6 +315,7 @@ table .gruppo2 {
     color: black;
     height: 2rem;
     width: 2rem;
+    font-size: 1.5rem;
 
 }
 
@@ -322,6 +324,7 @@ table .gruppo3 {
     background-color: red;
     height: 2rem;
     width: 2rem;
+    font-size: 1.5rem;
 }
 
 table .rischio4,
@@ -330,6 +333,7 @@ table .gruppo4 {
     color: white;
     height: 2rem;
     width: 2rem;
+    font-size: 1.5rem;
 }
 
 /* stile della sezione PDF e del QR code */
