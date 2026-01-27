@@ -57,7 +57,7 @@ const App = (function () {
     // Funzione privata per la visualizzazione nella tabella degli agenti biologici
 
     function mostraAgenti(righeJSON) {
-        let html;
+        let html = '';
         let icona;
         const $tbody = $('#jsonAgenti');
         $tbody.empty();
