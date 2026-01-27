@@ -66,19 +66,19 @@ const App = (function () {
 
             switch (riga.Tipologia) {
                 case "Batterio":
-                    icona ='<i class="fa-solid fa-bacteria"></i>';
+                    icona ='<i class="fa-solid fa-bacteria" aria-hidden="true"></i>';
                     break;
                 case "Parassita":
-                    icona ='<i class="fa-solid fa-bug"></i>';
+                    icona ='<i class="fa-solid fa-bug" aria-hidden="true"></i>';
                     break;
                 case "Virus":
-                    icona = '<i class="fa-solid fa-viruses"></i>'
+                    icona = '<i class="fa-solid fa-viruses" aria-hidden="true"></i>'
                     break;
                 case "Fungo":
-                    icona ='<i class="fa-solid fa-atom"></i>'
+                    icona ='<i class="fa-solid fa-atom" aria-hidden="true"></i>'
                     break;
                 default:
-                    icona ='<i class="fa-solid fa-question"></i>'
+                    icona ='<i class="fa-solid fa-question" aria-hidden="true"></i>'
                     break;
             }
 
@@ -86,7 +86,7 @@ const App = (function () {
                         <td>${riga.Tipologia}<br>${icona}</td>
                         <td>${riga.Agente}</td>
                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
-                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;'></i>" : "")} 
+                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;' role='img' aria-label='Vaccino disponibile'></i>" : "")} 
                         </td>
                     </tr>`;
         });
