@@ -1,5 +1,3 @@
-/* TODO: mettere le variabili per colori chiaro/scuro */
-
 /* stile degli elementi globali */
 
 :root {
@@ -24,14 +22,10 @@ html {
 }
 
 body {
-    /* display: flex; */
-    /* flex-direction: column; */
     margin: 0;
-    /* align-items: center; */
 }
 
 h1 {
-    /* padding: 0; */
     margin: 0;
     color: light-dark(var(--h2-light), var(--h2-dark));
 }
@@ -55,11 +49,6 @@ p {
     text-align: center;
     font-weight: bold;
 }
-
-/* .articolo {
-    display: flex;
-    align-items: center;
-} */
 
 .paragrafo {
     text-align: justify;
@@ -85,25 +74,12 @@ header {
     top: 0;
     z-index: 1000;
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
-}   
-
-/* .intestazione {
-    font-size: 1em;
-    text-align: center;
-    padding: 0.5em;
-    flex-direction: row;
-    justify-content: space-between;
-} */
+}
 
 nav {
-    /* position: fixed; */
-    /* left: 0; */
-    /* top: 1em; */
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    /* z-index: 1000; */
-
     height: 100vh;
     min-height: 100%;
     overflow: auto;
@@ -115,35 +91,12 @@ aside {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
     width: 100%;
     align-items: center;
-    /* height: 100vh; */
-    /* min-height: 100%; */
-    /* overflow: auto; */
-    /* min-width: 400px; */
     position: relative;
 }
 
-/* .tema {
-    padding: 5px;
-    position: fixed;
-    top: 0;
-    right: 0;
-} */
-
-/* .sezione {
-    display: flex;
-}
-
-.sezione.attivo {
-    display: flex;
-    padding: 20px 20px 20px 20px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-} */
-
 .sezione {
     display: none;
-    padding: 20px 20px 20px 20px;
+    /* padding: 10px; */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -185,34 +138,6 @@ button {
     margin: 2px;
 }
 
-/* stile del contenuto della sidebar */
-
-/* .tab {
-    background-color: blue;
-    color: white;
-    padding: 12px 8px 12px 8px;
-    cursor: pointer;
-    border-radius: 8px 0 0 8px;
-
-    writing-mode: vertical-rl;
-
-    font-weight: bold;
-    text-align: center;
-
-    transform: rotate(180deg);
-    margin-right: 12px;
-    transition: margin-right 0.25s ease, padding-right 0.25s ease;
-} */
-
-/* .tab:hover,
-.tab.attivo {
-    filter: brightness(85%);
-    padding-right: 20px;
-    margin-right: 0;
-} */
-
-/* stile generico delle tabelle */
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -251,10 +176,6 @@ table th {
     /* margin-right: 5px; */
 }
 
-/* .matrice th:nth-of-type(1), .matrice th:nth-of-type(2) {
-    border: 0px;
-} */
-
 .matrice .vuoto {
     border: 0px;
 }
@@ -275,14 +196,6 @@ table th {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
-/* .gruppi td:first-of-type {
-    text-align: center;
-} */
-
-/* .gruppi th {
-    background-color: light-dark(lightgrey, #222222);
-} */
 
 /* stile specifico della tabella agenti */
 /* TODO: scrollare solo la tabella degli agenti e non tutta la schemata */
@@ -373,11 +286,9 @@ table .gruppo4 {
 }
 
 /* TODO: RESPONSIVE */
-/* TODO: rimpicciolire caratteri in normativa ed introduzione */
-/* TODO: ingrandire il check verde per il vaccino e cambiare colore con il tema */
-/* @media (max-width: 768px) { */
+@media (max-width: 768px) {
 
-@media (orientation: portrait) {
+/* @media (orientation: portrait) { */
 
     :root {
         font-size: 13px;
@@ -386,58 +297,35 @@ table .gruppo4 {
     table {
         width: 100%;
         border-collapse: collapse;
-        /* font-size: 12px; */
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
     }
 
-    /* table th,
-    table td {
-        padding: 5px;
-    } */
-
+    /* icona vaccino */
     .vaccino {
         font-size: 1.3rem;
     }
 
     p {
         font-size: 1rem;
-        max-width: 85%;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 90%;
     }
 
     h1 {
         font-size: 1.5rem;
     }
 
-    h2 {
-    }
-
     div.scheda {
-        width: 85%;
+        width: 90%;
     }
 
-    /* .container {
-                flex-direction: column;
-            }
-
-            .sidebar {
-                width: 100%;
-                display: flex;
-                overflow-x: auto;
-            }
-
-            .tab {
-                flex: 1;
-                text-align: center;
-                border-left: none;
-                border-bottom: 4px solid transparent;
-            }
-
-            .tab.active {
-                border-bottom: 4px solid #ffd700;
-            } */
+    .gruppi {
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
-
-
 
 .dropbtn {
     background-color: light-dark(var(--th-light), var(--th-dark));
@@ -469,9 +357,6 @@ table .gruppo4 {
     text-decoration: none;
     display: block;
     font-weight: bold;
-
-    /* background-color: blue; */
-    /* color: white; */
 }
 
 .dropdown-content div:hover {

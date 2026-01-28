@@ -10,7 +10,7 @@ const App = (function () {
 
     // Variabile privata per il mapping tra tab e sezioni
     const tabMapping = {
-        s1: 'introduzione',
+        s1: 'faq',
         s2: 'normativa',
         s3: 'agenti',
         s4: 'matrice',
