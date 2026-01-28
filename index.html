@@ -16,26 +16,36 @@
 
 <body>
     <main>
-        <!-- <header class="intestazione">
-            <span>VALUTAZIONE DEL RISCHIO</span>
-            <span> -->
-        <!-- <button id="auto">Auto</button> -->
-        <!-- </span>
-        </header> -->
 
-        <nav>
+        <header class="intestazione">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <div class="tab" id="s1">INTRODUZIONE</div>
+                    <div class="tab" id="s2">NORMATIVA</div>
+                    <div class="tab" id="s3">AGENTI BIOLOGICI</div>
+                    <div class="tab" id="s4">MATRICE DEL RISCHIO</div>
+                    <div class="tab" id="s5">PDF</div>
+                </div>
+            </div>
+            <div>
+                <h1>VALUTAZIONE&nbsp;DEL&nbsp;RISCHIO</h1>
+            </div>
+            <!-- <div class="tema"> -->
+            <button id="chiaro"><i class="fa-regular fa-lightbulb fa-xl"></i></button>
+            <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
+            <!-- </div> -->
+        </header>
+
+        <!-- <nav>
             <div id="s1" class="tab">INTRODUZIONE</div>
             <div id="s2" class="tab">NORMATIVA</div>
             <div id="s3" class="tab">AGENTI&nbsp;BIOLOGICI</div>
             <div id="s4" class="tab">MATRICE&nbsp;DEL&nbsp;RISCHIO</div>
             <div id="s5" class="tab">PDF</div>
-        </nav>
+        </nav> -->
 
         <aside>
-            <div class="tema">
-                <button id="chiaro"><i class="fa-regular fa-lightbulb fa-xl"></i></button>
-                <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
-            </div>
             <!-- SEZIONE INTRODUZIONE AL RISCHIO BIOLOGICO -->
             <section id="introduzione" class="sezione attivo">
                 <h2>Valutazione del rischio da agenti biologici</h2>
@@ -285,7 +295,7 @@
                 <h2>Documento PDF</h2>
                 <div id="qrcode"></div>
                 <div class="download">
-                    <a id="pdf"
+                    <a id="pdfLink"
                         href="https://drive.google.com/file/d/1oLhzSX3zh7SjplPVdW9LI7hraIkqNtdR/view?usp=sharing"
                         target="_blank" rel="noopener noreferrer">
                         Scarica il PDF

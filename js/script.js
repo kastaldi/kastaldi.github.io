@@ -24,11 +24,10 @@ const App = (function () {
         const idSezione = tabMapping[target.id];
 
         $('.sezione').hide("slow");
-        $('.tab').removeClass('attivo');
 
+        $('.dropdown-content').hide();
         $('#' + idSezione).show("slow");
         $('#' + idSezione).css('display', 'flex');
-        $(target).addClass('attivo');
     }
 
     // Funzioni private per tema
@@ -108,6 +107,20 @@ const App = (function () {
         const tema = localStorage.getItem("tema");
         if (tema === "scuro") temaScuro();
         else temaChiaro();
+
+        // Gestione menu dropdown al click
+        $('.dropbtn').on('click', function (event) {
+            $('.dropdown-content').toggle();
+            // Evita che il click si propaghi al document e chiuda subito il menu
+            event.stopPropagation();
+        });
+
+        // Nasconde il menu se si clicca in qualsiasi altro punto della pagina
+        $(document).on('click', function (event) {
+            if (!$(event.target).closest('.dropdown').length) {
+                $('.dropdown-content').hide();
+            }
+        });
 
         // Assegna event listener ai pulsanti della sidebar
         // che chiama la funzione mostraSezione per mostrare la sezione
