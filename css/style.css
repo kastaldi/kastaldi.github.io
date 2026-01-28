@@ -81,7 +81,11 @@ header {
     justify-content: space-between;
     height: min-content;
     align-items: center;
-}
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
+}   
 
 /* .intestazione {
     font-size: 1em;
@@ -111,9 +115,9 @@ aside {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
     width: 100%;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     /* min-height: 100%; */
-    overflow: auto;
+    /* overflow: auto; */
     /* min-width: 400px; */
     position: relative;
 }
