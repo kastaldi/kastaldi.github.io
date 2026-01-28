@@ -1,4 +1,4 @@
-// Modello archietturale: Module Pattern
+// Design Pattern: Module Pattern
 
 const App = (function () {
     // Link al file PDF
