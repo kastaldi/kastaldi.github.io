@@ -60,7 +60,6 @@ main {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    /* align-items: center; */
     max-width: 1080px;
     margin: 0 auto;
 }
@@ -289,7 +288,7 @@ table .gruppo4 {
 /* TODO: RESPONSIVE */
 @media (max-width: 768px) {
 
-/* @media (orientation: portrait) { */
+    /* @media (orientation: portrait) { */
 
     :root {
         font-size: 13px;
@@ -328,15 +327,15 @@ table .gruppo4 {
     }
 }
 
-.dropbtn {
-    background-color: light-dark(var(--th-light), var(--th-dark));
-    color: light-dark(var(--testo-light), var(--testo-dark));
-    padding: 16px;
+/* .dropbtn { */
+    /* background-color: light-dark(var(--th-light), var(--th-dark)); */
+    /* color: light-dark(var(--testo-light), var(--testo-dark)); */
+    /* padding: 16px; */
     /* padding: 16px; */
     /* font-size: 1rem; */
-    border: none;
-    cursor: pointer;
-}
+    /* border: none; */
+    /* cursor: pointer; */
+/* } */
 
 .dropdown {
     position: relative;
@@ -364,6 +363,13 @@ table .gruppo4 {
     background-color: gray;
 }
 
-.dropdown:hover .dropbtn {
+/* TODO: sistemare CSS e spostare */
+
+/* .dropdown:hover .dropbtn {
+    background-color: gray;
+} */
+button:hover {
     background-color: gray;
 }
+
+
