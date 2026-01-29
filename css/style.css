@@ -298,6 +298,10 @@ table .gruppo4 {
     font-size: 1.5rem;
 }
 
+.vaccino {
+    color: green;
+}
+
 /* stile della sezione PDF e del QR code */
 
 .download a {
@@ -332,7 +336,6 @@ table .gruppo4 {
     /* icona vaccino */
     .vaccino {
         font-size: 1.3rem;
-        color: green;
     }
 
     p {
