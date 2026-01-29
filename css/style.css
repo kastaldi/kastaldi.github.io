@@ -23,6 +23,7 @@ html {
 
 body {
     margin: 0;
+    background-color: grey;
 }
 
 h1 {
@@ -45,13 +46,10 @@ p {
     max-width: 70%;
 }
 
-.titolo {
-    text-align: center;
-    font-weight: bold;
-}
-
-.paragrafo {
-    text-align: justify;
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 2px;
 }
 
 /* stile degli elementi semantici */
@@ -94,6 +92,49 @@ aside {
     position: relative;
 }
 
+/* stile del menu a scomparsa e dei pulsanti del tema*/
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content div {
+    color: light-dark(var(--testo-light), var(--testo-dark));
+    background-color: light-dark(var(--th-light), var(--th-dark));
+    cursor: pointer;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content div:hover {
+    background-color: gray;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/* stile degli elementi delle sezioni */
+
+.titolo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.paragrafo {
+    text-align: justify;
+}
+
 .sezione {
     display: none;
     /* padding: 10px; */
@@ -130,13 +171,7 @@ div.scheda {
     cursor: pointer;
 }
 
-/* TODO: da rivedere per il px */
-
-button {
-    cursor: pointer;
-    padding: 10px;
-    margin: 2px;
-}
+/* stile globale delle tabelle */
 
 table {
     width: 100%;
@@ -197,7 +232,7 @@ table th {
     margin-bottom: 1rem;
 }
 
-/* stile specifico della tabella agenti */
+/* stile specifico della tabella agenti e del filtro */
 /* TODO: scrollare solo la tabella degli agenti e non tutta la schemata */
 
 .gruppoFiltro {
@@ -326,50 +361,4 @@ table .gruppo4 {
         margin-bottom: 1rem;
     }
 }
-
-/* .dropbtn { */
-    /* background-color: light-dark(var(--th-light), var(--th-dark)); */
-    /* color: light-dark(var(--testo-light), var(--testo-dark)); */
-    /* padding: 16px; */
-    /* padding: 16px; */
-    /* font-size: 1rem; */
-    /* border: none; */
-    /* cursor: pointer; */
-/* } */
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content div {
-    color: light-dark(var(--testo-light), var(--testo-dark));
-    background-color: light-dark(var(--th-light), var(--th-dark));
-    cursor: pointer;
-    padding: 12px 10px;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-}
-
-.dropdown-content div:hover {
-    background-color: gray;
-}
-
-/* TODO: sistemare CSS e spostare */
-
-/* .dropdown:hover .dropbtn {
-    background-color: gray;
-} */
-button:hover {
-    background-color: gray;
-}
-
 
