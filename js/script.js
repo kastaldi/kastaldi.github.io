@@ -18,9 +18,9 @@ const App = (function () {
     };
 
     // Funzione privata per mostrare la Sezione
-    function mostraSezione(pulsante) {
+    function mostraSezione(event) {
         // Usa currentTarget per prendere l'ID del pulsante .tab
-        const target = pulsante.currentTarget;
+        const target = event.currentTarget;
         const idSezione = tabMapping[target.id];
 
         $('.sezione').hide("slow");
@@ -63,22 +63,21 @@ const App = (function () {
         $tbody.empty();
 
         righeJSON.forEach(riga => {
-            // Aggiunge le icone degli agenti biologici
             switch (riga.Tipologia) {
                 case "Batterio":
-                    icona = '<i class="fa-solid fa-bacteria" aria-hidden="true"></i>';
+                    icona = '<i class="fa-solid fa-bacteria"></i>';
                     break;
                 case "Parassita":
-                    icona = '<i class="fa-solid fa-bug" aria-hidden="true"></i>';
+                    icona = '<i class="fa-solid fa-bug"></i>';
                     break;
                 case "Virus":
-                    icona = '<i class="fa-solid fa-viruses" aria-hidden="true"></i>'
+                    icona = '<i class="fa-solid fa-viruses"></i>'
                     break;
                 case "Fungo":
-                    icona = '<i class="fa-solid fa-atom" aria-hidden="true"></i>'
+                    icona = '<i class="fa-solid fa-atom"></i>'
                     break;
                 default:
-                    icona = '<i class="fa-solid fa-question" aria-hidden="true"></i>'
+                    icona = '<i class="fa-solid fa-question"></i>'
                     break;
             }
 
@@ -86,7 +85,7 @@ const App = (function () {
                         <td>${riga.Tipologia}<br>${icona}</td>
                         <td>${riga.Agente}</td>
                         <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
-                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check' style='color: green;' role='img' aria-label='Vaccino disponibile'></i>" : "")} 
+                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check'></i>" : "")} 
                         </td>
                     </tr>`;
         });
