@@ -2,7 +2,6 @@
 
 const App = (function () {
     // Link al file PDF
-    // const linkPDF = "https://kastaldi.github.io/il_rischio_biologico.pdf";
     const linkPDF = "https://drive.google.com/file/d/1oLhzSX3zh7SjplPVdW9LI7hraIkqNtdR/view?usp=sharing";
 
     // Percorso del file JSON contenente gli agenti biologici
@@ -10,8 +9,8 @@ const App = (function () {
 
     // Variabile privata per il mapping tra tab e sezioni
     const tabMapping = {
-        s1: 'faq',
-        s2: 'normativa',
+        s1: 'normativa',
+        s2: 'faq',
         s3: 'agenti',
         s4: 'matrice',
         s5: 'pdf'
@@ -109,7 +108,7 @@ const App = (function () {
         else temaChiaro();
 
         // Gestione menu dropdown al click
-        $('.dropbtn').on('click', function (event) {
+        $('.dropbutton').on('click', function (event) {
             $('.dropdown-content').toggle();
             // Evita che il click si propaghi al document e chiuda subito il menu
             event.stopPropagation();
