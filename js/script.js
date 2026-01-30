@@ -188,6 +188,9 @@ const App = (function () {
 
         //Aggancia al pulsante download il link al file PDF
         $('.download a').attr('href', linkPDF);
+
+        // Simula il click sulla prima tab per mostrare la sezione Normativa all'avvio
+        $('#s1').trigger('click');
     }
 
     // Interfaccia pubblica

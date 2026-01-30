@@ -316,12 +316,6 @@ table .gruppo4 {
     font-weight: bold;
 }
 
-#pdf {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #qrcode {
     padding: 20px;
 }
