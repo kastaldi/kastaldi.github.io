@@ -316,7 +316,9 @@ table .gruppo4 {
 }
 
 #pdf {
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #qrcode {
@@ -329,8 +331,8 @@ table .gruppo4 {
     }
 
     table {
-        width: 100%;
-        border-collapse: collapse;
+        display: block;
+        overflow-x: auto;
     }
 
     /* icona vaccino */
@@ -357,5 +359,14 @@ table .gruppo4 {
         width: 90%;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    #elencoAgenti th:nth-child(2) {
+        width: auto;
+    }
+
+    table td,
+    table th {
+        padding: 5px;
     }
 }
