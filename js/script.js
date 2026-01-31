@@ -7,25 +7,14 @@ const App = (function () {
     // Percorso del file JSON contenente gli agenti biologici
     const fileJSON = "data/agenti_biologici.json";
 
-    // Variabile privata per il mapping tra tab e sezioni
-    const tabMapping = {
-        s1: 'normativa',
-        s2: 'faq',
-        s3: 'agenti',
-        s4: 'matrice',
-        s5: 'pdf'
-    };
-
-    // Funzione privata per mostrare la Sezione
+    // Funzione privata per mostrare il contenuto dei vari tag <sezione>
     function mostraSezione(event) {
-        // Usa currentTarget per prendere l'ID del pulsante .tab
-        const target = event.currentTarget;
-        const idSezione = tabMapping[target.id];
+        const idSezione = $(this).attr('data-sezione');
 
         $('.sezione').hide("slow");
 
         $('.dropdown-content').hide();
-        $('#' + idSezione).show("slow");
+        $('#' + idSezione).show("slow")
         $('#' + idSezione).css('display', 'flex');
     }
 
@@ -44,6 +33,18 @@ const App = (function () {
         $("#chiaro").show();
     }
 
+    //Funzione privata per applicare il filtro sugli articoli della normativa
+    function applicaFltNormativa() {
+        const stringa = $('#strFltNormativa').val().toLowerCase();
+        $("#normativa .scheda").each(function () {
+            if ($(this).text().toLowerCase().includes(stringa)) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+    }
+
     // Funzione privata per il calcolo del rischio
     function calcolaRischio(gravita, probabilita) {
         if (gravita && probabilita) {
@@ -54,7 +55,7 @@ const App = (function () {
         }
     }
 
-    // Funzione privata per la visualizzazione nella tabella degli agenti biologici
+    // Funzione privata per il popolamento della tabella agenti biologici
     function mostraAgenti(righeJSON) {
         let html = '';
         let icona;
@@ -92,6 +93,15 @@ const App = (function () {
         $tbody.html(html);
     }
 
+    // Funzione privata per applicare il filtro sugli agenti
+    function applicaFltAgenti(righeJSON) {
+        const stringa = $('#strFltAgente').val().toLowerCase();
+        const filtrati = righeJSON.filter(r =>
+            r.Agente.toLowerCase().includes(stringa)
+        );
+        mostraAgenti(filtrati);
+    }
+
     // Funzione privata per l'inizializzazione
     function init() {
         // Variabili per memorizzare la gravita e la robabilta nella matrice del rischio
@@ -101,41 +111,66 @@ const App = (function () {
         // Variabile per memorizzare gli agenti caricati dal file JSON
         let datiJSON = [];
 
-        // Inizializza tema memorizzato in localStorage
+        // Inizializza tema colori memorizzato in localStorage
+        // TODO: includere anche tema automatico e slide bottone
         const tema = localStorage.getItem("tema");
-        if (tema === "scuro") temaScuro();
-        else temaChiaro();
 
-        // Gestione menu dropdown al click
+        switch (tema) {
+            case "scuro":
+                temaScuro();
+                break;
+            case "chiaro":
+                temaChiaro();
+                break;
+            default:
+                temaChiaro();
+                break;
+        }
+
+        // Event listener per mostrare o nascondere il menu dropdown
         $('.dropbutton').on('click', function (event) {
             $('.dropdown-content').toggle();
-            // Evita che il click si propaghi al document e chiuda subito il menu
-            event.stopPropagation();
+            // Evita che il click si propaghi al DOM e chiuda subito il menu
+            // TODO: da rivedere il funzionamento con altri test
+            // event.stopPropagation();
         });
 
-        // Nasconde il menu se si clicca in qualsiasi altro punto della pagina
+        // Event listener per nascondere il menu se si clicca in qualsiasi altro punto della pagina
         $(document).on('click', function (event) {
             if (!$(event.target).closest('.dropdown').length) {
                 $('.dropdown-content').hide();
             }
         });
 
-        // Assegna event listener ai pulsanti della sidebar
-        // che chiama la funzione mostraSezione per mostrare la sezione
+        // Event listener che chiama la funzione mostraSezione per mostrare la sezione
         // corrispondente al pulsante premuto
         $(".tab").on("click", mostraSezione);
 
-        // Assegna event listener ai pulsanti del tema
-        // che chiama la funziona temaChiaro o temaScuro
+        // Event listener che chiama la funziona temaChiaro o temaScuro
         // per cammbiare il set di colori della pagina web
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
-        // Assegna event listener per mostrare il testo degli articoli 
+        // Event listener per mostrare il testo degli articoli 
         // della normativa con animazione quando l'utente fa click 
         // sul titolo dell'articolo
         $("#normativa .articolo").on("click", function () {
             $("#" + $(this).attr("id") + "testo").toggle("slow");
+        });
+
+        // Event listener per applicare il filtro sugli articoli della normativa
+        $('#fltNormativa').on('click', function () { applicaFltNormativa(); });
+        $('#strFltNormativa').on('input', function () { applicaFltNormativa(); });
+
+        //Event listener per rimuovere il filtro e mostrare tutti gli agenti biologici
+        $('#cancFltNormativa').on('click', function () {
+            $('#strFltNormativa').val('');
+            $("#normativa .scheda").each(function () {
+                $(this).show();
+            });
+            $("#normativa .testo").each(function () {
+                $(this).hide();
+            });
         });
 
         // Carica gli agenti biologici nella variabile datiJSON
@@ -148,27 +183,24 @@ const App = (function () {
             $('#jsonAgenti').html("<tr><td colspan='4'>Impossibile caricare i dati degli agenti.</td></tr>");
         });
 
-        // Funzione per applicare il filtro (definita qui per riutilizzo)
-        function applicaFiltro() {
-            const stringa = $('#stringaFiltro').val().toLowerCase();
-            const filtrati = datiJSON.filter(r =>
-                r.Agente.toLowerCase().includes(stringa)
-            );
-            mostraAgenti(filtrati);
-        }
+        // Event listener per applicare il filtro sugli agenti biologici
+        $('#fltAgente').on('click', function () { applicaFltAgenti(datiJSON); });
+        $('#strFltAgente').on('input', function () { applicaFltAgenti(datiJSON); });
 
-        // Assegna event listener sia al click del pulsante 
-        // che all'input nella digitazione
-        $('#filtroAgente').on('click', applicaFiltro);
-        $('#stringaFiltro').on('input', applicaFiltro);
+        // Event listener per chiudere la tastiera virtuale quando si preme il segno di spunta (invio)
+        $('#strFltAgente').on('keypress', function (event) {
+            if (event.which === 13) {
+                $(this).blur();
+            }
+        });
 
-        $('#cancFiltroAgente').on('click', function () {
-            $('#stringaFiltro').val('');
+        //Event listener per rimuovere il filtro e mostrare tutti gli agenti biologici
+        $('#cancFltAgente').on('click', function () {
+            $('#strFltAgente').val('');
             mostraAgenti(datiJSON);
         });
 
-        // Assegna event listener alle celle della gravita 
-        // e della probabilita della matrice
+        // Event listener per la selezione della gravita e della probabilita della matrice
         $("#matrice .grav").on("click", function () {
             gravita = ($(this).attr("data-rischio"));
             $("#matrice .grav").removeClass("selezionato");
@@ -183,14 +215,14 @@ const App = (function () {
             calcolaRischio(gravita, probabilita);
         });
 
-        // Crea il qrcode in maniera dinamica
+        // Genera il qrcode a partire dalla variable linkPDF
         $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
 
-        //Aggancia al pulsante download il link al file PDF
+        //Aggancia al pulsante download la variabile con il link al file PDF
         $('.download a').attr('href', linkPDF);
 
         // Simula il click sulla prima tab per mostrare la sezione Normativa all'avvio
-        $('#s1').trigger('click');
+        $('#dd1').trigger('click');
     }
 
     // Interfaccia pubblica

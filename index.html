@@ -19,11 +19,11 @@
             <div class="dropdown">
                 <button class="dropbutton"><i class="fa-solid fa-bars fa-xl"></i></button>
                 <div class="dropdown-content">
-                    <div class="tab" id="s1">NORMATIVA</div>
-                    <div class="tab" id="s2">FAQ</div>
-                    <div class="tab" id="s3">AGENTI BIOLOGICI</div>
-                    <div class="tab" id="s4">MATRICE DEL RISCHIO</div>
-                    <div class="tab" id="s5">PDF</div>
+                    <div class="tab" id="dd1" data-sezione="normativa">NORMATIVA</div>
+                    <div class="tab" id="dd2" data-sezione="faq">FAQ</div>
+                    <div class="tab" id="dd3" data-sezione="agenti">AGENTI BIOLOGICI</div>
+                    <div class="tab" id="dd4" data-sezione="matrice">MATRICE DEL RISCHIO</div>
+                    <div class="tab" id="dd5" data-sezione="pdf">PDF</div>
                 </div>
             </div>
             <div>
@@ -54,7 +54,7 @@
                         dei principali pericoli per la salute e la
                         sicurezza dei lavoratori in tutti quei settori esposti ad
                         agenti biologici potenzialmente
-                        pericolosi. Tra le aziende più esposte a questi microorganismi
+                        pericolosi. Tra le strutture più esposte a questi microorganismi
                         ci sono quelle sanitarie.</p>
                 </div>
                 <div class="scheda">
@@ -77,8 +77,13 @@
                         legislativo 81/08</a>
                     disciplina la protezione dei lavoratori contro i rischi
                     derivanti da agenti biologici nel <strong>Titolo X</strong>.
-                    Selezionare i titoli degli articoli per mostrare il testo.
                 </p>
+                <div class="gruppoFiltro">
+                    <input type="text" id="strFltNormativa" placeholder="Filtra gli articoli..."
+                        title="Inserisci una termine">
+                    <button id="fltNormativa"><i class="fa-solid fa-filter"></i></button>
+                    <button id="cancFltNormativa"><i class="fa-solid fa-filter-circle-xmark"></i></button>
+                </div>
                 <div class="scheda">
                     <p class="articolo" id="art266">Art. 266 - Campo di applicazione</p>
                     <p id="art266testo" class="testo">
@@ -388,12 +393,12 @@
                     </tr>
                 </table>
                 <!-- TODO: aggiungere un wrapper e modificare il CSS per lo scroll in overflow-->
+                <div class="gruppoFiltro">
+                    <input type="text" id="strFltAgente" placeholder="Filtra per agente...">
+                    <button id="fltAgente"><i class="fa-solid fa-filter"></i></button>
+                    <button id="cancFltAgente"><i class="fa-solid fa-filter-circle-xmark"></i></button>
+                </div>
                 <div>
-                    <div class="gruppoFiltro">
-                        <input type="text" id="stringaFiltro" placeholder="Filtra per agente...">
-                        <button id="filtroAgente"><i class="fa-solid fa-filter"></i></button>
-                        <button id="cancFiltroAgente"><i class="fa-solid fa-filter-circle-xmark"></i></button>
-                    </div>
                     <table id="elencoAgenti" class="agenti">
                         <thead>
                             <tr>
