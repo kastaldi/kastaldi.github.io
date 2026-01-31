@@ -194,6 +194,12 @@ const App = (function () {
             }
         });
 
+        $('#strFltNormativa').on('keypress', function (event) {
+            if (event.which === 13) {
+                $(this).blur();
+            }
+        });
+
         //Event listener per rimuovere il filtro e mostrare tutti gli agenti biologici
         $('#cancFltAgente').on('click', function () {
             $('#strFltAgente').val('');
