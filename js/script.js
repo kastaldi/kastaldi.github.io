@@ -82,9 +82,11 @@ const App = (function () {
             }
 
             html += `<tr>
-                        <td>${riga.Tipologia}<br>${icona}</td>
+                        <td>${riga.Tipologia} ${icona}</td>
                         <td>${riga.Agente}</td>
-                        <td class='gruppo${riga.Classificazione}'>${riga.Classificazione}</td>
+                        <td>
+                            <div class='box-gruppo gruppo${riga.Classificazione}'>${riga.Classificazione}</div>
+                        </td>
                         <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check'></i>" : "")} 
                         </td>
                     </tr>`;

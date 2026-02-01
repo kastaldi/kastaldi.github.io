@@ -7,6 +7,9 @@
     --testo-dark: white;
     --th-light: lightgrey;
     --th-dark: #222222;
+    --td-light: lightgrey;
+    --td-dark: #111111;
+
     --h2-light: blue;
     --h2-dark: deepskyblue;
     --bg-color-light: white;
@@ -186,8 +189,8 @@ table {
 
 table td,
 table th {
-    border: 4px solid light-dark(var(--testo-dark), var(--testo-light));
     padding: 10px;
+    vertical-align: middle;
 }
 
 table th {
@@ -204,6 +207,7 @@ table th {
 
 .matrice td,
 .matrice th {
+    border: 4px solid light-dark(var(--testo-dark), var(--testo-light));
     color: light-dark(var(--testo-light), var(--testo-dark));
     font-weight: bold;
 }
@@ -226,6 +230,36 @@ table th {
     outline: 4px solid orange;
 }
 
+table .rischio1 {
+    background-color: green;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+table .rischio2 {
+    background-color: yellow;
+    color: black;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+table .rischio3 {
+    background-color: red;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
+table .rischio4 {
+    background-color: #222222;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+}
+
 /* stile specifico della sezione agenti */
 
 #agenti {
@@ -235,9 +269,9 @@ table th {
 /* stile specifico della tabella gruppi */
 
 .gruppi {
-    width: 70%;
+    width: 50%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* stile specifico della tabella agenti e del filtro */
@@ -283,7 +317,7 @@ input {
 }
 
 #elencoAgenti tr {
-    height: 2rem;
+    /* height: 2rem; */
 }
 
 #elencoAgenti th:nth-child(1) {
@@ -295,50 +329,49 @@ input {
 }
 
 #elencoAgenti th:nth-child(3) {
-    width: 2rem;
+    width: 3rem;
 }
 
 #elencoAgenti th:nth-child(4) {
     width: 10vw;
 }
 
+
+/* TODO: verificare colori dark erchè il nero non si vede */
 #elencoAgenti tr:nth-of-type(even) {
-    background-color: light-dark(var(--th-light), var(--th-dark));
+    background-color: light-dark(var(--td-light), var(--td-dark));
 }
 
-table .rischio1,
-table .gruppo1 {
-    background-color: green;
-    height: 2rem;
+.box-gruppo {
     width: 2rem;
-    font-size: 1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
-table .rischio2,
-table .gruppo2 {
+.gruppo1 {
+    background-color: yellow;
+    background-color: green;
+    color: white;
+}
+
+.gruppo2 {
     background-color: yellow;
     color: black;
-    height: 2rem;
-    width: 2rem;
-    font-size: 1.5rem;
-
 }
 
-table .rischio3,
-table .gruppo3 {
+.gruppo3 {
     background-color: red;
-    height: 2rem;
-    width: 2rem;
-    font-size: 1.5rem;
+    color: white;
 }
 
-table .rischio4,
-table .gruppo4 {
+.gruppo4 {
     background-color: #222222;
     color: white;
-    height: 2rem;
-    width: 2rem;
-    font-size: 1.5rem;
 }
 
 /* icona vaccino */
@@ -408,5 +441,6 @@ table .gruppo4 {
     html {
         font-size: 10px;
     }
+
     /* TODO: ingrandire font menu dropdown */
 }
