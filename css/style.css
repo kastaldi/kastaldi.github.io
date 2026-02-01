@@ -372,3 +372,9 @@ table .gruppo4 {
         padding: 5px;
     }
 }
+
+@media (max-width: 360px) {
+    html {
+        font-size: 10px;
+    }
+}
