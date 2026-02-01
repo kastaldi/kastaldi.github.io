@@ -140,7 +140,6 @@ button:hover {
 
 .sezione {
     display: none;
-    /* padding: 10px; */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -233,7 +232,6 @@ table th {
 }
 
 /* stile specifico della tabella agenti e del filtro */
-/* TODO: scrollare solo la tabella degli agenti e non tutta la schemata */
 
 .gruppoFiltro {
     display: flex;
@@ -244,11 +242,6 @@ table th {
 }
 
 input {
-    /* background-image: url('searchicon.png'); Add a search icon to input */
-    /* background-position: 10px 7px; Position the search icon */
-    /* background-repeat: no-repeat; Do not repeat the icon image */
-    /* width: 150px; 20%-width */
-    /* font-size: 16px; Increase font-size */
     padding: 6px 20px 6px 40px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -264,12 +257,23 @@ input {
 }
 
 #elencoAgenti {
-    width: 100%;
+    width: 100vw;
 }
 
-/* TODO: cambiare la grandezza fissa da px ad altro*/
+#elencoAgenti th:nth-child(1) {
+    width: 10vw;
+}
+
 #elencoAgenti th:nth-child(2) {
-    width: 300px;
+    width: 50vw;
+}
+
+#elencoAgenti th:nth-child(3) {
+    width: 10vw;
+}
+
+#elencoAgenti th:nth-child(4) {
+    width: 10vw;
 }
 
 #elencoAgenti tr:nth-of-type(even) {
@@ -364,9 +368,10 @@ table .gruppo4 {
         margin-bottom: 1rem;
     }
 
-    #elencoAgenti th:nth-child(2) {
+    /* #elencoAgenti th:nth-child(2) {
         width: auto;
-    }
+        min-width: auto;
+    } */
 
     table th {
         padding: 5px;
@@ -377,4 +382,5 @@ table .gruppo4 {
     html {
         font-size: 10px;
     }
+    /* TODO: ingrandire font menu dropdown */
 }
