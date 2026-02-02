@@ -85,7 +85,7 @@ const App = (function () {
                         <td>${riga.Tipologia} ${icona}</td>
                         <td>${riga.Agente}</td>
                         <td>
-                            <div class='box-gruppo gruppo${riga.Classificazione}'>${riga.Classificazione}</div>
+                            <div class='boxGruppo gruppo${riga.Classificazione}'>${riga.Classificazione}</div>
                         </td>
                         <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check fa-lg'></i>" : "")} 
                         </td>

@@ -5,15 +5,19 @@
 
     --testo-light: black;
     --testo-dark: white;
+
     --th-light: lightgrey;
     --th-dark: #222222;
+
     --td-light: lightgrey;
     --td-dark: #111111;
 
     --h2-light: blue;
     --h2-dark: deepskyblue;
+
     --bg-color-light: white;
     --bg-color-dark: black;
+
     --menu--color-light: slategrey;
 }
 
@@ -56,6 +60,28 @@ button {
 
 input {
     font-size: 1rem;
+    padding: 6px 20px 6px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+}
+
+/* stile globale delle tabelle */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: light-dark(var(--th-light), var(--th-dark));
 }
 
 /* stile degli elementi semantici */
@@ -180,22 +206,6 @@ div.scheda {
     cursor: pointer;
 }
 
-/* stile globale delle tabelle */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table td,
-table th {
-    padding: 10px;
-    vertical-align: middle;
-}
-
-table th {
-    background-color: light-dark(var(--th-light), var(--th-dark));
-}
 
 /* stile specifico della tabella matrice */
 
@@ -268,10 +278,16 @@ table .rischio4 {
 
 /* stile specifico della tabella gruppi */
 
-.gruppi {
+#gruppi {
     width: 50%;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+}
+
+#gruppi td,
+#gruppi th {
+    padding: 5px;
+    /* vertical-align: middle; */
 }
 
 /* stile specifico della tabella agenti e del filtro */
@@ -284,13 +300,6 @@ table .rischio4 {
     justify-content: center;
 }
 
-input {
-    padding: 6px 20px 6px 40px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 20px;
-}
 
 .gruppoFiltro button {
     margin-left: 1rem;
@@ -300,7 +309,6 @@ input {
 }
 
 .tabAgentiWrapper {
-    /* height: 40vh; */
     overflow-y: auto;
     width: 100%;
 }
@@ -316,9 +324,7 @@ input {
     border: 0;
 }
 
-/* #elencoAgenti tr { */
-    /* height: 2rem; */
-/* } */
+/* larghezza colonne per evitare il ridensionamento del filtro */
 
 #elencoAgenti th:nth-child(1) {
     width: 10vw;
@@ -336,13 +342,15 @@ input {
     width: 10vw;
 }
 
-
-/* TODO: verificare colori dark erchè il nero non si vede */
 #elencoAgenti tr:nth-of-type(even) {
     background-color: light-dark(var(--td-light), var(--td-dark));
 }
 
-.box-gruppo {
+#elencoAgenti td {
+    padding: 5px;
+}
+
+.boxGruppo {
     width: 2rem;
     height: 2rem;
     display: flex;
@@ -396,6 +404,8 @@ input {
     padding: 20px;
 }
 
+/* media queries per dispositivi mobili */
+
 @media (max-width: 768px) {
     html {
         font-size: 13px;
@@ -421,16 +431,11 @@ input {
         width: 90%;
     }
 
-    .gruppi {
+    #gruppi {
         width: 90%;
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
     }
-
-    /* #elencoAgenti th:nth-child(2) {
-        width: auto;
-        min-width: auto;
-    } */
 
     table th {
         padding: 5px;
