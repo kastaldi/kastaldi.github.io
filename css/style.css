@@ -316,9 +316,9 @@ input {
     border: 0;
 }
 
-#elencoAgenti tr {
+/* #elencoAgenti tr { */
     /* height: 2rem; */
-}
+/* } */
 
 #elencoAgenti th:nth-child(1) {
     width: 10vw;
@@ -443,4 +443,10 @@ input {
     }
 
     /* TODO: ingrandire font menu dropdown */
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    #agenti {
+        height: auto;
+    }
 }
