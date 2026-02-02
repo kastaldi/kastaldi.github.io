@@ -87,7 +87,7 @@ const App = (function () {
                         <td>
                             <div class='box-gruppo gruppo${riga.Classificazione}'>${riga.Classificazione}</div>
                         </td>
-                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check'></i>" : "")} 
+                        <td class='vaccino'>${(riga.Vaccino ? "<i class='fa-solid fa-circle-check fa-lg'></i>" : "")} 
                         </td>
                     </tr>`;
         });
