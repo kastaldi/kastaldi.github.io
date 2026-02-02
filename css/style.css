@@ -107,9 +107,10 @@ header {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
 }
 
+/* da testare per cambio menu su landscape*/
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5em;
     height: 100vh;
     min-height: 100%;
@@ -125,7 +126,7 @@ aside {
     position: relative;
 }
 
-/* stile del menu a scomparsa e dei pulsanti del tema*/
+/* stile del menu a scomparsa (dropdown) e dei pulsanti del tema*/
 
 .dropdown {
     position: relative;
@@ -189,6 +190,8 @@ div.scheda {
     margin-top: 0.5rem;
     width: 70%;
 }
+
+/* stile specifico della sezione normativa */
 
 #normativa p.testo {
     display: none;
@@ -382,7 +385,6 @@ table .rischio4 {
     color: white;
 }
 
-/* icona vaccino */
 .vaccino {
     color: green;
 }
@@ -411,7 +413,6 @@ table .rischio4 {
         font-size: 13px;
     }
 
-    /* icona vaccino */
     .vaccino {
         font-size: 1.3rem;
     }
