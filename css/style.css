@@ -108,7 +108,7 @@ header {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
 }
 
-aside {
+#sezioni {
     flex: 1;
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
     width: 100%;

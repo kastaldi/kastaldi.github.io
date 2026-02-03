@@ -33,7 +33,7 @@
             <button id="scuro"><i class="fa-solid fa-lightbulb fa-xl"></i></button>
         </header>
 
-        <aside>
+        <div id="sezioni">
             <!-- SEZIONE FAQ RISCHIO BIOLOGICO -->
             <section id="faq" class="sezione">
                 <h2>FAQ</h2>
@@ -80,7 +80,7 @@
                 </p>
                 <div class="gruppoFiltro">
                     <input type="text" id="strFltNormativa" placeholder="Filtra gli articoli..."
-                        title="Inserisci una termine">
+                        title="Inserisci un termine">
                     <button id="fltNormativa"><i class="fa-solid fa-filter"></i></button>
                     <button id="cancFltNormativa"><i class="fa-solid fa-filter-circle-xmark"></i></button>
                 </div>
@@ -117,7 +117,7 @@
                         a) agente biologico del gruppo 1: un agente che presenta poche probabilità di causare malattie
                         in soggetti umani;<br>
                         b) agente biologico del gruppo 2: un agente che può causare malattie in soggetti umani e
-                        costituire un rischio per i lavoratori; è poco probabile che si propaga nella comunità; sono di
+                        costituire un rischio per i lavoratori; è poco probabile che si propaghi nella comunità; sono di
                         norma disponibili efficaci misure profilattiche o terapeutiche;<br>
                         c) agente biologico del gruppo 3: un agente che può causare malattie gravi in soggetti umani e
                         costituisce un serio rischio per i lavoratori; l'agente biologico può propagarsi nella comunità,
@@ -156,8 +156,7 @@
                         <a
                             href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-04-12;206">
                             decreto legislativo 12 aprile 2001, n. 206</a>
-                        decreto legislativo 12 aprile 2001, n. 206, il documento di cui al comma 1, lettera b), è
-                        sostituito
+                        , il documento di cui al comma 1, lettera b), è sostituito
                         da copia della documentazione prevista per i singoli casi di specie dal predetto decreto.<br>
                         6. I laboratori che forniscono un servizio diagnostico sono tenuti alla comunicazione di cui al
                         comma 1 anche per quanto riguarda gli agenti biologici del gruppo 4.<br>
@@ -482,8 +481,10 @@
                         6. I modelli e le modalità di tenuta del registro di cui al comma 1 e delle cartelle sanitarie e
                         di rischio sono determinati con decreto del Ministro della salute e del lavoro e della
                         previdenza sociale sentita la Commissione consultiva permanente. <strong>(6)</strong><br>
-                        7. L'ISPESL trasmette annualmente al ((Ministero del lavoro, della salute e delle politiche
-                        sociali)) dati di sintesi relativi alle risultanze del registro di cui al comma 1.<br>
+                        7. L'ISPESL trasmette annualmente al <strong>Ministero del lavoro, della salute e delle
+                            politiche
+                            sociali</strong> dati di sintesi relativi alle risultanze del registro di cui al comma
+                        1.<br>
                         ------------------<br>
                         AGGIORNAMENTO (6)<br>
                         Il
@@ -538,34 +539,38 @@
                 <h2>Classificazione degli agenti biologici</h2>
                 <!-- TODO: aggiungere event listener per filtrare gli agenti in base ai gruppi -->
                 <table id="gruppi">
-                    <tr>
-                        <th>Gruppo</th>
-                        <th>Descrizione</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="boxGruppo gruppo1">1</div>
-                        </td>
-                        <td>Poco probabili di causare malattie</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="boxGruppo gruppo2">2</div>
-                        </td>
-                        <td>Possibile rischio con limitata diffusione</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="boxGruppo gruppo3">3</div>
-                        </td>
-                        <td>Malattie gravi, rischio elevato</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="boxGruppo gruppo4">4</div>
-                        </td>
-                        <td>Altissimo rischio, nessuna terapia efficace</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Gruppo</th>
+                            <th>Descrizione</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="boxGruppo gruppo1">1</div>
+                            </td>
+                            <td>Poco probabili di causare malattie</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="boxGruppo gruppo2">2</div>
+                            </td>
+                            <td>Possibile rischio con limitata diffusione</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="boxGruppo gruppo3">3</div>
+                            </td>
+                            <td>Malattie gravi, rischio elevato</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="boxGruppo gruppo4">4</div>
+                            </td>
+                            <td>Altissimo rischio, nessuna terapia efficace</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <div class="gruppoFiltro">
                     <input type="text" id="strFltAgente" placeholder="Filtra per agente...">
@@ -652,7 +657,7 @@
                     </a>
                 </div>
             </section>
-        </aside>
+        </div>
     </main>
 </body>
 
