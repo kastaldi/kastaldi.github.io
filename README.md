@@ -1,6 +1,6 @@
-# Valutazione del Rischio Biologico
+# Valutazione del Rischio da Agenti Biologici
 
-Questa Web App è uno strumento interattivo di supporto per la valutazione del rischio biologico secondo il **D.Lgs 81/08 (Titolo X)**.
+Questa web app è uno strumento interattivo di supporto per la valutazione del rischio biologico secondo il **D.Lgs 81/08 (Titolo X)**.
 
 L'applicazione permette di elencare gli agenti biologici classificati per classi di rischio, calcolare il livello di rischio tramite la matrice del rischio e consultare gli articoli di legge della normativa vigente.
 
