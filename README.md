@@ -2,7 +2,7 @@
 
 Questa Web App è uno strumento interattivo di supporto per la valutazione del rischio biologico secondo il **D.Lgs 81/08 (Titolo X)**.
 
-L'applicazione permette di accedere rapidamente alle classificazioni degli agenti biologici, calcolare il livello di rischio tramite la matrice del rischio e consultare gli articoli di legge della normativa vigente.
+L'applicazione permette di elencare gli agenti biologici classificati per classi di rischio, calcolare il livello di rischio tramite la matrice del rischio e consultare gli articoli di legge della normativa vigente.
 
 ## 🚀 Funzionalità Principali
 
@@ -34,22 +34,22 @@ L'applicazione permette di accedere rapidamente alle classificazioni degli agent
 
 *   `index.html`: Struttura sematica (contenuto) della pagina web
 *   `js/script.js`: Logica dell'applicazione (Javascript)
-*   `data/agenti_biologici.json`: Dataset con la lista degli agenti biologici.
+*   `data/agenti_biologici.json`: Dataset JSON con la lista degli agenti biologici.
 *   `css/style.css`: Fogli di stile per il layout e per i temi (chiaro/scuro).
 
-## 📦 Installazione e Uso (deployment)
+## 📦 Installazione ed Uso (deployment)
 
 1.  Clona il repository in una directory:
 
     ```bash
     git clone https://github.com/kastaldi/kastaldi.github.io.git
     ```
-2.  Per l'uso in locale apri il file `index.html` nel tuo browser oppure lancia un
+2.  Per l'uso in locale aprire il file `index.html` nel tuo browser oppure lancia un
     web server locale dalla directory es:
     ```bash
     python -m http.server 5000
     ```
-    e collegati con il browser a
+    e collegarsi con il browser a
     ```bash
     http://localhost:5000
     ```
