@@ -18,7 +18,8 @@
     --bg-color-light: white;
     --bg-color-dark: black;
 
-    --menu--color-light: slategrey;
+    --bg-hover-light: gray;
+    --bg-hover-dark: darkgray;
 }
 
 html {
@@ -107,17 +108,6 @@ header {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
 }
 
-/* da testare per cambio menu su landscape*/
-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    height: 100vh;
-    min-height: 100%;
-    overflow: auto;
-    flex-shrink: 0;
-}
-
 aside {
     flex: 1;
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
@@ -155,7 +145,8 @@ aside {
 }
 
 button:hover {
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: light-dark(var(--bg-hover-light), var(--bg-hover-dark));
 }
 
 /* stile degli elementi delle sezioni */
@@ -174,8 +165,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    align-content: space-between;
-
 }
 
 div.scheda {
@@ -365,7 +354,6 @@ table .rischio4 {
 }
 
 .gruppo1 {
-    background-color: yellow;
     background-color: green;
     color: white;
 }
