@@ -56,6 +56,7 @@ const App = (function () {
     }
 
     // Funzione privata per il popolamento della tabella agenti biologici
+    // a partire da un oggetto JSON
     function mostraAgenti(righeJSON) {
         let html = '';
         let icona;
@@ -71,13 +72,13 @@ const App = (function () {
                     icona = '<i class="fa-solid fa-bug"></i>';
                     break;
                 case "Virus":
-                    icona = '<i class="fa-solid fa-viruses"></i>'
+                    icona = '<i class="fa-solid fa-viruses"></i>';
                     break;
                 case "Fungo":
-                    icona = '<i class="fa-solid fa-atom"></i>'
+                    icona = '<i class="fa-solid fa-atom"></i>';
                     break;
                 default:
-                    icona = '<i class="fa-solid fa-question"></i>'
+                    icona = '<i class="fa-solid fa-question"></i>';
                     break;
             }
 
@@ -104,9 +105,9 @@ const App = (function () {
         mostraAgenti(filtrati);
     }
 
-    // Funzione privata per l'inizializzazione
+    // Metodo per inizializzare l'app
     function init() {
-        // Variabili per memorizzare la gravita e la robabilta nella matrice del rischio
+        // Variabili per memorizzare la gravità e la probabilità nella matrice del rischio
         let gravita;
         let probabilita;
 
@@ -148,8 +149,8 @@ const App = (function () {
         // corrispondente al pulsante premuto
         $(".tab").on("click", mostraSezione);
 
-        // Event listener che chiama la funziona temaChiaro o temaScuro
-        // per cammbiare il set di colori della pagina web
+        // Event listener che chiama la funzione temaChiaro o temaScuro
+        // per cambiare il set di colori della pagina web
         $("#chiaro").on("click", temaChiaro);
         $("#scuro").on("click", temaScuro);
 
@@ -164,7 +165,7 @@ const App = (function () {
         $('#fltNormativa').on('click', function () { applicaFltNormativa(); });
         $('#strFltNormativa').on('input', function () { applicaFltNormativa(); });
 
-        //Event listener per rimuovere il filtro e mostrare tutti gli agenti biologici
+        // Event listener per rimuovere il filtro e mostrare tutti gli articoli della normativa
         $('#cancFltNormativa').on('click', function () {
             $('#strFltNormativa').val('');
             $("#normativa .scheda").each(function () {
@@ -240,7 +241,8 @@ const App = (function () {
 })();
 
 // Inizializza l'app web (assegnazione listener, etc.) solo quando 
-// il DOM è completamente renderizzato
+// il DOM è completamente renderizzato per evitare che alcuni
+// elementi non siano ancora presenti
 $(document).ready(function () {
     App.init();
 });
