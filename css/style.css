@@ -342,6 +342,26 @@ table .rischio4 {
     padding: 5px;
 }
 
+#gruppiAgenti {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 11rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rigaGruppo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    width: calc(50% - 20px);
+    min-width: 340px;
+}
+
+.rigaGruppo .boxGruppo {
+    margin: 0 10px 0 0;
+}
+
 .boxGruppo {
     width: 2rem;
     height: 2rem;
