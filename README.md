@@ -37,7 +37,7 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
 *   `data/agenti_biologici.json`: Dataset JSON con la lista degli agenti biologici.
 *   `css/style.css`: Fogli di stile per il layout e per i temi (chiaro/scuro).
 
-## 📦 Installazione ed Uso (deployment)
+## 📦 Installazione ed Uso (deployment locale)
 
 1.  Clona il repository in una directory:
 
