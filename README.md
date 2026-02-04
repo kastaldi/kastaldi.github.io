@@ -26,9 +26,9 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
 *   **HTML5 & CSS3**: Struttura semantica e layout responsive.
 *   **JavaScript** e **jQuery**: Logica di business
 *   **Librerie Esterne**:
-    *   *jQuery*: Manipolazione del DOM e gestione degli eventi
-    *   *FontAwesome*: Icone
-    *   *jQuery QRCode*: Plugin per la generazione di codici QR
+    *   *jQuery*: Manipolazione del DOM e gestione degli eventi https://jquery.com/
+    *   *FontAwesome*: Icone https://fontawesome.com/
+    *   *jQuery QRCode*: Plugin per la generazione di codici QR https://github.com/jeromeetienne/jquery-qrcode
 
 ## 📂 File del Progetto
 
