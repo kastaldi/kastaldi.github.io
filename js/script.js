@@ -133,9 +133,6 @@ const App = (function () {
         // Event listener per mostrare o nascondere il menu dropdown
         $('.dropbutton').on('click', function (event) {
             $('.dropdown-content').toggle();
-            // Evita che il click si propaghi al DOM e chiuda subito il menu
-            // TODO: da rivedere il funzionamento con altri test
-            // event.stopPropagation();
         });
 
         // Event listener per nascondere il menu se si clicca in qualsiasi altro punto della pagina

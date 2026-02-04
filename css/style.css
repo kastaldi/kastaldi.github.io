@@ -426,6 +426,15 @@ table .rischio4 {
         /* margin-bottom: 1rem; */
     }
 
+    .tabAgentiWrapper {
+        margin-top: 0.5rem;
+    }
+
+    .gruppoFiltro {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     table th {
         padding: 5px;
     }
