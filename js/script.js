@@ -187,11 +187,19 @@ const App = (function () {
             $('#jsonAgenti').html("<tr><td colspan='4'>Impossibile caricare i dati degli agenti.</td></tr>");
         });
 
+        //Event listener per i quattro gruppi degli agenti biologici
+
+        // $('.boxGruppo').on('click', function () {
+        //     const gruppo = $(this).attr('data-gruppo');
+        //     $('.boxGruppo').removeClass('selezionato');
+        //     $(this).addClass('selezionato');
+        // });
+
         // Event listener per applicare il filtro sugli agenti biologici
         $('#fltAgente').on('click', function () { applicaFltAgenti(datiJSON); });
         $('#strFltAgente').on('input', function () { applicaFltAgenti(datiJSON); });
 
-        // Event listener per chiudere la tastiera virtuale quando si preme il segno di spunta (invio)
+        // Event listener per chiudere la tastiera virtuale quando si preme il segno di spunta (invio) nei filtri
         $('#strFltAgente').on('keypress', function (event) {
             if (event.which === 13) {
                 $(this).blur();
