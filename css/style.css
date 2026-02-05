@@ -147,7 +147,6 @@ header {
 }
 
 button:hover {
-    /* background-color: gray; */
     background-color: light-dark(var(--bg-hover-light), var(--bg-hover-dark));
 }
 
@@ -200,7 +199,6 @@ div.scheda {
     cursor: pointer;
 }
 
-
 /* stile specifico della tabella matrice */
 
 .matrice {
@@ -230,12 +228,14 @@ div.scheda {
     cursor: pointer;
 }
 
-.matrice .selezionato, .rigaGruppo .selezionato {
+.matrice .selezionato,
+.rigaGruppo .selezionato {
     outline: 4px solid orange;
 }
 
 table .rischio1 {
     background-color: green;
+    color: white;
     height: 2rem;
     width: 2rem;
     font-size: 1.5rem;
@@ -251,6 +251,7 @@ table .rischio2 {
 
 table .rischio3 {
     background-color: red;
+    color: white;
     height: 2rem;
     width: 2rem;
     font-size: 1.5rem;
@@ -270,18 +271,61 @@ table .rischio4 {
     height: calc(100vh - 42px);
 }
 
-/* stile specifico della tabella gruppi */
+/* stile specifico del flexbox dei gruppi */
 
-#gruppi {
-    width: 50%;
-    margin-top: 1rem;
-    /* margin-bottom: 0.5rem; */
+#gruppiAgenti {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 11rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#gruppi td,
-#gruppi th {
-    padding: 5px;
-    /* vertical-align: middle; */
+.rigaGruppo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    width: calc(50% - 20px);
+    min-width: 340px;
+}
+
+.boxGruppo {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.boxGruppo:hover {
+    cursor: pointer;
+}
+
+.rigaGruppo .boxGruppo {
+    margin: 0 10px 0 0;
+}
+
+.gruppo1 {
+    background-color: green;
+    color: white;
+}
+
+.gruppo2 {
+    background-color: yellow;
+    color: black;
+}
+
+.gruppo3 {
+    background-color: red;
+    color: white;
+}
+
+.gruppo4 {
+    background-color: #222222;
+    color: white;
 }
 
 /* stile specifico della tabella agenti e del filtro */
@@ -293,7 +337,6 @@ table .rischio4 {
     margin-bottom: 1rem;
     justify-content: center;
 }
-
 
 .gruppoFiltro button {
     margin-left: 1rem;
@@ -344,59 +387,8 @@ table .rischio4 {
     padding: 5px;
 }
 
-#gruppiAgenti {
-    display: flex;
-    flex-direction: row;
-    margin: 5px 11rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.rigaGruppo {
-    display: flex;
-    align-items: center;
-    margin: 5px 0px;
-    width: calc(50% - 20px);
-    min-width: 340px;
-}
-
-.rigaGruppo .boxGruppo {
-    margin: 0 10px 0 0;
-}
-
-.boxGruppo {
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    border-radius: 4px;
+#elencoAgenti .boxGruppo {
     margin: 0 auto;
-}
-
-/* .boxGruppo:hover {
-    cursor: pointer;
-} */
-
-.gruppo1 {
-    background-color: green;
-    color: white;
-}
-
-.gruppo2 {
-    background-color: yellow;
-    color: black;
-}
-
-.gruppo3 {
-    background-color: red;
-    color: white;
-}
-
-.gruppo4 {
-    background-color: #222222;
-    color: white;
 }
 
 .vaccino {
@@ -481,7 +473,6 @@ table .rischio4 {
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
-
     /* toglie lo scroll alla tabella agenti per basse risoluzioni verticali */
     /* quando si ruota in orizzontale il dispositivo mobile */
     #agenti {

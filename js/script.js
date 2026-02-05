@@ -102,10 +102,18 @@ const App = (function () {
 
     // Funzione privata per applicare il filtro sugli agenti
     function applicaFltAgenti(righeJSON) {
-        const stringa = $('#strFltAgente').val().toLowerCase();
-        const filtrati = righeJSON.filter(r =>
-            r.Agente.toLowerCase().includes(stringa)
-        );
+        let gruppo = $('.boxGruppo.selezionato').attr('data-gruppo');
+        let matchGruppo;
+        let stringa = $('#strFltAgente').val().toLowerCase();
+        let filtrati = righeJSON.filter(riga => {
+            let matchNome = riga.Agente.toLowerCase().includes(stringa);
+            if (riga.Classificazione == gruppo || gruppo == undefined) {
+                matchGruppo = true;
+            } else {
+                matchGruppo = false;
+            }
+            return matchNome && matchGruppo;
+        });
         mostraAgenti(filtrati);
     }
 
@@ -188,12 +196,15 @@ const App = (function () {
         });
 
         //Event listener per i quattro gruppi degli agenti biologici
-
-        // $('.boxGruppo').on('click', function () {
-        //     const gruppo = $(this).attr('data-gruppo');
-        //     $('.boxGruppo').removeClass('selezionato');
-        //     $(this).addClass('selezionato');
-        // });
+        $('.boxGruppo').on('click', function () {
+            if ($(this).hasClass('selezionato')) {
+                $(this).removeClass('selezionato');
+            } else {
+                $('.boxGruppo').removeClass('selezionato');
+                $(this).addClass('selezionato');
+            }
+            applicaFltAgenti(datiJSON);
+        });
 
         // Event listener per applicare il filtro sugli agenti biologici
         $('#fltAgente').on('click', function () { applicaFltAgenti(datiJSON); });
@@ -215,6 +226,7 @@ const App = (function () {
         //Event listener per rimuovere il filtro e mostrare tutti gli agenti biologici
         $('#cancFltAgente').on('click', function () {
             $('#strFltAgente').val('');
+            $('.boxGruppo').removeClass('selezionato');
             mostraAgenti(datiJSON);
         });
 
