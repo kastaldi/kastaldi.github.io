@@ -20,6 +20,8 @@
 
     --bg-hover-light: gray;
     --bg-hover-dark: darkgray;
+
+    --main-max-size: 1080px;
 }
 
 html {
@@ -91,7 +93,7 @@ main {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    max-width: 1080px;
+    max-width: var(--main-max-size);
     margin: 0 auto;
 }
 
@@ -202,7 +204,7 @@ div.scheda {
 /* stile specifico della tabella matrice */
 
 .matrice {
-    max-width: calc(1920px/4);
+    max-width: 480px;
     text-align: center;
     table-layout: fixed;
 }

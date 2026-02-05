@@ -93,6 +93,10 @@ const App = (function () {
                     </tr>`;
         });
 
+        if (html == '') {
+            html = '<tr><td colspan="4">Nessun agente trovato.</td></tr>';
+        }
+
         $tbody.html(html);
     }
 
