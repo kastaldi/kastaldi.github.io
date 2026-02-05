@@ -458,6 +458,10 @@ table .rischio4 {
     table th {
         padding: 5px;
     }
+
+    .rigaGruppo {
+        min-width: 280px;
+    }
 }
 
 @media (max-width: 360px) {
