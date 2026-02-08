@@ -421,11 +421,15 @@ table .rischio4 {
 
 #qrcode {
     margin: auto;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 #qrcode canvas {
     width: 50vw;
     height: 50vw;
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
 /* media queries per dispositivi mobili */
