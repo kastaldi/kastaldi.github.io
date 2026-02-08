@@ -41,14 +41,14 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
 ## 📦 Installazione ed Uso (deployment locale)
 
 1.  Clonare il repository in una directory:
-2.  
+    
     ```bash
     git clone https://github.com/kastaldi/kastaldi.github.io.git
     ```
-3. Verificare l'indirizzo della costante LinkPDF nel file `script.js`
+2. Verificare l'indirizzo della costante LinkPDF nel file `script.js`
    affinchè punti al file PDF corretto
    
-5.  Aprire il file `index.html` nel browser oppure lanciare un
+3.  Aprire il file `index.html` nel browser oppure lanciare un
     web server locale dalla directory es:
     
     ```bash
