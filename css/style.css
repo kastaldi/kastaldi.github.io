@@ -110,14 +110,6 @@ header {
     background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
 }
 
-#sezioni {
-    flex: 1;
-    background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
-    width: 100%;
-    align-items: center;
-    position: relative;
-}
-
 /* stile del menu a scomparsa (dropdown) e dei pulsanti del tema*/
 
 .dropdown {
@@ -150,15 +142,14 @@ button:hover {
     background-color: light-dark(var(--bg-hover-light), var(--bg-hover-dark));
 }
 
-/* stile degli elementi delle sezioni */
+/* stile delle sezioni e degli elementi che le compongono */
 
-.titolo {
-    text-align: center;
-    font-weight: bold;
-}
-
-.paragrafo {
-    text-align: justify;
+#sezioni {
+    flex: 1;
+    background-color: light-dark(var(--bg-color-light), var(--bg-color-dark));
+    width: 100%;
+    align-items: center;
+    position: relative;
 }
 
 .sezione {
@@ -179,6 +170,15 @@ div.scheda {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     width: 70%;
+}
+
+.titolo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.paragrafo {
+    text-align: justify;
 }
 
 /* stile specifico della sezione normativa */
@@ -395,21 +395,37 @@ table .rischio4 {
     color: green;
 }
 
-/* stile della sezione PDF e del QR code */
+/* stile specifico della sezione PDF e del QR code */
+
+#pdf {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    height: calc(100vh - 42px);
+}
+
+
+.download {
+    margin: 2rem;
+}
 
 .download a {
     display: inline-block;
-    margin-top: 20px;
     background-color: light-dark(var(--h2-light), var(--h2-dark));
     color: white;
     padding: 12px 18px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 #qrcode {
-    padding: 20px;
+    margin: auto;
+}
+
+#qrcode canvas {
+    width: 50vw;
+    height: 50vw;
 }
 
 /* media queries per dispositivi mobili */
@@ -473,9 +489,15 @@ table .rischio4 {
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
+
     /* toglie lo scroll alla tabella agenti per basse risoluzioni verticali */
     /* quando si ruota in orizzontale il dispositivo mobile */
     #agenti {
         height: auto;
+    }
+
+    #qrcode canvas {
+        width: 35vh;
+        height: 35vh;
     }
 }

@@ -127,7 +127,6 @@ const App = (function () {
         let datiJSON = [];
 
         // Inizializza tema colori memorizzato in localStorage
-        // TODO: includere anche tema automatico e slide bottone
         const tema = localStorage.getItem("tema");
 
         switch (tema) {
@@ -210,7 +209,8 @@ const App = (function () {
         $('#fltAgente').on('click', function () { applicaFltAgenti(datiJSON); });
         $('#strFltAgente').on('input', function () { applicaFltAgenti(datiJSON); });
 
-        // Event listener per chiudere la tastiera virtuale quando si preme il segno di spunta (invio) nei filtri
+        // Event listener per chiudere la tastiera virtuale quando 
+        // si preme il segno di spunta (invio) nell'input dei due filtri
         $('#strFltAgente').on('keypress', function (event) {
             if (event.which === 13) {
                 $(this).blur();
@@ -246,7 +246,8 @@ const App = (function () {
         });
 
         // Genera il qrcode a partire dalla variable linkPDF
-        $('#qrcode').qrcode({ width: 96, height: 96, text: linkPDF });
+        // const qrSize = window.innerWidth * 0.5;
+        $('#qrcode').qrcode({ width: 128, height: 128, text: linkPDF });
 
         //Aggancia al pulsante download la variabile con il link al file PDF
         $('.download a').attr('href', linkPDF);
