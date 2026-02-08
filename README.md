@@ -7,12 +7,12 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
 ## 🚀 Funzionalità Principali
 
 *   **Consultazione Normativa**:
-    *   Visualizzazione degli articoli del Titolo X del D.Lgs 81/08.
+    *   Visualizzazione degli articoli da 266 a 286 del Titolo X del D.Lgs 81/08.
     *   Ricerca in tempo reale di termini all'interno degli articoli.
 *   **Database Agenti Biologici**:
     *   Elenco completo di agenti (Batteri, Virus, Parassiti, Funghi) caricati dinamicamente da file JSON.
-    *   Visualizzazione della Classificazione (Gruppo 1-4) dell'agente e disponibilità di vaccini.
-    *   Ricerca istantanea per nome dell'agente.
+    *   Visualizzazione della Classificazione (Gruppo 1-4) dell'agente ed esistenza di vaccino.
+    *   Ricerca istantanea per nome e gruppo dell'agente.
 *   **Matrice del Rischio**:
     *   Selezione del grado di Probabilità e Gravità per calcolare il livello di rischio (R = P * D).
 *   **Interfaccia Utente**:
@@ -32,8 +32,8 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
 
 ## 📂 File del Progetto
 
-*   `index.html`: Struttura sematica (contenuto) della pagina web
-*   `js/script.js`: Logica dell'applicazione (Javascript)
+*   `index.html`: Struttura semantica e contenuto della pagina web
+*   `js/script.js`: Logica dell'applicazione
 *   `data/agenti_biologici.json`: Dataset JSON con la lista degli agenti biologici.
 *   `css/style.css`: Fogli di stile per il layout e per i temi (chiaro/scuro).
 
