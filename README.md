@@ -30,12 +30,13 @@ L'applicazione permette di elencare gli agenti biologici classificati per classi
     *   *FontAwesome*: Icone https://fontawesome.com/
     *   *jQuery QRCode*: Plugin per la generazione di codici QR https://github.com/jeromeetienne/jquery-qrcode
 
-## 📂 File del Progetto
+## 📂 File principali del Progetto
 
 *   `index.html`: Struttura semantica e contenuto della pagina web
 *   `js/script.js`: Logica dell'applicazione
 *   `data/agenti_biologici.json`: Dataset JSON con la lista degli agenti biologici.
 *   `css/style.css`: Fogli di stile per il layout e per i temi (chiaro/scuro).
+*   `Il_rischio_biologico.pdf`: Documento PDF con informazioni sul rischio biologico.
 
 ## 📦 Installazione ed Uso (deployment locale)
 
